@@ -1,0 +1,57 @@
+[
+  {
+    "owner": "7jeh7rSgvY7uG8cqVVTQcy7dB41",
+    "field": "ZVjLB60HJks3P3EWvkraNWolWFDNfX",
+    "decoded": "DynamicTransforms",
+    "encoded": "DDHWJ1gRwKEwRBfwmOdCnynYoy5PRpXxYhRBaQNB5vlBVypcP9U=",
+    "bytecode": [
+      "      3204: ldc_w         #6623               // String DDHWJ1gRwKEwRBfwmOdCnynYoy5PRpXxYhRBaQNB5vlBVypcP9U=",
+      "      3207: invokestatic  #1997               // Method wexside/teGM0Rro3NgL0yQBhCP28UZ8n.eja2ziBWDI:(Ljava/lang/String;)Ljava/lang/String;",
+      "      3210: putstatic     #6625               // Field ZVjLB60HJks3P3EWvkraNWolWFDNfX:Ljava/lang/String;"
+    ]
+  },
+  {
+    "owner": "HFu7VEJWjzjAQmmISeLI8CnJq31",
+    "field": "lsX5fkTz8Xun9AptmCtnjimOCVgCbk",
+    "decoded": "Projection",
+    "encoded": "cun/TTL4Kel47L/4kPBVy30uVaHApnUw",
+    "bytecode": [
+      "      2799: ldc_w         #6419               // String cun/TTL4Kel47L/4kPBVy30uVaHApnUw",
+      "      2802: invokestatic  #1973               // Method wexside/teGM0Rro3NgL0yQBhCP28UZ8n.eja2ziBWDI:(Ljava/lang/String;)Ljava/lang/String;",
+      "      2805: putstatic     #6421               // Field lsX5fkTz8Xun9AptmCtnjimOCVgCbk:Ljava/lang/String;"
+    ]
+  },
+  {
+    "owner": "sKOFLC3b2mVt1hhemIA4ZrunL15",
+    "field": "Ieo0InhJfWhG3SRhjQmtlX29kwYVhA",
+    "decoded": "UNIFORM_BUFFER",
+    "encoded": "pWVr2KeMXQKTSxjTu5g9We/BuhR1fq1Qw7jtIEosi+0=",
+    "bytecode": [
+      "      2682: ldc_w         #6367               // String pWVr2KeMXQKTSxjTu5g9We/BuhR1fq1Qw7jtIEosi+0=",
+      "      2685: invokestatic  #1973               // Method wexside/teGM0Rro3NgL0yQBhCP28UZ8n.eja2ziBWDI:(Ljava/lang/String;)Ljava/lang/String;",
+      "      2688: putstatic     #6369               // Field Ieo0InhJfWhG3SRhjQmtlX29kwYVhA:Ljava/lang/String;"
+    ]
+  },
+  {
+    "owner": "SKyKlMkRjg98v1syTCwF9AOiC50",
+    "field": "MrMZg1xvIjFbabMBPEcNljeDgQlCSh",
+    "decoded": "ubo",
+    "encoded": "tVTUvMPkNfdm8g==",
+    "bytecode": [
+      "      2862: ldc_w         #6460               // String tVTUvMPkNfdm8g==",
+      "      2865: invokestatic  #1986               // Method wexside/teGM0Rro3NgL0yQBhCP28UZ8n.eja2ziBWDI:(Ljava/lang/String;)Ljava/lang/String;",
+      "      2868: putstatic     #6462               // Field MrMZg1xvIjFbabMBPEcNljeDgQlCSh:Ljava/lang/String;"
+    ]
+  },
+  {
+    "owner": "fAeVdOQQ65gAPreifzN25ry4r26",
+    "field": "n7GOYOdzrQJBrzMv5Jg7B51TYSPup2",
+    "decoded": "TRIANGLES",
+    "encoded": "20svUC9ktWn4IHOY8LMWFKLsl/iZdQ==",
+    "bytecode": [
+      "      1998: ldc_w         #7700               // String 20svUC9ktWn4IHOY8LMWFKLsl/iZdQ==",
+      "      2001: invokestatic  #2009               // Method wexside/teGM0Rro3NgL0yQBhCP28UZ8n.eja2ziBWDI:(Ljava/lang/String;)Ljava/lang/String;",
+      "      2004: putstatic     #7702               // Field n7GOYOdzrQJBrzMv5Jg7B51TYSPup2:Ljava/lang/String;"
+    ]
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "new_archive_sha256": "1c0cdb5160366609bfb3b9e7beafe402e905fff4e73441d9d3172034ecdb8681",
+  "client_jar_identical": true,
+  "client_jar_sha256": "340b0c8f77e020807ee994e3c9e8877950221c87ecf58ac900d4719d8c25a747",
+  "scope": "Client binary, launcher scripts, tools, reference source, runtime and class dumps. Personal game/account configuration was not inspected or selected for delivery.",
+  "identical_files": 1443,
+  "changed_files": [
+    {
+      "path": "launch-fabric.ps1",
+      "original_bytes": 8124,
+      "new_bytes": 7351,
+      "original_sha256": "c0f5b1fa02050fd4636d4beeca32c8252a9f3fb96227a48dd314c15d11c17049",
+      "new_sha256": "2dd91fd7e7fcccfee6a2c45d7f61816988a390bf2241eb51d9815f74c3ccec32"
+    },
+    {
+      "path": "start.bat",
+      "original_bytes": 574,
+      "new_bytes": 571,
+      "original_sha256": "0bc4f803d23b5b212ebb989c4946593eaa821fa7a51f1fe7d93a6139e4bfa6c3",
+      "new_sha256": "0a27429a06bb14be7ea76b4098d49e51886e8207d3b32322a1580d6d55112dfd"
+    }
+  ],
+  "added_files": [],
+  "removed_files": []
+}

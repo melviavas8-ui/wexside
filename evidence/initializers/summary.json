@@ -1,0 +1,191 @@
+{
+  "classes_scanned": 27208,
+  "parse_failures": 0,
+  "annotation_only_repaired_inputs": 2,
+  "target_direct_field_write_instructions": 136,
+  "external_target_direct_field_write_instructions": 0,
+  "target_settings_direct_writes": 0,
+  "target_field_setter_handles": 0,
+  "target_member_constant_pool_references": 332,
+  "orphan_target_member_constant_pool_references": 0,
+  "bootstrap_callback_handles": 19,
+  "orphan_target_class_string_constants": 0,
+  "unwritten_reference_fields": 28,
+  "settings_without_assignment": [
+    {
+      "owner": "wexside/liIlIlIlllllIil",
+      "field": "enabled",
+      "descriptor": "Lwexside/IilillIllllilil;",
+      "mapped_type": "ru/wexside/setting/BooleanSetting"
+    },
+    {
+      "owner": "wexside/liIlIlIlllllIil",
+      "field": "fast",
+      "descriptor": "Lwexside/IilillIllllilil;",
+      "mapped_type": "ru/wexside/setting/BooleanSetting"
+    },
+    {
+      "owner": "wexside/liIlIlIlllllIil",
+      "field": "test",
+      "descriptor": "Lwexside/IilillIllllilil;",
+      "mapped_type": "ru/wexside/setting/BooleanSetting"
+    },
+    {
+      "owner": "wexside/liIlIlIlllllIil",
+      "field": "lllliilllIII",
+      "descriptor": "Lwexside/IilillIllllilil;",
+      "mapped_type": "ru/wexside/setting/BooleanSetting"
+    },
+    {
+      "owner": "wexside/llIillIillliIl",
+      "field": "iliiillIlIII",
+      "descriptor": "Lwexside/IilillIllllilil;",
+      "mapped_type": "ru/wexside/setting/BooleanSetting"
+    },
+    {
+      "owner": "wexside/llIillIillliIl",
+      "field": "lliiillIlIII",
+      "descriptor": "Lwexside/IilillIllllilil;",
+      "mapped_type": "ru/wexside/setting/BooleanSetting"
+    },
+    {
+      "owner": "wexside/llIillIillliIl",
+      "field": "enabled",
+      "descriptor": "Lwexside/IilillIllllilil;",
+      "mapped_type": "ru/wexside/setting/BooleanSetting"
+    },
+    {
+      "owner": "wexside/llIillIillliIl",
+      "field": "liliiiillIII",
+      "descriptor": "Lwexside/IilillIllllilil;",
+      "mapped_type": "ru/wexside/setting/BooleanSetting"
+    },
+    {
+      "owner": "wexside/llIillIillliIl",
+      "field": "liiiilillIII",
+      "descriptor": "Lwexside/IiIiIiIiIlIlIil;",
+      "mapped_type": "ru/wexside/setting/TextSetting"
+    },
+    {
+      "owner": "wexside/llIillIillliIl",
+      "field": "llililillIII",
+      "descriptor": "Lwexside/IilillIlIillll;",
+      "mapped_type": "ru/wexside/setting/ModeSetting"
+    }
+  ],
+  "nonsetting_reference_fields_without_assignment": [
+    {
+      "owner": "wexside/liIlIlIlllllIil",
+      "field": "rotation",
+      "descriptor": "Lwexside/IiIlllIllililil;",
+      "mapped_type": "Lwexside/IiIlllIllililil;"
+    },
+    {
+      "owner": "wexside/llIillIillliIl",
+      "field": "stats",
+      "descriptor": "Lwexside/llliIiIlIllilil;",
+      "mapped_type": "Lwexside/llliIiIlIllilil;"
+    },
+    {
+      "owner": "wexside/llIillIillliIl",
+      "field": "ililillIlIII",
+      "descriptor": "Lwexside/IillllIlIiIllil;",
+      "mapped_type": "Lwexside/IillllIlIiIllil;"
+    },
+    {
+      "owner": "wexside/llIillIillliIl",
+      "field": "llilillIlIII",
+      "descriptor": "Lwexside/IiliIlliIlIill;",
+      "mapped_type": "Lwexside/IiliIlliIlIill;"
+    },
+    {
+      "owner": "wexside/llIillIillliIl",
+      "field": "iillillIlIII",
+      "descriptor": "Lwexside/lillIililililil;",
+      "mapped_type": "Lwexside/lillIililililil;"
+    },
+    {
+      "owner": "wexside/llIillIillliIl",
+      "field": "liiilllIlIII",
+      "descriptor": "Lwexside/IiIlllllIllilil;",
+      "mapped_type": "Lwexside/IiIlllllIllilil;"
+    },
+    {
+      "owner": "wexside/llIillIillliIl",
+      "field": "iliilllIlIII",
+      "descriptor": "Lwexside/IillliliIillIil;",
+      "mapped_type": "Lwexside/IillliliIillIil;"
+    },
+    {
+      "owner": "wexside/llIillIillliIl",
+      "field": "lililllIlIII",
+      "descriptor": "Lwexside/IlliliIlIlIllil;",
+      "mapped_type": "Lwexside/IlliliIlIlIllil;"
+    },
+    {
+      "owner": "wexside/llIillIillliIl",
+      "field": "iilllllIlIII",
+      "descriptor": "Lwexside/IlIlliIlIilill;",
+      "mapped_type": "Lwexside/IlIlliIlIilill;"
+    },
+    {
+      "owner": "wexside/llIillIillliIl",
+      "field": "client",
+      "descriptor": "Lwexside/lillIiIlliliIll;",
+      "mapped_type": "net/minecraft/client/MinecraftClient"
+    },
+    {
+      "owner": "wexside/llIillIillliIl",
+      "field": "iiiiiiillIII",
+      "descriptor": "Lwexside/llIiIillliIlIil;",
+      "mapped_type": "Lwexside/llIiIillliIlIil;"
+    },
+    {
+      "owner": "wexside/llIillIillliIl",
+      "field": "ililiiillIII",
+      "descriptor": "Lwexside/lilillIlIillIil;",
+      "mapped_type": "Lwexside/lilillIlIillIil;"
+    },
+    {
+      "owner": "wexside/llIillIillliIl",
+      "field": "liiiliillIII",
+      "descriptor": "Lwexside/IlIiIlliliIllil;",
+      "mapped_type": "Lwexside/IlIiIlliliIllil;"
+    },
+    {
+      "owner": "wexside/llIillIillliIl",
+      "field": "lliiliillIII",
+      "descriptor": "Lwexside/liIiIililillll;",
+      "mapped_type": "Lwexside/liIiIililillll;"
+    },
+    {
+      "owner": "wexside/llIillIillliIl",
+      "field": "llllliillIII",
+      "descriptor": "Lwexside/IlllIililiIlIil;",
+      "mapped_type": "Lwexside/IlllIililiIlIil;"
+    },
+    {
+      "owner": "wexside/llIillIillliIl",
+      "field": "death",
+      "descriptor": "Lwexside/IiIlIiIilllilil;",
+      "mapped_type": "Lwexside/IiIlIiIilllilil;"
+    },
+    {
+      "owner": "wexside/llIillIillliIl",
+      "field": "drops",
+      "descriptor": "Lwexside/IlIlllliliIllil;",
+      "mapped_type": "Lwexside/IlIlllliliIllil;"
+    },
+    {
+      "owner": "wexside/llIillIillliIl",
+      "field": "filter",
+      "descriptor": "Lwexside/IlIlIillIiIilil;",
+      "mapped_type": "Lwexside/IlIlIillIiIilil;"
+    }
+  ],
+  "resource_target_hits": 0,
+  "nested_archive_entries_checked": 571,
+  "nested_archive_target_hits": 0,
+  "native_target_name_hits": 0,
+  "recovered_data": "AutoWarden mode labels LOW=Низкий, MEDIUM=Средний, HIGH=Высокий, in enum order; constructor/helper bodies and real event callbacks survive."
+}

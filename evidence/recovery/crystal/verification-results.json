@@ -1,0 +1,21 @@
+{
+  "productionSourceCount": 20,
+  "javacExitCode": 0,
+  "tests": [
+    {
+      "test": "CrystalRotationLeaseChecks",
+      "exitCode": 0,
+      "output": "CRYSTAL ROTATION LEASE CHECKS PASS\r\n"
+    },
+    {
+      "test": "CrystalAuraConstructionChecks",
+      "exitCode": 0,
+      "output": "CRYSTAL AURA CONSTRUCTION CHECKS PASS\r\n"
+    },
+    {
+      "test": "CrystalControllerChecks",
+      "exitCode": 0,
+      "output": "CRYSTAL CONTROLLER CHECKS PASS\r\n"
+    }
+  ]
+}

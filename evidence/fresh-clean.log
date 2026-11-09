@@ -1,0 +1,13 @@
+
+> Configure project :
+Fabric Loom: 1.17.12
+
+Cannot remap modifiers because it does not exist in any of the targets [] or their parents.
+
+> Configure project :
+:remapping sources
+
+> Task :clean
+
+BUILD SUCCESSFUL in 1m 3s
+1 actionable task: 1 executed

@@ -1,0 +1,116 @@
+
+> Configure project :
+Fabric Loom: 1.17.12
+
+> Task :compileJava
+C:\Users\artem\Documents\Codex\2026-11-03\m\work\full-recovery\release-check\WexSideSRC\src\main\java\ru\wexside\util\GuiVertexBuffer.java:10: warning: Unsafe is internal proprietary API and may be removed in a future release
+import sun.misc.Unsafe;
+               ^
+C:\Users\artem\Documents\Codex\2026-11-03\m\work\full-recovery\release-check\WexSideSRC\src\main\java\ru\wexside\misc\UnsafeMemoryAccess.java:6: warning: Unsafe is internal proprietary API and may be removed in a future release
+import sun.misc.Unsafe;
+               ^
+C:\Users\artem\Documents\Codex\2026-11-03\m\work\full-recovery\release-check\WexSideSRC\src\main\java\ru\wexside\util\UnsafeAccess.java:4: warning: Unsafe is internal proprietary API and may be removed in a future release
+import sun.misc.Unsafe;
+               ^
+C:\Users\artem\Documents\Codex\2026-11-03\m\work\full-recovery\release-check\WexSideSRC\src\main\java\ru\wexside\util\GuiVertexBuffer.java:21: warning: Unsafe is internal proprietary API and may be removed in a future release
+        Unsafe unsafe = UnsafeAccess.get();
+        ^
+C:\Users\artem\Documents\Codex\2026-11-03\m\work\full-recovery\release-check\WexSideSRC\src\main\java\ru\wexside\setting\ModeSetting.java:46: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+        List<Object> availableOptions = this.options == null ? List.of() : List.of(this.options);
+                                                                                       ^
+  cast to Object for a varargs call
+  cast to Object[] for a non-varargs call and to suppress this warning
+C:\Users\artem\Documents\Codex\2026-11-03\m\work\full-recovery\release-check\WexSideSRC\src\main\java\ru\wexside\misc\UnsafeMemoryAccess.java:12: warning: Unsafe is internal proprietary API and may be removed in a future release
+    private final Unsafe unsafe;
+                  ^
+C:\Users\artem\Documents\Codex\2026-11-03\m\work\full-recovery\release-check\WexSideSRC\src\main\java\ru\wexside\misc\UnsafeMemoryAccess.java:14: warning: Unsafe is internal proprietary API and may be removed in a future release
+    public UnsafeMemoryAccess(Unsafe unsafe) {
+                              ^
+C:\Users\artem\Documents\Codex\2026-11-03\m\work\full-recovery\release-check\WexSideSRC\src\main\java\ru\wexside\util\UnsafeAccess.java:7: warning: Unsafe is internal proprietary API and may be removed in a future release
+    private static final Unsafe INSTANCE = UnsafeAccess.findUnsafe();
+                         ^
+C:\Users\artem\Documents\Codex\2026-11-03\m\work\full-recovery\release-check\WexSideSRC\src\main\java\ru\wexside\util\UnsafeAccess.java:12: warning: Unsafe is internal proprietary API and may be removed in a future release
+    public static Unsafe get() {
+                  ^
+C:\Users\artem\Documents\Codex\2026-11-03\m\work\full-recovery\release-check\WexSideSRC\src\main\java\ru\wexside\util\UnsafeAccess.java:16: warning: Unsafe is internal proprietary API and may be removed in a future release
+    private static Unsafe findUnsafe() {
+                   ^
+C:\Users\artem\Documents\Codex\2026-11-03\m\work\full-recovery\release-check\WexSideSRC\src\main\java\ru\wexside\util\UnsafeAccess.java:18: warning: Unsafe is internal proprietary API and may be removed in a future release
+            Field field = Unsafe.class.getDeclaredField("theUnsafe");
+                          ^
+C:\Users\artem\Documents\Codex\2026-11-03\m\work\full-recovery\release-check\WexSideSRC\src\main\java\ru\wexside\util\UnsafeAccess.java:20: warning: Unsafe is internal proprietary API and may be removed in a future release
+            return (Unsafe)field.get(null);
+                    ^
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+12 warnings
+
+> Task :processResources
+> Task :classes
+> Task :jar
+> Task :processIncludeJars
+> Task :sourcesJar
+> Task :remapSourcesJar SKIPPED
+> Task :compileTestJava
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :configRecoveryChecks
+CONFIG RECOVERY CHECKS PASS: invalid profile isolation, parsed snapshot reuse, valid profile load
+
+> Task :compileRecoveryJava
+> Task :processRecoveryResources NO-SOURCE
+> Task :recoveryClasses
+> Task :compileRecoveryTestJava
+> Task :processRecoveryTestResources NO-SOURCE
+> Task :recoveryTestClasses
+
+> Task :crystalConstructionRecoveryChecks
+CRYSTAL AURA CONSTRUCTION CHECKS PASS
+
+> Task :crystalControllerRecoveryChecks
+CRYSTAL CONTROLLER CHECKS PASS
+
+> Task :crystalLeaseRecoveryChecks
+CRYSTAL ROTATION LEASE CHECKS PASS
+
+> Task :donMarketRecoveryChecks
+PASS 62 assertions
+
+> Task :flightRecoveryChecks
+FlightRecoveryChecks PASS: 74 assertions
+
+> Task :projectileRecoveryChecks
+ProjectileRecoveryChecks PASS: 261 assertions
+
+> Task :recoveryChecks
+[16:51:15] [main/ERROR]: Event listener failed for ru.wexside.RecoveryChecks$ProbeEvent
+java.lang.IllegalStateException: Expected listener failure
+	at ru.wexside.RecoveryChecks.lambda$eventDispatch$2(RecoveryChecks.java:53)
+	at ru.wexside.event.RegisteredListener.dispatch(RegisteredListener.java:20)
+	at ru.wexside.event.EventBusImpl.post(EventBusImpl.java:43)
+	at ru.wexside.RecoveryChecks.eventDispatch(RecoveryChecks.java:55)
+	at ru.wexside.RecoveryChecks.main(RecoveryChecks.java:17)
+RECOVERY CHECKS PASS: input, events, bindings, configuration, color round trip, ESP default selections
+
+> Task :test
+> Task :validateAccessWidener NO-SOURCE
+
+> Task :wardenRecoveryChecks
+28 recovered-policy boundary checks passed
+
+> Task :check
+> Task :writeVerificationClasspath
+> Task :remapJar
+> Task :assemble
+> Task :build
+
+[Incubating] Problems report is available at: file:///C:/Users/artem/Documents/Codex/2026-11-03/m/work/full-recovery/release-check/WexSideSRC/build/reports/problems/problems-report.html
+
+BUILD SUCCESSFUL in 39s
+20 actionable tasks: 20 executed
+Classes=1028 Passed=1028 Failures=0 ModuleDescriptors=0; JVM loading and reflection without initialization, ASM typed data-flow
+Reports=C:\Users\artem\Documents\Codex\2026-11-03\m\work\full-recovery\release-check\WexSideSRC\build\verification\223d91e7fecf4878872209f4dab7628a\bytecode
+Classes=1028 MemberReferences=66681 Failures=0

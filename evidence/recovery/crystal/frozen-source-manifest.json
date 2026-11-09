@@ -1,0 +1,94 @@
+[
+  {
+    "path": "src/main/java/ru/wexside/recovery/crystal/BeforeInputHandlingEvent.java",
+    "sha256": "64e9f07c3b518d9630a2e35a882025f0bdf0cf8b7a5c33587e98c09f738aa755"
+  },
+  {
+    "path": "src/main/java/ru/wexside/recovery/crystal/BeforeItemUseEvent.java",
+    "sha256": "84d6ba05eba3b7d3531efb7ce5af78cd76b29c87069bf5ffb65e69ffde9cc8b6"
+  },
+  {
+    "path": "src/main/java/ru/wexside/recovery/crystal/CrystalAimMath.java",
+    "sha256": "37b2179ad3422d61605b6ce7f8d0a3168ad846578e7fac12024bde24de774b96"
+  },
+  {
+    "path": "src/main/java/ru/wexside/recovery/crystal/CrystalAttackSharedState.java",
+    "sha256": "e681fcf8ea1566f2df8344a11da10bc6c9a67c188c2fab9134d96d1f0c183968"
+  },
+  {
+    "path": "src/main/java/ru/wexside/recovery/crystal/CrystalAuraModule.java",
+    "sha256": "c2b40514f2cf4984aa24d4f6aa91d82c120e2e8e8014ef12b3891a1c497bff7c"
+  },
+  {
+    "path": "src/main/java/ru/wexside/recovery/crystal/CrystalAuraSettings.java",
+    "sha256": "9d4bddb33e2a5ad640aedcfcd5d9789336cef1fe9041a343b484f9850a85d9bd"
+  },
+  {
+    "path": "src/main/java/ru/wexside/recovery/crystal/CrystalBlockInteractEvent.java",
+    "sha256": "a0662d7c44afcf93e45bdf8239afec59e7a55f1549d031c74391b110896d53d6"
+  },
+  {
+    "path": "src/main/java/ru/wexside/recovery/crystal/CrystalInventorySearch.java",
+    "sha256": "f13113eff2838a0cd07b735a7cf78b42ea688dfb49ff427844e282054eda7855"
+  },
+  {
+    "path": "src/main/java/ru/wexside/recovery/crystal/CrystalMouseQuantizer.java",
+    "sha256": "39c5624832d9c90b0ff4c18230dcc7eacd68f1e7f8a80f3281e96ec94763c5b6"
+  },
+  {
+    "path": "src/main/java/ru/wexside/recovery/crystal/CrystalMovementCorrection.java",
+    "sha256": "87ab25a2394bf9d8eb3eff6248c180b9bfce8dcb1cb054629e0ff56e34255abb"
+  },
+  {
+    "path": "src/main/java/ru/wexside/recovery/crystal/CrystalRotationControllerContract.java",
+    "sha256": "d0f70590d6651aa70749f29544b7f3f39b1c8c6430a03b4d24527a39f86eeba7"
+  },
+  {
+    "path": "src/main/java/ru/wexside/recovery/crystal/CrystalRotationLease.java",
+    "sha256": "c946d3aaefeccf27c7895968761b9315c3f651deaa32778bb4f6a99cbec914ed"
+  },
+  {
+    "path": "src/main/java/ru/wexside/recovery/crystal/CrystalRotationRequest.java",
+    "sha256": "e76e00dbfbca82456d932d316ebc33a697179aabd9b87631b928e1c0bd11a792"
+  },
+  {
+    "path": "src/main/java/ru/wexside/recovery/crystal/CrystalRotationStrategy.java",
+    "sha256": "3ec0a0c8c39c0fe76f97635a806ce187b707e49b35159b35b67a10f9fb991614"
+  },
+  {
+    "path": "src/main/java/ru/wexside/recovery/crystal/CrystalRotationStrategyFactory.java",
+    "sha256": "ea7ea97bc7f6c5a05d4576791062551a75775389a2634d52599b7d166af48c73"
+  },
+  {
+    "path": "src/main/java/ru/wexside/recovery/crystal/CrystalRotationStrength.java",
+    "sha256": "72f96ca03881f90ee760ddfbf88d15158c436ab8efd13a17b0dc18f4ad8c9cec"
+  },
+  {
+    "path": "src/main/java/ru/wexside/recovery/crystal/CrystalUpdateEvent.java",
+    "sha256": "8801df50a53b7488476fe7b32c78f4e8429d1f7f2dd9b542a7fd0109c61f0f85"
+  },
+  {
+    "path": "src/main/java/ru/wexside/recovery/crystal/PatchedCrystalRotationStrategy.java",
+    "sha256": "6a29854a68599865c1b42afbedab8ba4107e0482c40a075609ccaab2004a5016"
+  },
+  {
+    "path": "src/main/java/ru/wexside/recovery/crystal/PatchedCrystalRotationStrategyFactory.java",
+    "sha256": "e72b372a5b7f8c84a5634cc34641641a8d985e9059317f2e9dcedd2131b54113"
+  },
+  {
+    "path": "src/main/java/ru/wexside/recovery/crystal/RichCrystalRotationController.java",
+    "sha256": "6989e8c8263f6753c7e0d29ab976f62e6db0c6064b0de3af1e0ae22961100565"
+  },
+  {
+    "path": "CrystalRotationLeaseChecks.java",
+    "sha256": "26858ef393b0c739d556d88a06bd503b2da2e3237fd9b35e864f3c84a48192ff"
+  },
+  {
+    "path": "CrystalAuraConstructionChecks.java",
+    "sha256": "dc2b7342ba719069e3f8623189a86ab6404be45ca9e837563376207070a51b3d"
+  },
+  {
+    "path": "CrystalControllerChecks.java",
+    "sha256": "d2009f02f8264e07a62de714d6da84ab85283740c4abb909ed77992e7c25dc10"
+  }
+]

@@ -1,0 +1,1082 @@
+[
+  {
+    "path": "assets/wexside/fonts/msdf/Maison_Neue_Extended_Bold.json",
+    "sha256": "993b30a9ec2a3130c251de3a7f0cf8f8c31c35ef7543a604c87b2bc8a349a962",
+    "bytes": 22536,
+    "status": "Matches binary resource"
+  },
+  {
+    "path": "assets/wexside/fonts/msdf/atlas/Maison_Neue_Extended_Bold.png",
+    "sha256": "164e3caa2c5ab631c8b5ebb635db156d8523b76d4dc472ac17002ad48b3f3c65",
+    "bytes": 333405,
+    "status": "Matches binary resource"
+  },
+  {
+    "path": "assets/wexside/fonts/msdf/atlas/cosmetics_icons.png",
+    "sha256": "6773c2d2ac05656547cb881e49044351c534deca287d538b359e7bc86558ff76",
+    "bytes": 119520,
+    "status": "Matches binary resource"
+  },
+  {
+    "path": "assets/wexside/fonts/msdf/atlas/events_icons.png",
+    "sha256": "3d288cdd6f9f51596e0eb93327992cebdcfeba277b7e7906ad623f34e39ba395",
+    "bytes": 141778,
+    "status": "Recovered missing resource into main source set"
+  },
+  {
+    "path": "assets/wexside/fonts/msdf/atlas/icons.png",
+    "sha256": "dfa692e8e7a3128e0ecd948b37555b162f226fc9b905d173f2c52415fb6372fb",
+    "bytes": 801221,
+    "status": "Matches binary resource"
+  },
+  {
+    "path": "assets/wexside/fonts/msdf/atlas/icons_new.png",
+    "sha256": "67384e7f7e23419b339dbdfedf744a2efa28dc9b3883fd2d79e9b8070fe498a6",
+    "bytes": 17630,
+    "status": "Recovered missing resource into main source set"
+  },
+  {
+    "path": "assets/wexside/fonts/msdf/atlas/inter_bold.png",
+    "sha256": "7bd764d6cc3f99c315fd07a70a64032fd7e339463ad59d633dd00e5423ba750f",
+    "bytes": 519369,
+    "status": "Matches binary resource"
+  },
+  {
+    "path": "assets/wexside/fonts/msdf/atlas/inter_display_bold.png",
+    "sha256": "8af393bc241ac816bc1d0bed50f91a24211494a1344ffc7b39ec0e0d40253fbe",
+    "bytes": 621104,
+    "status": "Matches binary resource"
+  },
+  {
+    "path": "assets/wexside/fonts/msdf/atlas/inter_extrabold.png",
+    "sha256": "37aa5299b7beb59351b77f4edccc62363dcc952d274b09b9684b8eb0c1319f50",
+    "bytes": 539214,
+    "status": "Matches binary resource"
+  },
+  {
+    "path": "assets/wexside/fonts/msdf/atlas/inter_semibold.png",
+    "sha256": "58a7f724e3ef7333760ff37794cd1e858460e49601fceff99b49c671c97b24d0",
+    "bytes": 499430,
+    "status": "Matches binary resource"
+  },
+  {
+    "path": "assets/wexside/fonts/msdf/atlas/role_icons.png",
+    "sha256": "ecf87d42efb855c26a885d4c5f8f9862a2b7faa9a8dc9969d87855309cc837df",
+    "bytes": 23724,
+    "status": "Recovered missing resource into main source set"
+  },
+  {
+    "path": "assets/wexside/fonts/msdf/atlas/sf_pro_display_medium.png",
+    "sha256": "7c89aa577659340e5bfc3a8bf1e2a1bf3c13195112620727beb7cc1e3f8fd04a",
+    "bytes": 320017,
+    "status": "Matches binary resource"
+  },
+  {
+    "path": "assets/wexside/fonts/msdf/cosmetics_icons.json",
+    "sha256": "82d10646369d94a854c611e8bbabe49bce83f4b34f3531d0a99e4c2b564083e4",
+    "bytes": 3908,
+    "status": "Matches binary resource"
+  },
+  {
+    "path": "assets/wexside/fonts/msdf/events_icons.json",
+    "sha256": "d72678975e1652292f0d6e1b48b20df8f07c647e11931406323976c5a5713d63",
+    "bytes": 3965,
+    "status": "Recovered missing resource into main source set"
+  },
+  {
+    "path": "assets/wexside/fonts/msdf/icons.json",
+    "sha256": "1b6353eaac6e6f2149cba1186348563c86c7a545ceff1196ce92a8fab31a5a4b",
+    "bytes": 25084,
+    "status": "Matches binary resource"
+  },
+  {
+    "path": "assets/wexside/fonts/msdf/icons_new.json",
+    "sha256": "efb2bdbff99c44df94aea1c664956b50ac880e80f696af26e3b732c4c2e920f8",
+    "bytes": 889,
+    "status": "Recovered missing resource into main source set"
+  },
+  {
+    "path": "assets/wexside/fonts/msdf/inter_bold.json",
+    "sha256": "d1533e06f103e09511d1fa3d385249d392caec939c7240d5143e0c0b249d2158",
+    "bytes": 34652,
+    "status": "Matches binary resource"
+  },
+  {
+    "path": "assets/wexside/fonts/msdf/inter_display_bold.json",
+    "sha256": "d5da338cae169da0c83f78e85a8ec980cb0097169295b4c677a7ae0d1fc48fbf",
+    "bytes": 36603,
+    "status": "Matches binary resource"
+  },
+  {
+    "path": "assets/wexside/fonts/msdf/inter_extrabold.json",
+    "sha256": "c1ed35826a4e9708ea713339ab9cf8228b0002a410dcc94294c58794994b8b46",
+    "bytes": 35197,
+    "status": "Matches binary resource"
+  },
+  {
+    "path": "assets/wexside/fonts/msdf/inter_semibold.json",
+    "sha256": "a410fa920ac2658f60831e8fcf04475eb1399070ca421a2cdc2cd30e40a0f723",
+    "bytes": 33846,
+    "status": "Matches binary resource"
+  },
+  {
+    "path": "assets/wexside/fonts/msdf/role_icons.json",
+    "sha256": "7a28df361fdaa94ab9183b8ffc2293f448addf9ce0e02f719e6eba5619da239a",
+    "bytes": 898,
+    "status": "Recovered missing resource into main source set"
+  },
+  {
+    "path": "assets/wexside/fonts/msdf/sf_pro_display_medium.json",
+    "sha256": "afe1010c2dfd1d1e9c36770814e7c9d0652e0e62cf497e823d53355a7ee280e0",
+    "bytes": 32718,
+    "status": "Matches binary resource"
+  },
+  {
+    "path": "assets/wexside/icon.png",
+    "sha256": "d6e50a3726983aefd321a0d8d288fe309ca500267be52a9c976470cf25d5431a",
+    "bytes": 3436,
+    "status": "Matches binary resource"
+  },
+  {
+    "path": "assets/wexside/shaders/ambient/ambient_sky.frag",
+    "sha256": "f69d0023a8683e1cc0f903e653585c18b4ba7017cafc68eeb9608e8516287cda",
+    "bytes": 21957,
+    "status": "Binary variant retained separately; named renderer uses its paired reference resource"
+  },
+  {
+    "path": "assets/wexside/shaders/ambient/ambient_sky.vert",
+    "sha256": "ad5c2756992fbaaf8d82a1b68ea35d52b16daf31b7727ff2b92a3a5b3bf96480",
+    "bytes": 729,
+    "status": "Matches binary resource"
+  },
+  {
+    "path": "assets/wexside/shaders/ambient/ambient_sky_composite.frag",
+    "sha256": "92a1317fbea9915cc4d0b0b49a036f098714792157edc6fb1e0456eee10e044b",
+    "bytes": 157,
+    "status": "Matches binary resource"
+  },
+  {
+    "path": "assets/wexside/shaders/ambient/ambient_sky_composite.vert",
+    "sha256": "73e1bf798d97081e9ccd82a36d20e0ecc3480cddf004761535bdeb6cdb0767a5",
+    "bytes": 539,
+    "status": "Matches binary resource"
+  },
+  {
+    "path": "assets/wexside/shaders/blockoverlay/block_overlay.frag",
+    "sha256": "4dda34047092e0d1e39793dd8a9f3113dcbdb8fbab72ec7c343e240e75ed6417",
+    "bytes": 8041,
+    "status": "Binary variant retained separately; named renderer uses its paired reference resource"
+  },
+  {
+    "path": "assets/wexside/shaders/blockoverlay/block_overlay.vert",
+    "sha256": "522d6bc360be7b75f5612faff949f0401e52ce015a768edce4a89493180c4dc3",
+    "bytes": 457,
+    "status": "Binary variant retained separately; named renderer uses its paired reference resource"
+  },
+  {
+    "path": "assets/wexside/shaders/chams/chams_apply.frag",
+    "sha256": "b1105469f3032b303e7bf9328f212f41cb2ee1de72a68a4603763d52a4d86555",
+    "bytes": 12780,
+    "status": "Binary variant retained separately; named renderer uses its paired reference resource"
+  },
+  {
+    "path": "assets/wexside/shaders/chams/chams_present.frag",
+    "sha256": "2667b464b08e982b67d7d96b42881a60c71fbc94acb29eb54bfe1ce9349097b2",
+    "bytes": 250,
+    "status": "Matches binary resource"
+  },
+  {
+    "path": "assets/wexside/shaders/chams/chams_screen.vert",
+    "sha256": "dd44be0cf5e77835e1b090223288954a2c35799665eae7b046699df0ef2e4969",
+    "bytes": 379,
+    "status": "Matches binary resource"
+  },
+  {
+    "path": "assets/wexside/shaders/colorcorrection/colorcorrection.frag",
+    "sha256": "bc06bc2437025181c2622874fa16a81e7bee614fdd228694439d7b425c0cf7bb",
+    "bytes": 713,
+    "status": "Matches binary resource"
+  },
+  {
+    "path": "assets/wexside/shaders/colorcorrection/colorcorrection.vert",
+    "sha256": "dd44be0cf5e77835e1b090223288954a2c35799665eae7b046699df0ef2e4969",
+    "bytes": 379,
+    "status": "Matches binary resource"
+  },
+  {
+    "path": "assets/wexside/shaders/common/defines.glsl",
+    "sha256": "9bbb1d3b2c7d56834da240875467055fd9542168ef2049d970ba6eca115f392a",
+    "bytes": 583,
+    "status": "Binary variant retained separately; named renderer uses its paired reference resource"
+  },
+  {
+    "path": "assets/wexside/shaders/common/helpers.glsl",
+    "sha256": "1eafe5283249862449c64d6f971be0a022c084a70e10308693d3cbc584996cf8",
+    "bytes": 777,
+    "status": "Matches binary resource"
+  },
+  {
+    "path": "assets/wexside/shaders/common/iface_dc.glsl",
+    "sha256": "405827f8935e993fe6941db66f841af331daf9cd6da565869fdef309276cc78a",
+    "bytes": 4791,
+    "status": "Matches binary resource"
+  },
+  {
+    "path": "assets/wexside/shaders/common/iface_gl.glsl",
+    "sha256": "99400b5c0a093dcc5c07efe379ec15c23e4c11ef461abbb71b66c085d83ba6be",
+    "bytes": 4793,
+    "status": "Matches binary resource"
+  },
+  {
+    "path": "assets/wexside/shaders/common/modes.glsl",
+    "sha256": "0ed287c0af2c910db263cf2d310261f33efe31b2f7b1a16f53fb99c2957e31d7",
+    "bytes": 17305,
+    "status": "Binary variant retained separately; named renderer uses its paired reference resource"
+  },
+  {
+    "path": "assets/wexside/shaders/core/ui_solid.frag",
+    "sha256": "baa04bb0a4d50836c4d25052dc6be283f4ea372402b916c4d1b886a3cd33c2af",
+    "bytes": 85,
+    "status": "Matches binary resource"
+  },
+  {
+    "path": "assets/wexside/shaders/core/ui_solid.vert",
+    "sha256": "d11f98158f6e88c176506b9691e3b987c5e26adbbe102465d3dd8b12601963d8",
+    "bytes": 161,
+    "status": "Matches binary resource"
+  },
+  {
+    "path": "assets/wexside/shaders/dc/clear.frag",
+    "sha256": "18b117870b2c82e1fdd73aec000f20ee4730456cb9f7884b65c5247c7bcb3c68",
+    "bytes": 105,
+    "status": "Matches binary resource"
+  },
+  {
+    "path": "assets/wexside/shaders/dc/clear.vert",
+    "sha256": "5016dd588d9225053f4863d6de3b2ddd994d8cc2105aeba2b81aecd586544e5c",
+    "bytes": 121,
+    "status": "Matches binary resource"
+  },
+  {
+    "path": "assets/wexside/shaders/dc/core_dc.frag",
+    "sha256": "77419f99859ae4bd68db73c66e30b771b87cdd1ce5fc177d9ed598eeeee64628",
+    "bytes": 1266,
+    "status": "Matches binary resource"
+  },
+  {
+    "path": "assets/wexside/shaders/dc/core_dc.vert",
+    "sha256": "d1e975977b0ce4b7df5b4b2575a1f0873686c6ab7abb36aefb64af5fc3923303",
+    "bytes": 1646,
+    "status": "Matches binary resource"
+  },
+  {
+    "path": "assets/wexside/shaders/dc/kawase.vert",
+    "sha256": "21e224752e0d3599733f0c2fb496da4da5f5e3c878e208ea53f536e87890d784",
+    "bytes": 189,
+    "status": "Matches binary resource"
+  },
+  {
+    "path": "assets/wexside/shaders/dc/kawase_down.frag",
+    "sha256": "9af76bfef7122687ca1ed8762e08b3e153d67c04a8d2d727cdb7ea12f97b43c3",
+    "bytes": 661,
+    "status": "Matches binary resource"
+  },
+  {
+    "path": "assets/wexside/shaders/dc/kawase_up.frag",
+    "sha256": "4789e351d1f96458f2738dc11673e38c0a4277ee9ac70eab80f1aeed315d6d95",
+    "bytes": 970,
+    "status": "Matches binary resource"
+  },
+  {
+    "path": "assets/wexside/shaders/dc/present.frag",
+    "sha256": "39fb60f87b8433dd5b8346f9279c3a9e83e570d595b2e8e8167408f9706849b2",
+    "bytes": 444,
+    "status": "Matches binary resource"
+  },
+  {
+    "path": "assets/wexside/shaders/dc/present.vert",
+    "sha256": "21e224752e0d3599733f0c2fb496da4da5f5e3c878e208ea53f536e87890d784",
+    "bytes": 189,
+    "status": "Matches binary resource"
+  },
+  {
+    "path": "assets/wexside/shaders/death/butterfly.frag",
+    "sha256": "0a942a318e8616e728cbd9d94b745f68d57c18719bb74010abedee4f11319b76",
+    "bytes": 1928,
+    "status": "Recovered missing resource into main source set"
+  },
+  {
+    "path": "assets/wexside/shaders/death/butterfly.vert",
+    "sha256": "32190861b323440aa71f456695b5fd08744afd63cbf21d96584e557846c9db09",
+    "bytes": 565,
+    "status": "Recovered missing resource into main source set"
+  },
+  {
+    "path": "assets/wexside/shaders/death/dissolve.frag",
+    "sha256": "62ac3ebe021b13aa023b3f6444e1de50a6f61345ccfe3e96682fbaf363a0d97f",
+    "bytes": 817,
+    "status": "Recovered missing resource into main source set"
+  },
+  {
+    "path": "assets/wexside/shaders/death/dissolve.vert",
+    "sha256": "76e0a0cae102b58812c68b291f90ff49865084747575948e988168d4a9a21fb8",
+    "bytes": 477,
+    "status": "Recovered missing resource into main source set"
+  },
+  {
+    "path": "assets/wexside/shaders/death/model_glass.frag",
+    "sha256": "084bc9e885afcef683cf5f96f1138a38b86ed2bf2e2973cd45bf6ac434ce69f0",
+    "bytes": 1879,
+    "status": "Recovered missing resource into main source set"
+  },
+  {
+    "path": "assets/wexside/shaders/death/model_glass.vert",
+    "sha256": "42590860411268ddb303b519f7d4c4b1835cafe79a3815a4162a96066612a939",
+    "bytes": 558,
+    "status": "Recovered missing resource into main source set"
+  },
+  {
+    "path": "assets/wexside/shaders/gl/core_gl.frag",
+    "sha256": "d7a7a58c562a56fb20cbe0b948bf0aaaeb1043564b26e19cad445e7f58fa03b7",
+    "bytes": 825,
+    "status": "Matches binary resource"
+  },
+  {
+    "path": "assets/wexside/shaders/gl/core_gl.vert",
+    "sha256": "620098893dad3f8a553ff0b8b39eddc450200efda5a44f5c95bbc2e07f93597c",
+    "bytes": 1520,
+    "status": "Matches binary resource"
+  },
+  {
+    "path": "assets/wexside/shaders/gl/fullscreen_quad.vert",
+    "sha256": "5c62de4135780dd63b40fb0cf4924ec712188e24571c18f4ca75a408e5522257",
+    "bytes": 220,
+    "status": "Matches binary resource"
+  },
+  {
+    "path": "assets/wexside/shaders/gl/gauss_blur.frag",
+    "sha256": "a4d810cc022e258410271779c7019b23fa474d246b91d630714992a1ba065480",
+    "bytes": 1198,
+    "status": "Matches binary resource"
+  },
+  {
+    "path": "assets/wexside/shaders/gl/kawase_down.frag",
+    "sha256": "718ce91c7f313c0767a90331389aa6556d0dfa5285f479f125f869cc559e03b8",
+    "bytes": 588,
+    "status": "Matches binary resource"
+  },
+  {
+    "path": "assets/wexside/shaders/gl/kawase_up.frag",
+    "sha256": "88f4c804a1216559de6d2d90c06d6d3777f380cd36a9d4311df982a16e81be1a",
+    "bytes": 921,
+    "status": "Matches binary resource"
+  },
+  {
+    "path": "assets/wexside/shaders/glint/customglint_bloom_blur.fsh",
+    "sha256": "7b9f57b68db8148f66e0ac68ec5f234938b8414f7e1f312bf3de073c26b87faf",
+    "bytes": 1294,
+    "status": "Recovered missing resource into main source set"
+  },
+  {
+    "path": "assets/wexside/shaders/glint/customglint_bloom_clear.fsh",
+    "sha256": "00685c94665ef4c445ef0229cde538543f5f2d15f6bae693297221323dabdcb5",
+    "bytes": 85,
+    "status": "Recovered missing resource into main source set"
+  },
+  {
+    "path": "assets/wexside/shaders/glint/customglint_bloom_composite.fsh",
+    "sha256": "7ef5a2cd69f8c5fe6e24800ca799a674eff34b2d18892dd335863eddf9e32dc1",
+    "bytes": 440,
+    "status": "Recovered missing resource into main source set"
+  },
+  {
+    "path": "assets/wexside/shaders/glint/customglint_bloom_copy.fsh",
+    "sha256": "ab69b86940155f75eb87bc68c960b26a053cd44e32b14eb2a5eff3cd29146389",
+    "bytes": 155,
+    "status": "Recovered missing resource into main source set"
+  },
+  {
+    "path": "assets/wexside/shaders/glint/customglint_bloom_kawase.fsh",
+    "sha256": "24365939449043821c4a627c62483dcc04032041ee46b6b76e88c9da640dd5fd",
+    "bytes": 1250,
+    "status": "Recovered missing resource into main source set"
+  },
+  {
+    "path": "assets/wexside/shaders/glint/customglint_bloom_vulkan_mask.fsh",
+    "sha256": "ef2d8e0cc6d8efd099342f45618f565ea2489b7ac83353bfafdfcf7b338d411b",
+    "bytes": 1377,
+    "status": "Recovered missing resource into main source set"
+  },
+  {
+    "path": "assets/wexside/shaders/glint/end_gateway_background.fsh",
+    "sha256": "adae8decb714f3076b294815acfd798acb9cbb54e1b2aaf912106b888e0c1f87",
+    "bytes": 600,
+    "status": "Recovered missing resource into main source set"
+  },
+  {
+    "path": "assets/wexside/shaders/glint/end_gateway_background.vsh",
+    "sha256": "a8d0c82b63927fd7fe2f514aa35cd3709873ea617a3720d4fb6c9b23df45d127",
+    "bytes": 532,
+    "status": "Recovered missing resource into main source set"
+  },
+  {
+    "path": "assets/wexside/shaders/glint/end_gateway_glint.fsh",
+    "sha256": "dd1c41fd223e0071f0a0caf3625143891cba8e1b00d8fe70f2661af22d7e1770",
+    "bytes": 2705,
+    "status": "Recovered missing resource into main source set"
+  },
+  {
+    "path": "assets/wexside/shaders/glint/end_gateway_glint.vsh",
+    "sha256": "c2a68ac9ca7cc875d12413b45b85b6765a64e15de48495d41db269f923be3a31",
+    "bytes": 607,
+    "status": "Recovered missing resource into main source set"
+  },
+  {
+    "path": "assets/wexside/shaders/glint/end_gateway_glint_item.vsh",
+    "sha256": "9145f89615b1c5d4835885828edb0ab98b175e59729acd0269ce087f7c103bda",
+    "bytes": 544,
+    "status": "Recovered missing resource into main source set"
+  },
+  {
+    "path": "assets/wexside/shaders/glint/end_gateway_item_overlay.fsh",
+    "sha256": "530c94900a00304a175ff8ad6838614395474ae58250257ff395a0396835e8d4",
+    "bytes": 2633,
+    "status": "Recovered missing resource into main source set"
+  },
+  {
+    "path": "assets/wexside/shaders/glint/end_gateway_item_overlay.vsh",
+    "sha256": "f5bd16dc92d2c8eb3d40c45bb10fad2147b6b19e7a718f979f56267002ea65c7",
+    "bytes": 546,
+    "status": "Recovered missing resource into main source set"
+  },
+  {
+    "path": "assets/wexside/shaders/glint/glint_armor_bloom.fsh",
+    "sha256": "43ebe949b2ee3a8b8f2bced300b57fb29aa03e60f390d66ce3abc76eaec79f7f",
+    "bytes": 482,
+    "status": "Recovered missing resource into main source set"
+  },
+  {
+    "path": "assets/wexside/shaders/glint/glint_armor_bloom.vsh",
+    "sha256": "ffe711da7518214b1b4843bed345f87b1d0bbbca18427b1e240cd54366efb0a6",
+    "bytes": 609,
+    "status": "Recovered missing resource into main source set"
+  },
+  {
+    "path": "assets/wexside/shaders/glint/glint_item_bloom.fsh",
+    "sha256": "740abd76ae9f9febc39c51c345ec53885d37dd2e548b55c3c7e3199e464f3b4d",
+    "bytes": 482,
+    "status": "Recovered missing resource into main source set"
+  },
+  {
+    "path": "assets/wexside/shaders/glint/glint_item_bloom.vsh",
+    "sha256": "f5bd16dc92d2c8eb3d40c45bb10fad2147b6b19e7a718f979f56267002ea65c7",
+    "bytes": 546,
+    "status": "Recovered missing resource into main source set"
+  },
+  {
+    "path": "assets/wexside/shaders/glint/item_background.fsh",
+    "sha256": "0c9e8d453267012dc515be14ed429aafd6c3e12d359cf6f853965234f5745001",
+    "bytes": 605,
+    "status": "Recovered missing resource into main source set"
+  },
+  {
+    "path": "assets/wexside/shaders/glint/item_background.vsh",
+    "sha256": "a77a7063f94fdb22a503039181d48c6f78b1b350ff59e008b480d7ac3f6c811b",
+    "bytes": 469,
+    "status": "Recovered missing resource into main source set"
+  },
+  {
+    "path": "assets/wexside/shaders/glint/nether_portal_glint.fsh",
+    "sha256": "7ff4504ce726c39086da111adc94a4c44d41e4d269195f5e9c019cbe5ec06bff",
+    "bytes": 3071,
+    "status": "Recovered missing resource into main source set"
+  },
+  {
+    "path": "assets/wexside/shaders/glint/nether_portal_glint.vsh",
+    "sha256": "25bf00ff905851ec17a1b0e6125338388c075706b10c6c42617024f1cdc66c45",
+    "bytes": 575,
+    "status": "Recovered missing resource into main source set"
+  },
+  {
+    "path": "assets/wexside/shaders/glint/nether_portal_item_overlay.fsh",
+    "sha256": "15ad323c82d87b52f1a025c8263ecb10b27e1c234a14da6cca58f05dd06f0a5d",
+    "bytes": 3445,
+    "status": "Recovered missing resource into main source set"
+  },
+  {
+    "path": "assets/wexside/shaders/glint/nether_portal_item_overlay.vsh",
+    "sha256": "f5bd16dc92d2c8eb3d40c45bb10fad2147b6b19e7a718f979f56267002ea65c7",
+    "bytes": 546,
+    "status": "Recovered missing resource into main source set"
+  },
+  {
+    "path": "assets/wexside/shaders/glowesp/glowesp_gradient.frag",
+    "sha256": "eb48a65e1d9f44ad7e3ff796063b1f6fed41c754401af65c93b0cb3cb3112b2a",
+    "bytes": 794,
+    "status": "Matches binary resource"
+  },
+  {
+    "path": "assets/wexside/shaders/glowesp/glowesp_outline.frag",
+    "sha256": "f9be069942f259120a2b333c71c7a448d9c681202433d1373ede3700b11f5913",
+    "bytes": 1525,
+    "status": "Matches binary resource"
+  },
+  {
+    "path": "assets/wexside/shaders/glowesp/glowesp_present.frag",
+    "sha256": "5e419bbadd577ecd3d85f2e245f6bcc35c56634b0a652d5eed5706b6ebdaf0de",
+    "bytes": 258,
+    "status": "Matches binary resource"
+  },
+  {
+    "path": "assets/wexside/shaders/glowesp/glowesp_screen.vert",
+    "sha256": "dd44be0cf5e77835e1b090223288954a2c35799665eae7b046699df0ef2e4969",
+    "bytes": 379,
+    "status": "Matches binary resource"
+  },
+  {
+    "path": "assets/wexside/shaders/handaura/glass_apply.frag",
+    "sha256": "822411ee0518ad9a5ecfcf59dda4313029f0ea2c0e4c8bda343f6db316b00e92",
+    "bytes": 17505,
+    "status": "Matches binary resource"
+  },
+  {
+    "path": "assets/wexside/shaders/handaura/hand_aura_composite.frag",
+    "sha256": "ef415605439e4477765ca21ebc0e3efcb3262704d3e10fceb7195acedbeeec92",
+    "bytes": 8460,
+    "status": "Matches binary resource"
+  },
+  {
+    "path": "assets/wexside/shaders/handaura/hand_aura_composite.vert",
+    "sha256": "079566f75ef783a07b66c19d950812ae3609800b6069e0608a31728feb393556",
+    "bytes": 714,
+    "status": "Matches binary resource"
+  },
+  {
+    "path": "assets/wexside/shaders/handaura/hand_material_source.frag",
+    "sha256": "a04b8a71da3a88daaf5c2dd71e89b9bc7fdf68bf34c950e4f4ba25849a22911b",
+    "bytes": 310,
+    "status": "Matches binary resource"
+  },
+  {
+    "path": "assets/wexside/shaders/handaura/kawase.frag",
+    "sha256": "a846f37ec518a3c250bc29e71dbd6dbd74fde509d3d33e258502574a66799010",
+    "bytes": 667,
+    "status": "Matches binary resource"
+  },
+  {
+    "path": "assets/wexside/shaders/handaura/kawase.vert",
+    "sha256": "f2efef82138423b9e864525fe086b011a153419bdf2ea6a365bfa0959cee8710",
+    "bytes": 650,
+    "status": "Matches binary resource"
+  },
+  {
+    "path": "assets/wexside/shaders/handaura/mask_diff.frag",
+    "sha256": "9989566393829c91a018b89509c900d6eda07a50ae2b610b091fa7b6b1f932bf",
+    "bytes": 870,
+    "status": "Matches binary resource"
+  },
+  {
+    "path": "assets/wexside/shaders/hit/jelly.frag",
+    "sha256": "e5d85fa24e040653c7805bc2b0e1f6fbddcbae996fd71985ec243758dda7a613",
+    "bytes": 2368,
+    "status": "Recovered missing resource into main source set"
+  },
+  {
+    "path": "assets/wexside/shaders/hit/rupture.frag",
+    "sha256": "525b86b41dbf1fd0071e3b07493272ab9840e3dc18bce685f5b078c0cb774e43",
+    "bytes": 1216,
+    "status": "Recovered missing resource into main source set"
+  },
+  {
+    "path": "assets/wexside/shaders/hit/rupture.vert",
+    "sha256": "f3551078a33b68c6cf266c1b9773805ca3f254c16442a64d105b1f8747ccadae",
+    "bytes": 624,
+    "status": "Recovered missing resource into main source set"
+  },
+  {
+    "path": "assets/wexside/shaders/prediction/potion_decal.frag",
+    "sha256": "f1c300fa05e8146ec6b631a27fc4407a9a38f59ff78016d15eeea092e395fc0e",
+    "bytes": 4824,
+    "status": "Binary variant retained separately; named renderer uses its paired reference resource"
+  },
+  {
+    "path": "assets/wexside/shaders/prediction/potion_decal.vert",
+    "sha256": "21e224752e0d3599733f0c2fb496da4da5f5e3c878e208ea53f536e87890d784",
+    "bytes": 189,
+    "status": "Matches binary resource"
+  },
+  {
+    "path": "assets/wexside/shaders/target/cylinder_bloom.frag",
+    "sha256": "1edfc264ac0d39002454edc8b7599bc05912829450cfe59cbfa4ecc5c82c3a8e",
+    "bytes": 226,
+    "status": "Recovered missing resource into main source set"
+  },
+  {
+    "path": "assets/wexside/shaders/target/cylinder_bloom.vert",
+    "sha256": "c3e08bac89680c34ddb5e830994ef4f4688ae674657009d7472ca3cd9fc68016",
+    "bytes": 170,
+    "status": "Recovered missing resource into main source set"
+  },
+  {
+    "path": "assets/wexside/shaders/target/cylinder_ornament.frag",
+    "sha256": "1e324f0454296a93e07779a73568455ae69f1c7e5383e16db0445f908ff0bd38",
+    "bytes": 7835,
+    "status": "Recovered missing resource into main source set"
+  },
+  {
+    "path": "assets/wexside/shaders/target/cylinder_ornament.vert",
+    "sha256": "09ac1eaff896a23b3c02b9b872f98686a95f8c8ede9dec59a371f461eda9787c",
+    "bytes": 330,
+    "status": "Recovered missing resource into main source set"
+  },
+  {
+    "path": "assets/wexside/shaders/target/lightning_arc.frag",
+    "sha256": "8633ff5dafb5ba44f356ba6ee1867208a6ad80fa3a0195725e42ee9bce7b9b80",
+    "bytes": 728,
+    "status": "Recovered missing resource into main source set"
+  },
+  {
+    "path": "assets/wexside/shaders/target/lightning_arc.vert",
+    "sha256": "d66dd741424054ac63abfe2284e60a56ac2c13ca8a31de880713fa5f3cea8691",
+    "bytes": 333,
+    "status": "Recovered missing resource into main source set"
+  },
+  {
+    "path": "assets/wexside/shaders/target/neon_skull.frag",
+    "sha256": "b0c63342ad41bd9a4d4aeffa9da52498880f360a033ab4c774240802b7ee91ff",
+    "bytes": 10105,
+    "status": "Recovered missing resource into main source set"
+  },
+  {
+    "path": "assets/wexside/shaders/target/neon_skull.vert",
+    "sha256": "802015cbcdcd5d1dba2228bc0a766d8a1f77d5c7ab2c90ef16db9b5bea0dbd9d",
+    "bytes": 342,
+    "status": "Recovered missing resource into main source set"
+  },
+  {
+    "path": "assets/wexside/shaders/tracers/tracer_line.frag",
+    "sha256": "fd6f267e5a906ba9b33450491a53ff73b9eefbc68470d17850671045e6352905",
+    "bytes": 665,
+    "status": "Binary variant retained separately; named renderer uses its paired reference resource"
+  },
+  {
+    "path": "assets/wexside/shaders/tracers/tracer_line.vert",
+    "sha256": "20b28f0756c7c7054a4d97c7076d4da60990411a321c81a5eb277e43973020ad",
+    "bytes": 2217,
+    "status": "Binary variant retained separately; named renderer uses its paired reference resource"
+  },
+  {
+    "path": "assets/wexside/shaders/trails/heat_haze.frag",
+    "sha256": "bddba91f92378de712de5b0560af9811dce22f395bc52bac9a8b1984a6580cb8",
+    "bytes": 2693,
+    "status": "Recovered missing resource into main source set"
+  },
+  {
+    "path": "assets/wexside/shaders/trails/heat_haze.vert",
+    "sha256": "55e13271ee0816edf63d4e229d90dc8e4c4e9eb11c5c6ff83d5be993f8769090",
+    "bytes": 320,
+    "status": "Recovered missing resource into main source set"
+  },
+  {
+    "path": "assets/wexside/sounds/CFG_LOAD_ERROR.wav",
+    "sha256": "651fe46460f97ef6adbcc0c6014c5fd318206297d476a0942c3755892ae74486",
+    "bytes": 80718,
+    "status": "Recovered missing resource into main source set"
+  },
+  {
+    "path": "assets/wexside/sounds/EFFECT_END.wav",
+    "sha256": "21598747516312fe0fde95e13b278127d84697e31fdee4ac2d799ea1ab81c936",
+    "bytes": 570092,
+    "status": "Recovered missing resource into main source set"
+  },
+  {
+    "path": "assets/wexside/sounds/ITEM_CD.wav",
+    "sha256": "6e04da36a80a6f81f8680fbad1da1a4a201a3e8f1c0d62fa1adc9a303259df4e",
+    "bytes": 112132,
+    "status": "Recovered missing resource into main source set"
+  },
+  {
+    "path": "assets/wexside/sounds/MISSING_ITEM.wav",
+    "sha256": "637cbf2b6ee7f282e5f2defb58a9a0a915978f11349932313046e509a1ac27a6",
+    "bytes": 112132,
+    "status": "Recovered missing resource into main source set"
+  },
+  {
+    "path": "assets/wexside/sounds/MODULE_OFF.wav",
+    "sha256": "abc24dcb0cd4079133eff585fa17edcc5b1b7a16ecb61cc6128f263b1e0bfc3f",
+    "bytes": 40892,
+    "status": "Recovered missing resource into main source set"
+  },
+  {
+    "path": "assets/wexside/sounds/MODULE_ON.wav",
+    "sha256": "01a05109e221a7859cb74c81418b417790c286afa11ed0aa9c5685cb284630a2",
+    "bytes": 81600,
+    "status": "Recovered missing resource into main source set"
+  },
+  {
+    "path": "assets/wexside/sounds/NOTIFICATIONS.wav",
+    "sha256": "ce04f3f74053674d58d0e43318529cbcc41eb16aae9d72a0517a75f2e3b59f2f",
+    "bytes": 120170,
+    "status": "Recovered missing resource into main source set"
+  },
+  {
+    "path": "assets/wexside/sounds/POP_TOTEM.wav",
+    "sha256": "2602eb2b092d23a4f7846cb1690d41e5a3ac1e1d91d960b3065f18a36b624bda",
+    "bytes": 1302832,
+    "status": "Recovered missing resource into main source set"
+  },
+  {
+    "path": "assets/wexside/sounds/USE_ITEM.wav",
+    "sha256": "6f37f222de3cfde34e9e3c33da9d477b401c51b1058191f629a38f28f6d32935",
+    "bytes": 183368,
+    "status": "Recovered missing resource into main source set"
+  },
+  {
+    "path": "assets/wexside/textures/arrows/old_triangle.png",
+    "sha256": "3ee245ee0908375223d23c93b7b1a83da69ee1808c8f4e97535dad30f82be427",
+    "bytes": 28295,
+    "status": "Matches binary resource"
+  },
+  {
+    "path": "assets/wexside/textures/arrows/triangle.png",
+    "sha256": "474d5751ee0a20b3294d1aa77d9a971bfedf8b810d7a26fcfaa207ad9a9c4208",
+    "bytes": 942,
+    "status": "Matches binary resource"
+  },
+  {
+    "path": "assets/wexside/textures/glint/alternation.png",
+    "sha256": "2ab9e7061e463905f0a070d8363a44c85a6b75fbaeb92fe51eb55e44f5f894c5",
+    "bytes": 469,
+    "status": "Recovered missing resource into main source set"
+  },
+  {
+    "path": "assets/wexside/textures/glint/aqua.png",
+    "sha256": "79d13d6066e81a34b8de5166ef4362a34eef88114e4f03f6cff4d9f49910308c",
+    "bytes": 34343,
+    "status": "Recovered missing resource into main source set"
+  },
+  {
+    "path": "assets/wexside/textures/glint/bands.png",
+    "sha256": "a72fa6356156c8877710b3badbadfebe6ce52e9c74bb4844c3a8c7573332b1e0",
+    "bytes": 566,
+    "status": "Recovered missing resource into main source set"
+  },
+  {
+    "path": "assets/wexside/textures/glint/bisexual.png",
+    "sha256": "82cf474cd0a92345f9b69aa2daf11f7d33f4411db34a24c821d0b12dc4b2e180",
+    "bytes": 1167,
+    "status": "Recovered missing resource into main source set"
+  },
+  {
+    "path": "assets/wexside/textures/glint/bluelines.png",
+    "sha256": "9f6c1e89253f494c27031792b22bbff8f5be885102481f5a2a4bd0a25485a940",
+    "bytes": 30141,
+    "status": "Recovered missing resource into main source set"
+  },
+  {
+    "path": "assets/wexside/textures/glint/bluepulse.png",
+    "sha256": "66927caef93c061d189b11333baa70e933d495bd20d93c90557b06dc9bb8c6c2",
+    "bytes": 5031,
+    "status": "Recovered missing resource into main source set"
+  },
+  {
+    "path": "assets/wexside/textures/glint/bluewave.png",
+    "sha256": "59c07d9aa2ed476ba98ea33815d4e02857b13d1a7b57d4c1dd9348c4c359bc8f",
+    "bytes": 265261,
+    "status": "Recovered missing resource into main source set"
+  },
+  {
+    "path": "assets/wexside/textures/glint/borealis_xxvi.png",
+    "sha256": "3c5c39a240134dae6fd3a800e3bbf3e818c2ccfa02efe7a4f6da8e68395ece50",
+    "bytes": 29224,
+    "status": "Recovered missing resource into main source set"
+  },
+  {
+    "path": "assets/wexside/textures/glint/candycane.png",
+    "sha256": "441262d0dd961b073639cc59bb5096ef4eeeedec2ebdffec0834b5bf10157325",
+    "bytes": 68213,
+    "status": "Recovered missing resource into main source set"
+  },
+  {
+    "path": "assets/wexside/textures/glint/classic.png",
+    "sha256": "74c7d772bcada03413cb93c25fe889f4e9f9c5890d00dc42da312f029d9b4389",
+    "bytes": 15251,
+    "status": "Recovered missing resource into main source set"
+  },
+  {
+    "path": "assets/wexside/textures/glint/code.png",
+    "sha256": "f3b9b71e32890147eb20a1b54bc5be68070b7ea30378b6b7505b2aac29fb4c9e",
+    "bytes": 108343,
+    "status": "Recovered missing resource into main source set"
+  },
+  {
+    "path": "assets/wexside/textures/glint/copper.png",
+    "sha256": "3f7f1a05b2d35e72d198de00e9963aab6c2e8268f71b8302aedbda62e1520a2c",
+    "bytes": 29416,
+    "status": "Recovered missing resource into main source set"
+  },
+  {
+    "path": "assets/wexside/textures/glint/crimsonblur.png",
+    "sha256": "36096d2155402bd04fd36a7f15185ec16776761bdff48d2a198fed573d187961",
+    "bytes": 22513,
+    "status": "Recovered missing resource into main source set"
+  },
+  {
+    "path": "assets/wexside/textures/glint/diffrainbow.png",
+    "sha256": "868b4ca42e28fc2e203c7229f5d627246bf7273bd52fde3c3c52b0f8810fecfb",
+    "bytes": 27849,
+    "status": "Recovered missing resource into main source set"
+  },
+  {
+    "path": "assets/wexside/textures/glint/disco.png",
+    "sha256": "f6cc9d5e6e202d187491cf626da3f0aad45d3493c0d4e010267b5733ea14a3cb",
+    "bytes": 698,
+    "status": "Recovered missing resource into main source set"
+  },
+  {
+    "path": "assets/wexside/textures/glint/fancy.png",
+    "sha256": "3541fe2d4ec9ee01d1d9777f1a175d619365c63f27713916181f9487e1a72f72",
+    "bytes": 14659,
+    "status": "Recovered missing resource into main source set"
+  },
+  {
+    "path": "assets/wexside/textures/glint/fire.png",
+    "sha256": "faf3ccf15743db2e95348b4b09834ab993973d03b5dac9891a13f871165befa9",
+    "bytes": 30196,
+    "status": "Recovered missing resource into main source set"
+  },
+  {
+    "path": "assets/wexside/textures/glint/galaxy.png",
+    "sha256": "c001ac36ce38af4cd2462993c8a5579aa9a6fec0d018eadc4f6792e8ad74e7c3",
+    "bytes": 33191,
+    "status": "Recovered missing resource into main source set"
+  },
+  {
+    "path": "assets/wexside/textures/glint/gamma.png",
+    "sha256": "2d904fb7904cf9ac151df0c5dc1e3b4dc4d0245eb98c297658b2979f8226ae7e",
+    "bytes": 28668,
+    "status": "Recovered missing resource into main source set"
+  },
+  {
+    "path": "assets/wexside/textures/glint/glitch.png",
+    "sha256": "5d5339229462c55f0c43428ff46242ed1cd5a435148dcd49981b3e2b94df904f",
+    "bytes": 132959,
+    "status": "Recovered missing resource into main source set"
+  },
+  {
+    "path": "assets/wexside/textures/glint/golden.png",
+    "sha256": "53a25fd5dd4154293ba29877d91158e2b97812ceeed4e676e4a8d6082160a03f",
+    "bytes": 29405,
+    "status": "Recovered missing resource into main source set"
+  },
+  {
+    "path": "assets/wexside/textures/glint/ice.png",
+    "sha256": "f84165e462b5b1f7d88e3ba017c54c0c4a677a0b59fd4e9b74ab8c2ae43c343e",
+    "bytes": 34745,
+    "status": "Recovered missing resource into main source set"
+  },
+  {
+    "path": "assets/wexside/textures/glint/jade.png",
+    "sha256": "078f4388b9c3721b8899fe3f14f61ec43b9ce4a730431a6ad71f4a8c8681143a",
+    "bytes": 34600,
+    "status": "Recovered missing resource into main source set"
+  },
+  {
+    "path": "assets/wexside/textures/glint/magma.png",
+    "sha256": "4bced37dbc48ee90f8ccef06559573c451ce42cd3a6d469381b3503c47ef5e53",
+    "bytes": 267475,
+    "status": "Recovered missing resource into main source set"
+  },
+  {
+    "path": "assets/wexside/textures/glint/mirror.png",
+    "sha256": "9b82aba95003a9faa2c5bc31e8114b22f0418bc81638f42eb58e5e2113b5e2ce",
+    "bytes": 22663,
+    "status": "Recovered missing resource into main source set"
+  },
+  {
+    "path": "assets/wexside/textures/glint/nosignal.png",
+    "sha256": "6c8ba6a79b5c02744e46b7a50aa9b396d85185c24a01d0e417234969012ead28",
+    "bytes": 148284,
+    "status": "Recovered missing resource into main source set"
+  },
+  {
+    "path": "assets/wexside/textures/glint/pastelpink.png",
+    "sha256": "c821506f65b400e3a222e3cd40e6b777edba219589f84d3589fb2424be42376c",
+    "bytes": 3321,
+    "status": "Recovered missing resource into main source set"
+  },
+  {
+    "path": "assets/wexside/textures/glint/pink.png",
+    "sha256": "ff29d18c470792ee0e772c99aa127e64cce6200e5df555e895fade817ac59eab",
+    "bytes": 30726,
+    "status": "Recovered missing resource into main source set"
+  },
+  {
+    "path": "assets/wexside/textures/glint/pinkblur.png",
+    "sha256": "d882bd24055940d30fe36de13c0d9ad5ccb29ad36afa05f173617505702cd7e7",
+    "bytes": 23472,
+    "status": "Recovered missing resource into main source set"
+  },
+  {
+    "path": "assets/wexside/textures/glint/purple_default.png",
+    "sha256": "8f8b88608c60c06febed2a054f030c2103bbffaa9f6602bc30d19930a7f8fa0d",
+    "bytes": 29798,
+    "status": "Recovered missing resource into main source set"
+  },
+  {
+    "path": "assets/wexside/textures/glint/purpledots.png",
+    "sha256": "da01fd4ddbb16155ff2fab4dcb3ddc1b0c2784c768b68265c680944788f1cc41",
+    "bytes": 4994,
+    "status": "Recovered missing resource into main source set"
+  },
+  {
+    "path": "assets/wexside/textures/glint/purplefine.png",
+    "sha256": "3541fe2d4ec9ee01d1d9777f1a175d619365c63f27713916181f9487e1a72f72",
+    "bytes": 14659,
+    "status": "Recovered missing resource into main source set"
+  },
+  {
+    "path": "assets/wexside/textures/glint/purplewhisps.png",
+    "sha256": "279e9f14cd67130d6ecf9c4c55209be05b0e22895ee7dc6b06a2cc1ff51ecb3b",
+    "bytes": 7614,
+    "status": "Recovered missing resource into main source set"
+  },
+  {
+    "path": "assets/wexside/textures/glint/rainbow.png",
+    "sha256": "8d77d84f136221f7cafca5340475396949b90f7255ee3f576915b0abc1ccfa56",
+    "bytes": 29282,
+    "status": "Recovered missing resource into main source set"
+  },
+  {
+    "path": "assets/wexside/textures/glint/rainbowblur.png",
+    "sha256": "ff9bf17e97d13fe72409fb5bb4a3463de96983b87ee1d8632db48ed3c776f93e",
+    "bytes": 29115,
+    "status": "Recovered missing resource into main source set"
+  },
+  {
+    "path": "assets/wexside/textures/glint/rednetwork.png",
+    "sha256": "af3a60df9a5b6077780fdc14e11303300b1b4644a9247dd1a2f1452d1014f574",
+    "bytes": 17273,
+    "status": "Recovered missing resource into main source set"
+  },
+  {
+    "path": "assets/wexside/textures/glint/redstreaks.png",
+    "sha256": "25d80b8d519d36d6633e49a031f1382e2169d3c010bc343da068687e7a203d9a",
+    "bytes": 74119,
+    "status": "Recovered missing resource into main source set"
+  },
+  {
+    "path": "assets/wexside/textures/glint/scarlet_crimson.png",
+    "sha256": "ea8f74ed126e877019f14f4ef2459e4007df2b1d5b8258ae778ef3b18b0c5e28",
+    "bytes": 29378,
+    "status": "Recovered missing resource into main source set"
+  },
+  {
+    "path": "assets/wexside/textures/glint/seigaiha.png",
+    "sha256": "abd9b9d08c6d20212ea0b520b6e6e276944a9dd8d8931e148fe51be882b5f630",
+    "bytes": 3572,
+    "status": "Recovered missing resource into main source set"
+  },
+  {
+    "path": "assets/wexside/textures/glint/shockblue.png",
+    "sha256": "8cbef73ca525c97219009f7040657e6a2269565861714092ca510e799d12c731",
+    "bytes": 34447,
+    "status": "Recovered missing resource into main source set"
+  },
+  {
+    "path": "assets/wexside/textures/glint/steve.png",
+    "sha256": "79e4c9d46b194a5b982131c76804629952dd9afc89d46919e3ab633be0a85217",
+    "bytes": 858,
+    "status": "Recovered missing resource into main source set"
+  },
+  {
+    "path": "assets/wexside/textures/glint/summer.png",
+    "sha256": "29d3687629ba7b4691c13a9424fbf6df2d86ca36f4ebff97315ad541928f048d",
+    "bytes": 33138,
+    "status": "Recovered missing resource into main source set"
+  },
+  {
+    "path": "assets/wexside/textures/glint/sunset.png",
+    "sha256": "80d0e8a050fbf4284c6bd73eae559332cae0a7bec45e650f7d12a650b7d90f6b",
+    "bytes": 32250,
+    "status": "Recovered missing resource into main source set"
+  },
+  {
+    "path": "assets/wexside/textures/glint/wavypurplelines.png",
+    "sha256": "2978f62f4d8e89306fea3ce7b988579f645ee26e1ebc743d77b620b42cfa9c23",
+    "bytes": 5504,
+    "status": "Recovered missing resource into main source set"
+  },
+  {
+    "path": "assets/wexside/textures/glint/weave.png",
+    "sha256": "3fa58f85972ed43dff1b96653d8274c543c7a86596d75af2a792c0e289c51561",
+    "bytes": 20638,
+    "status": "Recovered missing resource into main source set"
+  },
+  {
+    "path": "assets/wexside/textures/glint/whiteblur.png",
+    "sha256": "0f52b3653a9f913761a5cfb822d41ef5308f15bb031ca77564b947990cfe25c5",
+    "bytes": 15435,
+    "status": "Recovered missing resource into main source set"
+  },
+  {
+    "path": "assets/wexside/textures/glow_glare.png",
+    "sha256": "5feada317f7a05710d3ebf165c93af03b6b5704fc0e4b9f768a7f6d098cd307f",
+    "bytes": 70282,
+    "status": "Recovered missing resource into main source set"
+  },
+  {
+    "path": "assets/wexside/textures/gui/shulker_parts.png",
+    "sha256": "931d2eb5b888d39591f245e663802cc16bdda12d18136c2a5079819612c7c2c2",
+    "bytes": 246,
+    "status": "Matches binary resource"
+  },
+  {
+    "path": "assets/wexside/textures/icons/voice/microphone.png",
+    "sha256": "5c67c1c3cc750c9dbd0e9dc16b1cd4ca013c4f2685fb9c5f67b8c3e38c49b06a",
+    "bytes": 308,
+    "status": "Matches binary resource"
+  },
+  {
+    "path": "assets/wexside/textures/icons/voice/microphone_whisper.png",
+    "sha256": "e27b5b25d8683a226232ba8ed7163f3c362110bd393a3fb6d7b36f7fb46aeea9",
+    "bytes": 1871,
+    "status": "Matches binary resource"
+  },
+  {
+    "path": "assets/wexside/textures/logo.png",
+    "sha256": "84e73e620bd22306309fda0065524b0eeba6ac35b96d4a5c1b885280c140f9c4",
+    "bytes": 2568,
+    "status": "Recovered missing resource into main source set"
+  },
+  {
+    "path": "assets/wexside/textures/menu/logotypes.png",
+    "sha256": "4f5f37676aee917f2637c55f488d8c43126a4070d16c57cbba73dded018b4d59",
+    "bytes": 12647,
+    "status": "Matches binary resource"
+  },
+  {
+    "path": "assets/wexside/textures/mops.png",
+    "sha256": "48116fdce1200e522c4870c7be33b460dbdb624d102e25ea605c053195a7a3d8",
+    "bytes": 146109,
+    "status": "Matches binary resource"
+  },
+  {
+    "path": "assets/wexside/textures/prediction/arrow_cross.png",
+    "sha256": "33b920b5b63086962652075480afd2a31119d7b611bda684ea39b0cda0af1dde",
+    "bytes": 1622,
+    "status": "Matches binary resource"
+  },
+  {
+    "path": "assets/wexside/textures/visuals/particles.png",
+    "sha256": "a2e30353945e9ec2724edd134afa65a5c4385441bb79c25c576646211b74c7b1",
+    "bytes": 2488352,
+    "status": "Matches binary resource"
+  },
+  {
+    "path": "assets/wexside/textures/world/model_esp_aurora_noise.png",
+    "sha256": "5ff93225ed7018e90822824a599e4e080e985fb882fdc15ac9e117dd8ba22a34",
+    "bytes": 811791,
+    "status": "Matches binary resource"
+  }
+]

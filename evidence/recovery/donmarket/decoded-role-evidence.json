@@ -1,0 +1,53 @@
+{
+  "controllerOwner": "donmarket_runner",
+  "overlayStrings": [
+    {
+      "field": "wexside/fAeVdOQQ65gAPreifzN25ry4r26.WeSN4ZoGhOefuUPwccVE3QbKruL1wW",
+      "decoded": "Ь"
+    },
+    {
+      "field": "wexside/ixeaPa3EeG9c8HmZkKSaT5bbj48.LkeLMeWPVcX9IgaAAk4zJqaz2SASLD",
+      "decoded": "т"
+    },
+    {
+      "field": "wexside/OAbdrI6RcFPIb07yleQ4cT0Pn12.5DsTjSyMIJZg00Lis2NIfkBT5cBQVL",
+      "decoded": "Пауза"
+    },
+    {
+      "field": "wexside/svlZ1GYl11htgU8FTkLkVPXNJ43.ZNCAIjjudyYYymPydAKwbOe8qTZhZK",
+      "decoded": "Старт"
+    },
+    {
+      "field": "wexside/kiwwCxoS4K7YVakjYjfoHIq6P55.xrZR7UUr8xrBkvJZ2ChsL9KY8LEbcT",
+      "decoded": "Продолжить"
+    },
+    {
+      "field": "wexside/fAeVdOQQ65gAPreifzN25ry4r26.mVUXPfrLAXH9D068qmTR9Lio0GgmxT",
+      "decoded": "Остановить"
+    },
+    {
+      "field": "wexside/DRgpKB8zMJsYqxHXis5YA8ZVs30.MpbwalA7ytssjogF1WKIvRmyafFUhd",
+      "decoded": "Старт"
+    },
+    {
+      "field": "wexside/BbWgsguqBUsmUb5jugEXWpcPu61.HnmVhrrtOIISZscUULHvIL8aMcOJXx",
+      "decoded": "Продолжить"
+    },
+    {
+      "field": "wexside/BbS71u9FyQJ7zphxSPLttUn9d35.P8OUPWCh7iwVBIZF7tYcSLNpxmLqqm",
+      "decoded": "Пауза"
+    },
+    {
+      "field": "wexside/iimsbSNiRyCi2RlXgorhD32138.tmIejap3mmHO5BIgRfgZYoCVxzqpmY",
+      "decoded": "т"
+    },
+    {
+      "field": "wexside/WkglQMfiiUItjEWjJHTKwFFQk53.szHVo01r46sGnfk1189e30tEsJ8M4c",
+      "decoded": "Остановить"
+    },
+    {
+      "field": "wexside/PZPCXq6XvnpS8XEFQCK5xXYEI44.j4ZU8kl4OCGEMZwt7Bdizo7UhzL0Xo",
+      "decoded": "Ь"
+    }
+  ]
+}

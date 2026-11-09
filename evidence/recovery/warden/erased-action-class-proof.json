@@ -1,0 +1,122 @@
+[
+  {
+    "owner": "wexside/llIlIllllillIl",
+    "super": "java/lang/Object",
+    "fields": [],
+    "methods": [
+      {
+        "name": "<init>",
+        "desc": "()V",
+        "flags": 1,
+        "instructions": 3,
+        "clean": 3,
+        "fingerprint": "f4d68c56b6ffb18fbf3beff610a2f6c9bd2fbc15bfcfa03b6fc948d2de86c2d3",
+        "opcodes": "e3fc320f3a0af52406d5a26f73726bc10b1ca843f070239fd9947a6f8338f0b6",
+        "strings": [],
+        "references": [
+          "M java/lang/Object <init> ()V"
+        ]
+      }
+    ]
+  },
+  {
+    "owner": "wexside/liIiIiIiIiIlll",
+    "super": "java/lang/Object",
+    "fields": [],
+    "methods": [
+      {
+        "name": "<init>",
+        "desc": "()V",
+        "flags": 1,
+        "instructions": 3,
+        "clean": 3,
+        "fingerprint": "f4d68c56b6ffb18fbf3beff610a2f6c9bd2fbc15bfcfa03b6fc948d2de86c2d3",
+        "opcodes": "e3fc320f3a0af52406d5a26f73726bc10b1ca843f070239fd9947a6f8338f0b6",
+        "strings": [],
+        "references": [
+          "M java/lang/Object <init> ()V"
+        ]
+      }
+    ]
+  },
+  {
+    "owner": "wexside/IllillIilililil",
+    "super": "java/lang/Object",
+    "fields": [],
+    "methods": [
+      {
+        "name": "<init>",
+        "desc": "()V",
+        "flags": 1,
+        "instructions": 3,
+        "clean": 3,
+        "fingerprint": "f4d68c56b6ffb18fbf3beff610a2f6c9bd2fbc15bfcfa03b6fc948d2de86c2d3",
+        "opcodes": "e3fc320f3a0af52406d5a26f73726bc10b1ca843f070239fd9947a6f8338f0b6",
+        "strings": [],
+        "references": [
+          "M java/lang/Object <init> ()V"
+        ]
+      }
+    ]
+  },
+  {
+    "owner": "wexside/liliIiIlllIllil",
+    "super": "java/lang/Object",
+    "fields": [],
+    "methods": [
+      {
+        "name": "<init>",
+        "desc": "()V",
+        "flags": 1,
+        "instructions": 3,
+        "clean": 3,
+        "fingerprint": "f4d68c56b6ffb18fbf3beff610a2f6c9bd2fbc15bfcfa03b6fc948d2de86c2d3",
+        "opcodes": "e3fc320f3a0af52406d5a26f73726bc10b1ca843f070239fd9947a6f8338f0b6",
+        "strings": [],
+        "references": [
+          "M java/lang/Object <init> ()V"
+        ]
+      }
+    ]
+  },
+  {
+    "owner": "wexside/liIiIillliIiIil",
+    "super": "java/lang/Object",
+    "fields": [],
+    "methods": [
+      {
+        "name": "<init>",
+        "desc": "()V",
+        "flags": 1,
+        "instructions": 3,
+        "clean": 3,
+        "fingerprint": "f4d68c56b6ffb18fbf3beff610a2f6c9bd2fbc15bfcfa03b6fc948d2de86c2d3",
+        "opcodes": "e3fc320f3a0af52406d5a26f73726bc10b1ca843f070239fd9947a6f8338f0b6",
+        "strings": [],
+        "references": [
+          "M java/lang/Object <init> ()V"
+        ]
+      }
+    ]
+  },
+  {
+    "owner": "wexside/lllilililllilil",
+    "super": "java/lang/Object",
+    "fields": [],
+    "methods": [
+      {
+        "name": "<init>",
+        "desc": "()V",
+        "flags": 1,
+        "instructions": 3,
+        "clean": 3,
+        "fingerprint": "f4d68c56b6ffb18fbf3beff610a2f6c9bd2fbc15bfcfa03b6fc948d2de86c2d3",
+        "opcodes": "e3fc320f3a0af52406d5a26f73726bc10b1ca843f070239fd9947a6f8338f0b6",
+        "strings": [],
+        "references": [
+          "M java/lang/Object <init> ()V"
+        ]
+      }
+    ]
+  }
+]

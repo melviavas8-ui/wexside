@@ -1,0 +1,7 @@
+{
+  "source_jar_sha256": "dbdc06ecd179e253c6eeee09b3cd95d064d47fb2740a675d2f9b0f1ad22192b1",
+  "java_files": 911,
+  "namespace": "Yarn named",
+  "remapSourcesJar": "SKIPPED",
+  "separate_source_remap_required": false
+}

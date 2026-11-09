@@ -1,0 +1,15 @@
+{
+  "src/test/java/ru/wexside/recovery/warden/RecoveryChecks.java": "ab3d7e957091227c09cbb7cd88927f30bb3b491c855d193cdcdaea2c40e925d1",
+  "src/main/java/ru/wexside/recovery/warden/WardenAnarchyRoute.java": "97766238360f997a2d990e0fcd090acd5119f7ce9dc68b3d7e074a4aa4320582",
+  "src/main/java/ru/wexside/recovery/warden/WardenConsumableWindow.java": "0b4d45c71ab86fa1163b01ea865e3a165234911d6673ed166bce3f4e142a573b",
+  "src/main/java/ru/wexside/recovery/warden/WardenCoordinator.java": "080d9c1dbfa9bfa0a37238ba05127f6a4d3461a2814fe2e2d62cfc57be9dd50c",
+  "src/main/java/ru/wexside/recovery/warden/WardenDeathTracker.java": "36337997ab87e2ff6e5cdb593e0a1e64897d8f13b0ec4c98c912e2031adb56ad",
+  "src/main/java/ru/wexside/recovery/warden/WardenFarmRegion.java": "4d59c34cf35b7b700833a234be5d8b032eb795c50ef6d3829050513eec2631a9",
+  "src/main/java/ru/wexside/recovery/warden/WardenLootFilter.java": "d41117fe159df7e86e1e39597f22b76fbdc55a2570ab49c8cbd1bb27398e8860",
+  "src/main/java/ru/wexside/recovery/warden/WardenLootLevel.java": "d7af63e637029e14be43aa3a22abca8ac0efa1223c0b58da05c6c1781b1e25b6",
+  "src/main/java/ru/wexside/recovery/warden/WardenQueries.java": "e88ef44c83c0bd85316941a0bb57b8daf49fa7734b65c98c1374a7923d5ee948",
+  "src/main/java/ru/wexside/recovery/warden/WardenSettings.java": "e2e5792a80c52a5e16fa8032391438992f47e79e7bf4a0d153506784462c41a7",
+  "src/main/java/ru/wexside/recovery/warden/WardenState.java": "5298e45311be502f09b202dba80809a6a98617cf1566691b8beb905eeb09ab37",
+  "src/main/java/ru/wexside/recovery/warden/WardenSupplyFailures.java": "92de328074063971f9c22fbc9ab7113233ef30d4fd03e6a037081d47b43eb0d3",
+  "src/main/java/ru/wexside/recovery/warden/WardenThreatTracker.java": "be2c97324f8e727c7e72a5920f90383520e92f074f3184f0b5094cf58b4b6954"
+}

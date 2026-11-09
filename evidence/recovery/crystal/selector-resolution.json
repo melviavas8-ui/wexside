@@ -1,0 +1,200 @@
+[
+  {
+    "wrapper_owner": "IillIlIiliIlIil",
+    "wrapper": "iilliillII",
+    "selector": 3,
+    "resolved_targets": [
+      "IilliliilII"
+    ],
+    "evidence": "\n        lililllillliIil.IiliiIiiI((int)(0xDC461B50 ^ 0xC71C93A4));\n        liIlIlIlllllIil liIlIlIlllllIil3 = liIlIlIlllllIil2;\n        liIlIlIlllllIil.IilliliilII(liIlIlIlllllIil3);\n    "
+  },
+  {
+    "wrapper_owner": "lillIlllIiIlIil",
+    "wrapper": "IIiiiilIl",
+    "selector": 1,
+    "resolved_targets": [
+      "IIlIiliilII"
+    ],
+    "evidence": "\n        lililllillliIil.IiliiIiiI((int)(0x4FF516BC ^ 0xD81FC2A9));\n        lillIllllilll lillIllllilll3 = lillIllllilll2;\n        liIlIlIlllllIil liIlIlIlllllIil3 = liIlIlIlllllIil2;\n        liIlIlIlllllIil.IIlIiliilII(liIlIlIlllllIil3, lillIllllilll3);\n    "
+  },
+  {
+    "wrapper_owner": "IlIilillIiIlIil",
+    "wrapper": "iliIilIIl",
+    "selector": 0,
+    "resolved_targets": [
+      "lIlIiliilII"
+    ],
+    "evidence": "\n        lililllillliIil.IiliiIiiI((int)(0xF179D0EE ^ 0x2DFA5A7E));\n        int cfr_ignored_0 = 0xB62D6F43 ^ 0x49D290BC;\n        int cfr_ignored_1 = 0x79B94BD5 ^ 0x8646B42A;\n        liIlIlIlllllIil liIlIlIlllllIil3 = liIlIlIlllllIil2;\n        return liIlIlIlllllIil.lIlIiliilII(liIlIlIlllllIil3);\n    "
+  },
+  {
+    "wrapper_owner": "liIlllllIiIlIil",
+    "wrapper": "IlllIilIl",
+    "selector": 3,
+    "resolved_targets": [
+      "ilIliliilII"
+    ],
+    "evidence": "\n        lililllillliIil.IiliiIiiI((int)(0x4BDC598 ^ 0x7D5F165E));\n        int cfr_ignored_0 = 0x4A9CB546 ^ 0x4A9CB546;\n        int cfr_ignored_1 = 0x3ECEC6F7 ^ 0x3ECEC6F7;\n        liIlIlIlllllIil liIlIlIlllllIil3 = liIlIlIlllllIil2;\n        IlIllillIiIiIil ilIllillIiIiIil2 = ilIllillIiIiIil;\n        liIlIlIlllllIil.ilIliliilII(liIlIlIlllllIil3, ilIllillIiIiIil2);\n    "
+  },
+  {
+    "wrapper_owner": "llllliIiliIlIil",
+    "wrapper": "iiIlIlIlII",
+    "selector": 0,
+    "resolved_targets": [
+      "llliiliilII"
+    ],
+    "evidence": "\n        lililllillliIil.IiliiIiiI((int)(0xD0A22EB9 ^ 0x61E629FF));\n        int cfr_ignored_0 = 0xCBAEBADD ^ 0xCBAEBADF;\n        int cfr_ignored_1 = 0xE3A1B73D ^ 0xE3A1B73F;\n        liIlIlIlllllIil liIlIlIlllllIil3 = liIlIlIlllllIil2;\n        liIlIlIlllllIil.llliiliilII(liIlIlIlllllIil3);\n    "
+  },
+  {
+    "wrapper_owner": "liIiIllilililil",
+    "wrapper": "IIlIlIlIlI",
+    "selector": null,
+    "resolved_targets": [
+      "lilliliilII"
+    ],
+    "evidence": "\n        lililllillliIil.IiliiIiiI((int)(0x85CBDA62 ^ 0xEF14184C));\n        int cfr_ignored_0 = 0xA7018A7A ^ 0xA7018A7B;\n        int cfr_ignored_1 = 0x58223D2B ^ 0x58223D2A;\n        liIlIlIlllllIil.lilliliilII(liIlIlIlllllIil2);\n    "
+  },
+  {
+    "wrapper_owner": "IlliIiIiliIlIil",
+    "wrapper": "IIIiIIiiII",
+    "selector": 3,
+    "resolved_targets": [
+      "iIIIiliilII"
+    ],
+    "evidence": "\n        lililllillliIil.IiliiIiiI((int)(0xD523B44 ^ 0x8EBF6140));\n        int cfr_ignored_0 = 0xA809A552 ^ 0x57F65AAD;\n        int cfr_ignored_1 = 0x1EC29529 ^ 0xE13D6AD6;\n        IillllIlIlllIil iillllIlIlllIil2 = iillllIlIlllIil;\n        liIlIlIlllllIil.iIIIiliilII(liIlIlIlllllIil2, iillllIlIlllIil2);\n    "
+  },
+  {
+    "wrapper_owner": "lillIlllIiIlIil",
+    "wrapper": "IIiliilIl",
+    "selector": 1,
+    "resolved_targets": [
+      "lilIiliilII"
+    ],
+    "evidence": "\n        lililllillliIil.IiliiIiiI((int)(0xD5D1156A ^ 0x4C1359B8));\n        int cfr_ignored_0 = 0xDE25C724 ^ 0xDE25C721;\n        int cfr_ignored_1 = 0x21A35033 ^ 0x21A35036;\n        IlIlliIiIllil ilIlliIiIllil2 = ilIlliIiIllil;\n        liIlIlIlllllIil liIlIlIlllllIil3 = liIlIlIlllllIil2;\n        liIlIillllllll liIlIillllllll2 = liIlIlIlllllIil.lilIiliilII(liIlIlIlllllIil3, ilIlliIiIllil2);\n        return liIlIillllllll2;\n    "
+  },
+  {
+    "wrapper_owner": "liIlllllIiIlIil",
+    "wrapper": "IillIilIl",
+    "selector": 2,
+    "resolved_targets": [
+      "iilliliilII"
+    ],
+    "evidence": "\n        lililllillliIil.IiliiIiiI((int)(0xFD07E2AC ^ 0x995B7D03));\n        int cfr_ignored_0 = 0xF67A1631 ^ 0xF67A1633;\n        int cfr_ignored_1 = 0xC0FD812F ^ 0xC0FD812D;\n        return liIlIlIlllllIil.iilliliilII(liIlIlIlllllIil2, ilIiIiIlllIiIl, illillIlIiIll);\n    "
+  },
+  {
+    "wrapper_owner": "liIlllllIiIlIil",
+    "wrapper": "liIliilIl",
+    "selector": 1,
+    "resolved_targets": [
+      "IlliiliilII"
+    ],
+    "evidence": "\n        lililllillliIil.IiliiIiiI((int)(0xFC287195 ^ 0x2D129620));\n        IlIlliIiIllil ilIlliIiIllil2 = ilIlliIiIllil;\n        liIlIlIlllllIil liIlIlIlllllIil3 = liIlIlIlllllIil2;\n        liIlIlIlllllIil.IlliiliilII(liIlIlIlllllIil3, ilIlliIiIllil2);\n    "
+  },
+  {
+    "wrapper_owner": "IlliIiIiliIlIil",
+    "wrapper": "IlIIlilIl",
+    "selector": 1,
+    "resolved_targets": [
+      "IIiiIliilII"
+    ],
+    "evidence": "\n        lililllillliIil.IiliiIiiI((int)(0xDD394BAF ^ 0x9E53508F));\n        int cfr_ignored_0 = 0x64200B47 ^ 0x64200B47;\n        int cfr_ignored_1 = 0x63DE43AE ^ 0x63DE43AE;\n        IlliliIlllIlll illiliIlllIlll2 = illiliIlllIlll;\n        liIlIlIlllllIil liIlIlIlllllIil3 = liIlIlIlllllIil2;\n        liIlIlIlllllIil.IIiiIliilII(liIlIlIlllllIil3, illiliIlllIlll2);\n    "
+  },
+  {
+    "wrapper_owner": "liIiIllilililil",
+    "wrapper": "illIlIlIlI",
+    "selector": null,
+    "resolved_targets": [
+      "iIiiIliilII"
+    ],
+    "evidence": "\n        lililllillliIil.IiliiIiiI((int)(0x998423C1 ^ 0x63B5BF90));\n        int cfr_ignored_0 = 0x5BCD882B ^ 0x5BCD8828;\n        int cfr_ignored_1 = 0xD19BE705 ^ 0xD19BE706;\n        liIlIlIlllllIil liIlIlIlllllIil3 = liIlIlIlllllIil2;\n        liIlIlIlllllIil.iIiiIliilII(liIlIlIlllllIil3);\n    "
+  },
+  {
+    "wrapper_owner": "IiIlllIiliIlIil",
+    "wrapper": "IIIllillII",
+    "selector": 2,
+    "resolved_targets": [
+      "iiiIiliilII"
+    ],
+    "evidence": "\n        lililllillliIil.IiliiIiiI((int)(0x9D1383CF ^ 0xE79EBFEC));\n        int cfr_ignored_0 = 0x97BBF9DC ^ 0x97BBF9DD;\n        int cfr_ignored_1 = 0x3DD26B8A ^ 0x3DD26B8B;\n        return liIlIlIlllllIil.iiiIiliilII(liIlIlIlllllIil2, lillIllllilll2);\n    "
+  },
+  {
+    "wrapper_owner": "IiliIlIlIiIlIil",
+    "wrapper": "iiilliiil",
+    "selector": 2,
+    "resolved_targets": [
+      "iliIiliilII"
+    ],
+    "evidence": "\n        lililllillliIil.IiliiIiiI((int)(0x82818BA5 ^ 0x48FF912C));\n        liIlIlIlllllIil.iliIiliilII(liIlIlIlllllIil2, illiliIiIilil, iiIiliIlliliIil);\n    "
+  },
+  {
+    "wrapper_owner": "liIiIllilililil",
+    "wrapper": "IliiillIlI",
+    "selector": null,
+    "resolved_targets": [
+      "lIIIiliilII"
+    ],
+    "evidence": "\n        lililllillliIil.IiliiIiiI((int)(0xBA81FA67 ^ 0x6D7FB472));\n        int cfr_ignored_0 = 0x2E9DF86C ^ 0x2E9DF868;\n        int cfr_ignored_1 = 0x7E34D83B ^ 0x7E34D83F;\n        IlllllIlllIll illlllIlllIll2 = illlllIlllIll;\n        int n2 = n;\n        IlIlliIiIllil ilIlliIiIllil2 = ilIlliIiIllil;\n        liIlIlIlllllIil liIlIlIlllllIil3 = liIlIlIlllllIil2;\n        return liIlIlIlllllIil.lIIIiliilII(liIlIlIlllllIil3, ilIlliIiIllil2, n2, illlllIlllIll2);\n    "
+  },
+  {
+    "wrapper_owner": "IlllllliliIlIil",
+    "wrapper": "iIlliiiilI",
+    "selector": 0,
+    "resolved_targets": [
+      "iiiiIliilII"
+    ],
+    "evidence": "\n        lililllillliIil.IiliiIiiI((int)(0xD301047F ^ 0x8AAA7776));\n        liIlIlIlllllIil liIlIlIlllllIil3 = liIlIlIlllllIil2;\n        liIlIlIlllllIil.iiiiIliilII(liIlIlIlllllIil3);\n    "
+  },
+  {
+    "wrapper_owner": "IillIlIiliIlIil",
+    "wrapper": "iiilIillII",
+    "selector": 2,
+    "resolved_targets": [
+      "iIliiliilII"
+    ],
+    "evidence": "\n        lililllillliIil.IiliiIiiI((int)(0xE389AB26 ^ 0x8287419B));\n        liIlIlIlllllIil.iIliiliilII(liIlIlIlllllIil2);\n    "
+  },
+  {
+    "wrapper_owner": "IlliIiIiliIlIil",
+    "wrapper": "llillilIl",
+    "selector": 3,
+    "resolved_targets": [
+      "liiIiliilII"
+    ],
+    "evidence": "\n        lililllillliIil.IiliiIiiI((int)(0x8B0A5CFD ^ 0xFB19602F));\n        liIlIlIlllllIil liIlIlIlllllIil3 = liIlIlIlllllIil2;\n        IlIiIiIlllIiIl ilIiIiIlllIiIl2 = ilIiIiIlllIiIl;\n        liIlIlIlllllIil.liiIiliilII(liIlIlIlllllIil3, ilIiIiIlllIiIl2);\n    "
+  },
+  {
+    "wrapper_owner": "IillIlIiliIlIil",
+    "wrapper": "llIIIillII",
+    "selector": 0,
+    "resolved_targets": [
+      "iiIliliilII"
+    ],
+    "evidence": "\n        lililllillliIil.IiliiIiiI((int)(0x5E83A1CF ^ 0xEB27A24C));\n        liIlIlIlllllIil.iiIliliilII(liIlIlIlllllIil2);\n    "
+  },
+  {
+    "wrapper_owner": "llliIillIiIlIil",
+    "wrapper": "lIlIIIIIl",
+    "selector": 3,
+    "resolved_targets": [
+      "iIlIiliilII"
+    ],
+    "evidence": "\n        lililllillliIil.IiliiIiiI((int)(0xE5E4DBBE ^ 0x78A2C878));\n        lillIllllilll lillIllllilll3 = lillIllllilll2;\n        return liIlIlIlllllIil.iIlIiliilII(liIlIlIlllllIil2, lillIllllilll3);\n    "
+  },
+  {
+    "wrapper_owner": "llllliIiliIlIil",
+    "wrapper": "IiiIllIlII",
+    "selector": 2,
+    "resolved_targets": [
+      "IllliliilII"
+    ],
+    "evidence": "\n        lililllillliIil.IiliiIiiI((int)(0x2ABAD91C ^ 0xDDB90BF7));\n        liIlIlIlllllIil liIlIlIlllllIil3 = liIlIlIlllllIil2;\n        liIlIlIlllllIil.IllliliilII(liIlIlIlllllIil3);\n    "
+  },
+  {
+    "wrapper_owner": "IillIlIiliIlIil",
+    "wrapper": "IIIiIillII",
+    "selector": 3,
+    "resolved_targets": [
+      "IIliiliilII"
+    ],
+    "evidence": "\n        lililllillliIil.IiliiIiiI((int)(0xCC0239FD ^ 0x12D1E6C7));\n        liIlIlIlllllIil.IIliiliilII(liIlIlIlllllIil2);\n    "
+  }
+]

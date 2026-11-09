@@ -1,0 +1,10 @@
+{
+  "mainJavaFiles": 12,
+  "testJavaFiles": 1,
+  "tracedBehaviorMethods": 57,
+  "policyChecks": 28,
+  "registered": false,
+  "completeAutoWarden": false,
+  "placeholderClasses": 6,
+  "unconstructedAllocationSites": 7
+}

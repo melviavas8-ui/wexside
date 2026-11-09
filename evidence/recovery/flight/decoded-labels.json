@@ -1,0 +1,98 @@
+{
+  "enums": [
+    {
+      "enum_file": "priority-enum.verbose.txt",
+      "enum_constant": "LOW",
+      "holder": "wexside/N66ut56VfcYwoB3KaTABeM7ki57",
+      "field": "Id22K25Dkb2ZnXhAchcLw6rrswrq5j",
+      "encoded": "Yrq1od6WR3jpcg==",
+      "decoded": "LOW"
+    },
+    {
+      "enum_file": "priority-enum.verbose.txt",
+      "enum_constant": "NORMAL",
+      "holder": "wexside/9gHsp0GwO64UAJu49ABHcfdE528",
+      "field": "QQpsrcdF3F3tjOIzFxjCKEDkH8zcOt",
+      "encoded": "IlQxGmXtPAOSaTpQONt+Xw==",
+      "decoded": "NORMAL"
+    },
+    {
+      "enum_file": "priority-enum.verbose.txt",
+      "enum_constant": "HIGH",
+      "holder": "wexside/Fh9zI6z2mRWBmCwZM0cCl0kVN40",
+      "field": "W2RA74quZDDqaqRbs7TxdymvCQYsMY",
+      "encoded": "nndHHmGmdwiZAFNY",
+      "decoded": "HIGH"
+    },
+    {
+      "enum_file": "priority-enum.verbose.txt",
+      "enum_constant": "CRITICAL",
+      "holder": "wexside/IMAMYZKfRvwrjzrhf0N8ukye417",
+      "field": "nk7FDTl8lH4JEgzXhlc2uciTGFvFgM",
+      "encoded": "ZFVNYxz0JflosONqAuBFx3Hcpzc=",
+      "decoded": "CRITICAL"
+    },
+    {
+      "enum_file": "policy-enum.verbose.txt",
+      "enum_constant": "FAST",
+      "holder": "wexside/HFu7VEJWjzjAQmmISeLI8CnJq31",
+      "field": "W5DfJ4GVLTIyPCLnu4lNPEYm4Zqqmi",
+      "encoded": "p4J4ZhmQQT+usuFo",
+      "decoded": "FAST"
+    },
+    {
+      "enum_file": "policy-enum.verbose.txt",
+      "enum_constant": "SILENT",
+      "holder": "wexside/1sNUGqRAWm3oz40BgkIXuE6Ym56",
+      "field": "7CqZ129EM3vve75sVXSNaO5MFSE0x2",
+      "encoded": "ce/dzLNZiPdmXg1mDk3ozA==",
+      "decoded": "SILENT"
+    },
+    {
+      "enum_file": "policy-enum.verbose.txt",
+      "enum_constant": "LEGIT",
+      "holder": "wexside/Wd9z88XlSdOJYu6ljlYjSICHV59",
+      "field": "cZoUQy34KtZWQNlrMbgFqGkEFWXkBA",
+      "encoded": "6suXKVYezzKjOmmD62k=",
+      "decoded": "LEGIT"
+    },
+    {
+      "enum_file": "conflict-enum.verbose.txt",
+      "enum_constant": "REPLACE",
+      "holder": "wexside/UOYiuiC98TJIdY6uiTBJQjtyg42",
+      "field": "ljSqjAnLuwi1ipqeqflOhm1nvb9dCm",
+      "encoded": "y1Ft94iDUq8+hdZcNNdy8EZr",
+      "decoded": "REPLACE"
+    },
+    {
+      "enum_file": "conflict-enum.verbose.txt",
+      "enum_constant": "QUEUE",
+      "holder": "wexside/kiwwCxoS4K7YVakjYjfoHIq6P55",
+      "field": "Oay9pV13mD5FxNa647jHojwZ5qopLI",
+      "encoded": "e7TbWySOX6Q1bD9WPlo=",
+      "decoded": "QUEUE"
+    },
+    {
+      "enum_file": "conflict-enum.verbose.txt",
+      "enum_constant": "SKIP_IF_BUSY",
+      "holder": "wexside/LpUthRLnr5V21umDPyQpBxokz49",
+      "field": "tzqLA3X8ioNx2u7sgGsK9iohYcHKmj",
+      "encoded": "VC7UOkWvfsFQiNvRuZg9/ErHvBJzeKtWxduOZA==",
+      "decoded": "SKIP_IF_BUSY"
+    }
+  ],
+  "firework": [
+    {
+      "encoded": "feSbMU6SQ50MQBMYcDKXNg==",
+      "decoded": " B-HVH"
+    },
+    {
+      "encoded": "YzA0NklCk68=",
+      "decoded": "RW"
+    },
+    {
+      "encoded": "1ik8q9Q87RKDm8hNJRq/4g==",
+      "decoded": "Custom"
+    }
+  ]
+}

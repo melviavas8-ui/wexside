@@ -1,0 +1,289 @@
+[
+  {
+    "origin": "flight-recovery/src/main/java/ru/wexside/recovery/flight/ElytraMotionBehavior.java",
+    "path": "src/recovery/java/ru/wexside/recovery/flight/ElytraMotionBehavior.java",
+    "original_sha256": "67799e41b4be55db1e0f734ae03902c648fcba83ca81f246bc51d195932cae3d",
+    "sha256": "67799e41b4be55db1e0f734ae03902c648fcba83ca81f246bc51d195932cae3d",
+    "transformation": "Byte-identical source copy"
+  },
+  {
+    "origin": "flight-recovery/src/main/java/ru/wexside/recovery/flight/FireworkBoostBehavior.java",
+    "path": "src/recovery/java/ru/wexside/recovery/flight/FireworkBoostBehavior.java",
+    "original_sha256": "3a9fcaf9c014fb20bb8eea293c96dc00399cfe3cd7cfc46f988fb7de0d72f9e1",
+    "sha256": "3a9fcaf9c014fb20bb8eea293c96dc00399cfe3cd7cfc46f988fb7de0d72f9e1",
+    "transformation": "Byte-identical source copy"
+  },
+  {
+    "origin": "flight-recovery/src/test/java/ru/wexside/recovery/flight/FlightRecoveryChecks.java",
+    "path": "src/recoveryTest/java/ru/wexside/recovery/flight/FlightRecoveryChecks.java",
+    "original_sha256": "9cc0a4b80f92844bf272a899e63cab728ab1c93529a36afa1db44cec3b8bb2a1",
+    "sha256": "9cc0a4b80f92844bf272a899e63cab728ab1c93529a36afa1db44cec3b8bb2a1",
+    "transformation": "Byte-identical source copy"
+  },
+  {
+    "origin": "warden-recovery/src/main/java/ru/wexside/recovery/warden/WardenAnarchyRoute.java",
+    "path": "src/recovery/java/ru/wexside/recovery/warden/WardenAnarchyRoute.java",
+    "original_sha256": "97766238360f997a2d990e0fcd090acd5119f7ce9dc68b3d7e074a4aa4320582",
+    "sha256": "97766238360f997a2d990e0fcd090acd5119f7ce9dc68b3d7e074a4aa4320582",
+    "transformation": "Byte-identical source copy"
+  },
+  {
+    "origin": "warden-recovery/src/main/java/ru/wexside/recovery/warden/WardenConsumableWindow.java",
+    "path": "src/recovery/java/ru/wexside/recovery/warden/WardenConsumableWindow.java",
+    "original_sha256": "0b4d45c71ab86fa1163b01ea865e3a165234911d6673ed166bce3f4e142a573b",
+    "sha256": "0b4d45c71ab86fa1163b01ea865e3a165234911d6673ed166bce3f4e142a573b",
+    "transformation": "Byte-identical source copy"
+  },
+  {
+    "origin": "warden-recovery/src/main/java/ru/wexside/recovery/warden/WardenCoordinator.java",
+    "path": "src/recovery/java/ru/wexside/recovery/warden/WardenCoordinator.java",
+    "original_sha256": "080d9c1dbfa9bfa0a37238ba05127f6a4d3461a2814fe2e2d62cfc57be9dd50c",
+    "sha256": "080d9c1dbfa9bfa0a37238ba05127f6a4d3461a2814fe2e2d62cfc57be9dd50c",
+    "transformation": "Byte-identical source copy"
+  },
+  {
+    "origin": "warden-recovery/src/main/java/ru/wexside/recovery/warden/WardenDeathTracker.java",
+    "path": "src/recovery/java/ru/wexside/recovery/warden/WardenDeathTracker.java",
+    "original_sha256": "36337997ab87e2ff6e5cdb593e0a1e64897d8f13b0ec4c98c912e2031adb56ad",
+    "sha256": "36337997ab87e2ff6e5cdb593e0a1e64897d8f13b0ec4c98c912e2031adb56ad",
+    "transformation": "Byte-identical source copy"
+  },
+  {
+    "origin": "warden-recovery/src/main/java/ru/wexside/recovery/warden/WardenFarmRegion.java",
+    "path": "src/recovery/java/ru/wexside/recovery/warden/WardenFarmRegion.java",
+    "original_sha256": "4d59c34cf35b7b700833a234be5d8b032eb795c50ef6d3829050513eec2631a9",
+    "sha256": "4d59c34cf35b7b700833a234be5d8b032eb795c50ef6d3829050513eec2631a9",
+    "transformation": "Byte-identical source copy"
+  },
+  {
+    "origin": "warden-recovery/src/main/java/ru/wexside/recovery/warden/WardenLootFilter.java",
+    "path": "src/recovery/java/ru/wexside/recovery/warden/WardenLootFilter.java",
+    "original_sha256": "d41117fe159df7e86e1e39597f22b76fbdc55a2570ab49c8cbd1bb27398e8860",
+    "sha256": "d41117fe159df7e86e1e39597f22b76fbdc55a2570ab49c8cbd1bb27398e8860",
+    "transformation": "Byte-identical source copy"
+  },
+  {
+    "origin": "warden-recovery/src/main/java/ru/wexside/recovery/warden/WardenLootLevel.java",
+    "path": "src/recovery/java/ru/wexside/recovery/warden/WardenLootLevel.java",
+    "original_sha256": "d7af63e637029e14be43aa3a22abca8ac0efa1223c0b58da05c6c1781b1e25b6",
+    "sha256": "d7af63e637029e14be43aa3a22abca8ac0efa1223c0b58da05c6c1781b1e25b6",
+    "transformation": "Byte-identical source copy"
+  },
+  {
+    "origin": "warden-recovery/src/main/java/ru/wexside/recovery/warden/WardenQueries.java",
+    "path": "src/recovery/java/ru/wexside/recovery/warden/WardenQueries.java",
+    "original_sha256": "e88ef44c83c0bd85316941a0bb57b8daf49fa7734b65c98c1374a7923d5ee948",
+    "sha256": "e88ef44c83c0bd85316941a0bb57b8daf49fa7734b65c98c1374a7923d5ee948",
+    "transformation": "Byte-identical source copy"
+  },
+  {
+    "origin": "warden-recovery/src/main/java/ru/wexside/recovery/warden/WardenSettings.java",
+    "path": "src/recovery/java/ru/wexside/recovery/warden/WardenSettings.java",
+    "original_sha256": "e2e5792a80c52a5e16fa8032391438992f47e79e7bf4a0d153506784462c41a7",
+    "sha256": "e2e5792a80c52a5e16fa8032391438992f47e79e7bf4a0d153506784462c41a7",
+    "transformation": "Byte-identical source copy"
+  },
+  {
+    "origin": "warden-recovery/src/main/java/ru/wexside/recovery/warden/WardenState.java",
+    "path": "src/recovery/java/ru/wexside/recovery/warden/WardenState.java",
+    "original_sha256": "5298e45311be502f09b202dba80809a6a98617cf1566691b8beb905eeb09ab37",
+    "sha256": "5298e45311be502f09b202dba80809a6a98617cf1566691b8beb905eeb09ab37",
+    "transformation": "Byte-identical source copy"
+  },
+  {
+    "origin": "warden-recovery/src/main/java/ru/wexside/recovery/warden/WardenSupplyFailures.java",
+    "path": "src/recovery/java/ru/wexside/recovery/warden/WardenSupplyFailures.java",
+    "original_sha256": "92de328074063971f9c22fbc9ab7113233ef30d4fd03e6a037081d47b43eb0d3",
+    "sha256": "92de328074063971f9c22fbc9ab7113233ef30d4fd03e6a037081d47b43eb0d3",
+    "transformation": "Byte-identical source copy"
+  },
+  {
+    "origin": "warden-recovery/src/main/java/ru/wexside/recovery/warden/WardenThreatTracker.java",
+    "path": "src/recovery/java/ru/wexside/recovery/warden/WardenThreatTracker.java",
+    "original_sha256": "be2c97324f8e727c7e72a5920f90383520e92f074f3184f0b5094cf58b4b6954",
+    "sha256": "be2c97324f8e727c7e72a5920f90383520e92f074f3184f0b5094cf58b4b6954",
+    "transformation": "Byte-identical source copy"
+  },
+  {
+    "origin": "warden-recovery/src/test/java/ru/wexside/recovery/warden/RecoveryChecks.java",
+    "path": "src/recoveryTest/java/ru/wexside/recovery/warden/RecoveryChecks.java",
+    "original_sha256": "ab3d7e957091227c09cbb7cd88927f30bb3b491c855d193cdcdaea2c40e925d1",
+    "sha256": "ab3d7e957091227c09cbb7cd88927f30bb3b491c855d193cdcdaea2c40e925d1",
+    "transformation": "Byte-identical source copy"
+  },
+  {
+    "origin": "crystal-recovery/src/main/java/ru/wexside/recovery/crystal/BeforeInputHandlingEvent.java",
+    "path": "src/recovery/java/ru/wexside/recovery/crystal/BeforeInputHandlingEvent.java",
+    "original_sha256": "64e9f07c3b518d9630a2e35a882025f0bdf0cf8b7a5c33587e98c09f738aa755",
+    "sha256": "64e9f07c3b518d9630a2e35a882025f0bdf0cf8b7a5c33587e98c09f738aa755",
+    "transformation": "Byte-identical source copy"
+  },
+  {
+    "origin": "crystal-recovery/src/main/java/ru/wexside/recovery/crystal/BeforeItemUseEvent.java",
+    "path": "src/recovery/java/ru/wexside/recovery/crystal/BeforeItemUseEvent.java",
+    "original_sha256": "84d6ba05eba3b7d3531efb7ce5af78cd76b29c87069bf5ffb65e69ffde9cc8b6",
+    "sha256": "84d6ba05eba3b7d3531efb7ce5af78cd76b29c87069bf5ffb65e69ffde9cc8b6",
+    "transformation": "Byte-identical source copy"
+  },
+  {
+    "origin": "crystal-recovery/src/main/java/ru/wexside/recovery/crystal/CrystalAimMath.java",
+    "path": "src/recovery/java/ru/wexside/recovery/crystal/CrystalAimMath.java",
+    "original_sha256": "37b2179ad3422d61605b6ce7f8d0a3168ad846578e7fac12024bde24de774b96",
+    "sha256": "37b2179ad3422d61605b6ce7f8d0a3168ad846578e7fac12024bde24de774b96",
+    "transformation": "Byte-identical source copy"
+  },
+  {
+    "origin": "crystal-recovery/src/main/java/ru/wexside/recovery/crystal/CrystalAttackSharedState.java",
+    "path": "src/recovery/java/ru/wexside/recovery/crystal/CrystalAttackSharedState.java",
+    "original_sha256": "e681fcf8ea1566f2df8344a11da10bc6c9a67c188c2fab9134d96d1f0c183968",
+    "sha256": "e681fcf8ea1566f2df8344a11da10bc6c9a67c188c2fab9134d96d1f0c183968",
+    "transformation": "Byte-identical source copy"
+  },
+  {
+    "origin": "crystal-recovery/src/main/java/ru/wexside/recovery/crystal/CrystalAuraModule.java",
+    "path": "src/recovery/java/ru/wexside/recovery/crystal/CrystalAuraModule.java",
+    "original_sha256": "c2b40514f2cf4984aa24d4f6aa91d82c120e2e8e8014ef12b3891a1c497bff7c",
+    "sha256": "e38e92fb52642538271736a187d64f2d96a8e68e9036f7a6d984322920c0058b",
+    "transformation": "Removed obsolete CFR header only"
+  },
+  {
+    "origin": "crystal-recovery/src/main/java/ru/wexside/recovery/crystal/CrystalAuraSettings.java",
+    "path": "src/recovery/java/ru/wexside/recovery/crystal/CrystalAuraSettings.java",
+    "original_sha256": "9d4bddb33e2a5ad640aedcfcd5d9789336cef1fe9041a343b484f9850a85d9bd",
+    "sha256": "9d4bddb33e2a5ad640aedcfcd5d9789336cef1fe9041a343b484f9850a85d9bd",
+    "transformation": "Byte-identical source copy"
+  },
+  {
+    "origin": "crystal-recovery/src/main/java/ru/wexside/recovery/crystal/CrystalBlockInteractEvent.java",
+    "path": "src/recovery/java/ru/wexside/recovery/crystal/CrystalBlockInteractEvent.java",
+    "original_sha256": "a0662d7c44afcf93e45bdf8239afec59e7a55f1549d031c74391b110896d53d6",
+    "sha256": "a0662d7c44afcf93e45bdf8239afec59e7a55f1549d031c74391b110896d53d6",
+    "transformation": "Byte-identical source copy"
+  },
+  {
+    "origin": "crystal-recovery/src/main/java/ru/wexside/recovery/crystal/CrystalInventorySearch.java",
+    "path": "src/recovery/java/ru/wexside/recovery/crystal/CrystalInventorySearch.java",
+    "original_sha256": "f13113eff2838a0cd07b735a7cf78b42ea688dfb49ff427844e282054eda7855",
+    "sha256": "f13113eff2838a0cd07b735a7cf78b42ea688dfb49ff427844e282054eda7855",
+    "transformation": "Byte-identical source copy"
+  },
+  {
+    "origin": "crystal-recovery/src/main/java/ru/wexside/recovery/crystal/CrystalMouseQuantizer.java",
+    "path": "src/recovery/java/ru/wexside/recovery/crystal/CrystalMouseQuantizer.java",
+    "original_sha256": "39c5624832d9c90b0ff4c18230dcc7eacd68f1e7f8a80f3281e96ec94763c5b6",
+    "sha256": "39c5624832d9c90b0ff4c18230dcc7eacd68f1e7f8a80f3281e96ec94763c5b6",
+    "transformation": "Byte-identical source copy"
+  },
+  {
+    "origin": "crystal-recovery/src/main/java/ru/wexside/recovery/crystal/CrystalMovementCorrection.java",
+    "path": "src/recovery/java/ru/wexside/recovery/crystal/CrystalMovementCorrection.java",
+    "original_sha256": "87ab25a2394bf9d8eb3eff6248c180b9bfce8dcb1cb054629e0ff56e34255abb",
+    "sha256": "87ab25a2394bf9d8eb3eff6248c180b9bfce8dcb1cb054629e0ff56e34255abb",
+    "transformation": "Byte-identical source copy"
+  },
+  {
+    "origin": "crystal-recovery/src/main/java/ru/wexside/recovery/crystal/CrystalRotationControllerContract.java",
+    "path": "src/recovery/java/ru/wexside/recovery/crystal/CrystalRotationControllerContract.java",
+    "original_sha256": "d0f70590d6651aa70749f29544b7f3f39b1c8c6430a03b4d24527a39f86eeba7",
+    "sha256": "d0f70590d6651aa70749f29544b7f3f39b1c8c6430a03b4d24527a39f86eeba7",
+    "transformation": "Byte-identical source copy"
+  },
+  {
+    "origin": "crystal-recovery/src/main/java/ru/wexside/recovery/crystal/CrystalRotationLease.java",
+    "path": "src/recovery/java/ru/wexside/recovery/crystal/CrystalRotationLease.java",
+    "original_sha256": "c946d3aaefeccf27c7895968761b9315c3f651deaa32778bb4f6a99cbec914ed",
+    "sha256": "c946d3aaefeccf27c7895968761b9315c3f651deaa32778bb4f6a99cbec914ed",
+    "transformation": "Byte-identical source copy"
+  },
+  {
+    "origin": "crystal-recovery/src/main/java/ru/wexside/recovery/crystal/CrystalRotationRequest.java",
+    "path": "src/recovery/java/ru/wexside/recovery/crystal/CrystalRotationRequest.java",
+    "original_sha256": "e76e00dbfbca82456d932d316ebc33a697179aabd9b87631b928e1c0bd11a792",
+    "sha256": "e76e00dbfbca82456d932d316ebc33a697179aabd9b87631b928e1c0bd11a792",
+    "transformation": "Byte-identical source copy"
+  },
+  {
+    "origin": "crystal-recovery/src/main/java/ru/wexside/recovery/crystal/CrystalRotationStrategy.java",
+    "path": "src/recovery/java/ru/wexside/recovery/crystal/CrystalRotationStrategy.java",
+    "original_sha256": "3ec0a0c8c39c0fe76f97635a806ce187b707e49b35159b35b67a10f9fb991614",
+    "sha256": "3ec0a0c8c39c0fe76f97635a806ce187b707e49b35159b35b67a10f9fb991614",
+    "transformation": "Byte-identical source copy"
+  },
+  {
+    "origin": "crystal-recovery/src/main/java/ru/wexside/recovery/crystal/CrystalRotationStrategyFactory.java",
+    "path": "src/recovery/java/ru/wexside/recovery/crystal/CrystalRotationStrategyFactory.java",
+    "original_sha256": "ea7ea97bc7f6c5a05d4576791062551a75775389a2634d52599b7d166af48c73",
+    "sha256": "ea7ea97bc7f6c5a05d4576791062551a75775389a2634d52599b7d166af48c73",
+    "transformation": "Byte-identical source copy"
+  },
+  {
+    "origin": "crystal-recovery/src/main/java/ru/wexside/recovery/crystal/CrystalRotationStrength.java",
+    "path": "src/recovery/java/ru/wexside/recovery/crystal/CrystalRotationStrength.java",
+    "original_sha256": "72f96ca03881f90ee760ddfbf88d15158c436ab8efd13a17b0dc18f4ad8c9cec",
+    "sha256": "72f96ca03881f90ee760ddfbf88d15158c436ab8efd13a17b0dc18f4ad8c9cec",
+    "transformation": "Byte-identical source copy"
+  },
+  {
+    "origin": "crystal-recovery/src/main/java/ru/wexside/recovery/crystal/CrystalUpdateEvent.java",
+    "path": "src/recovery/java/ru/wexside/recovery/crystal/CrystalUpdateEvent.java",
+    "original_sha256": "8801df50a53b7488476fe7b32c78f4e8429d1f7f2dd9b542a7fd0109c61f0f85",
+    "sha256": "8801df50a53b7488476fe7b32c78f4e8429d1f7f2dd9b542a7fd0109c61f0f85",
+    "transformation": "Byte-identical source copy"
+  },
+  {
+    "origin": "crystal-recovery/src/main/java/ru/wexside/recovery/crystal/PatchedCrystalRotationStrategy.java",
+    "path": "src/recovery/java/ru/wexside/recovery/crystal/PatchedCrystalRotationStrategy.java",
+    "original_sha256": "6a29854a68599865c1b42afbedab8ba4107e0482c40a075609ccaab2004a5016",
+    "sha256": "6a29854a68599865c1b42afbedab8ba4107e0482c40a075609ccaab2004a5016",
+    "transformation": "Byte-identical source copy"
+  },
+  {
+    "origin": "crystal-recovery/src/main/java/ru/wexside/recovery/crystal/PatchedCrystalRotationStrategyFactory.java",
+    "path": "src/recovery/java/ru/wexside/recovery/crystal/PatchedCrystalRotationStrategyFactory.java",
+    "original_sha256": "e72b372a5b7f8c84a5634cc34641641a8d985e9059317f2e9dcedd2131b54113",
+    "sha256": "e72b372a5b7f8c84a5634cc34641641a8d985e9059317f2e9dcedd2131b54113",
+    "transformation": "Byte-identical source copy"
+  },
+  {
+    "origin": "crystal-recovery/src/main/java/ru/wexside/recovery/crystal/RichCrystalRotationController.java",
+    "path": "src/recovery/java/ru/wexside/recovery/crystal/RichCrystalRotationController.java",
+    "original_sha256": "6989e8c8263f6753c7e0d29ab976f62e6db0c6064b0de3af1e0ae22961100565",
+    "sha256": "6989e8c8263f6753c7e0d29ab976f62e6db0c6064b0de3af1e0ae22961100565",
+    "transformation": "Byte-identical source copy"
+  },
+  {
+    "origin": "temp-module-recovery/src/main/java/ru/wexside/recovery/donmarket/DonMarketRunnerBehavior.java",
+    "path": "src/recovery/java/ru/wexside/recovery/donmarket/DonMarketRunnerBehavior.java",
+    "original_sha256": "6c6a3ed7cf38022576992c27a1052dcea64849ad00b3781e9c397f42f979c72d",
+    "sha256": "6c6a3ed7cf38022576992c27a1052dcea64849ad00b3781e9c397f42f979c72d",
+    "transformation": "Byte-identical source copy"
+  },
+  {
+    "origin": "temp-module-recovery/src/test/java/ru/wexside/recovery/donmarket/DonMarketRecoveryChecks.java",
+    "path": "src/recoveryTest/java/ru/wexside/recovery/donmarket/DonMarketRecoveryChecks.java",
+    "original_sha256": "56f733796a7f440186d1c24bfa43f3864c5af7fe8fea521cffeeea648f1aa35e",
+    "sha256": "56f733796a7f440186d1c24bfa43f3864c5af7fe8fea521cffeeea648f1aa35e",
+    "transformation": "Byte-identical source copy"
+  },
+  {
+    "origin": "crystal-recovery/CrystalRotationLeaseChecks.java",
+    "path": "src/recoveryTest/java/ru/wexside/recovery/crystal/CrystalRotationLeaseChecks.java",
+    "original_sha256": "26858ef393b0c739d556d88a06bd503b2da2e3237fd9b35e864f3c84a48192ff",
+    "sha256": "26858ef393b0c739d556d88a06bd503b2da2e3237fd9b35e864f3c84a48192ff",
+    "transformation": "Byte-identical source copy"
+  },
+  {
+    "origin": "crystal-recovery/CrystalAuraConstructionChecks.java",
+    "path": "src/recoveryTest/java/ru/wexside/recovery/crystal/CrystalAuraConstructionChecks.java",
+    "original_sha256": "dc2b7342ba719069e3f8623189a86ab6404be45ca9e837563376207070a51b3d",
+    "sha256": "dc2b7342ba719069e3f8623189a86ab6404be45ca9e837563376207070a51b3d",
+    "transformation": "Byte-identical source copy"
+  },
+  {
+    "origin": "crystal-recovery/CrystalControllerChecks.java",
+    "path": "src/recoveryTest/java/ru/wexside/recovery/crystal/CrystalControllerChecks.java",
+    "original_sha256": "d2009f02f8264e07a62de714d6da84ab85283740c4abb909ed77992e7c25dc10",
+    "sha256": "d2009f02f8264e07a62de714d6da84ab85283740c4abb909ed77992e7c25dc10",
+    "transformation": "Byte-identical source copy"
+  }
+]

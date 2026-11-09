@@ -1,0 +1,73 @@
+{
+  "classes": 140,
+  "module_types": 120,
+  "identical_to_jar": 134,
+  "differences": [
+    {
+      "owner": "wexside/IiIlIiliIillIl",
+      "module": true,
+      "same": false,
+      "constructors": [
+        [
+          "(Lwexside/IiIlllIllllilil;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lwexside/lllillIlIlIllil;[Ljava/lang/String;)V",
+          14
+        ]
+      ]
+    },
+    {
+      "owner": "wexside/IiIllililllill",
+      "module": true,
+      "same": false,
+      "constructors": [
+        [
+          "(Lwexside/IiIlllIllllilil;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lwexside/lllillIlIlIllil;[Ljava/lang/String;)V",
+          9
+        ]
+      ]
+    },
+    {
+      "owner": "wexside/liIiIlIiIiIiIil",
+      "module": true,
+      "same": false,
+      "constructors": [
+        [
+          "(Lwexside/IiIlllIllllilil;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lwexside/lllillIlIlIllil;[Ljava/lang/String;)V",
+          9
+        ]
+      ]
+    },
+    {
+      "owner": "wexside/liIlllIiIlllIil",
+      "module": true,
+      "same": false,
+      "constructors": [
+        [
+          "(Lwexside/IiIlllIllllilil;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lwexside/lllillIlIlIllil;[Ljava/lang/String;)V",
+          9
+        ]
+      ]
+    },
+    {
+      "owner": "wexside/llIillIillliIl",
+      "module": true,
+      "same": false,
+      "constructors": [
+        [
+          "(Lwexside/IiIlllIllllilil;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lwexside/lllillIlIlIllil;[Ljava/lang/String;)V",
+          14
+        ]
+      ]
+    },
+    {
+      "owner": "wexside/llllIiliIlllIil",
+      "module": true,
+      "same": false,
+      "constructors": [
+        [
+          "(Lwexside/IiIlllIllllilil;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lwexside/lllillIlIlIllil;[Ljava/lang/String;)V",
+          14
+        ]
+      ]
+    }
+  ]
+}

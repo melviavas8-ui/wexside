@@ -1,0 +1,20 @@
+[
+  {
+    "enum": "LOW",
+    "hex": "7D72388F1A6C0B1703AE87F2",
+    "key": 1943042415,
+    "decoded": "Низкий"
+  },
+  {
+    "enum": "MEDIUM",
+    "hex": "7752BDF9D8E9EA5A730ABFA3D9F4",
+    "key": 1714910067,
+    "decoded": "Средний"
+  },
+  {
+    "enum": "HIGH",
+    "hex": "CD7860FE361B9D13C8ACE273771C",
+    "key": 1381812586,
+    "decoded": "Высокий"
+  }
+]

@@ -1,0 +1,572 @@
+[
+  {
+    "source": "WardenQueries",
+    "readable": "moving",
+    "owner": "wexside/llIillIillliIl",
+    "original": "lIIlliiilII",
+    "descriptor": "(Lwexside/llIillIillliIl;Lwexside/IlliliIiIilil;)Z",
+    "fingerprint": "0eb1aab98c791ca6591893882391f81bd9aea2799480f5919ef3f1bab8e9da78",
+    "cleanInstructions": 27,
+    "evidence": "Retained method body, offline constant decoding and exact selector/identity-proxy resolution; see mapped-java and raw javap."
+  },
+  {
+    "source": "WardenQueries",
+    "readable": "candles",
+    "owner": "wexside/llIillIillliIl",
+    "original": "llIlliiilII",
+    "descriptor": "(Lwexside/llIillIillliIl;)Ljava/util/List;",
+    "fingerprint": "1aa78b12228a5ab4c89783128aab0420da0a70526565330ae050d6661e4121b4",
+    "cleanInstructions": 60,
+    "evidence": "Retained method body, offline constant decoding and exact selector/identity-proxy resolution; see mapped-java and raw javap."
+  },
+  {
+    "source": "WardenQueries",
+    "readable": "hasOtherPlayerWithin",
+    "owner": "wexside/llIillIillliIl",
+    "original": "iiiliIiilII",
+    "descriptor": "(Lwexside/llIillIillliIl;Lwexside/IlliliIiIilil;D)Z",
+    "fingerprint": "08e543079eb4cb358bfd11db9bdbae60df3ff863faa980f77d13d58b6c3b2751",
+    "cleanInstructions": 132,
+    "evidence": "Retained method body, offline constant decoding and exact selector/identity-proxy resolution; see mapped-java and raw javap."
+  },
+  {
+    "source": "WardenQueries",
+    "readable": "hasOtherPlayerNearBlock",
+    "owner": "wexside/llIillIillliIl",
+    "original": "iiilliiilII",
+    "descriptor": "(Lwexside/llIillIillliIl;Lwexside/IlliliIiIilil;Lwexside/IlIlliIiIllil;D)Z",
+    "fingerprint": "e690f89f0e9d35671346909e72329fbe218a1e81082e1344dcea973a18229930",
+    "cleanInstructions": 110,
+    "evidence": "Retained method body, offline constant decoding and exact selector/identity-proxy resolution; see mapped-java and raw javap."
+  },
+  {
+    "source": "WardenQueries",
+    "readable": "glowingNearAnotherPlayer",
+    "owner": "wexside/llIillIillliIl",
+    "original": "llIIliiilII",
+    "descriptor": "(Lwexside/llIillIillliIl;Lwexside/IlliliIiIilil;)Z",
+    "fingerprint": "7e9f76e5c6a54137b528118039f36aa3052b9ba0f7cf5f36a8fca50f7b4851fd",
+    "cleanInstructions": 28,
+    "evidence": "Retained method body, offline constant decoding and exact selector/identity-proxy resolution; see mapped-java and raw javap."
+  },
+  {
+    "source": "WardenQueries",
+    "readable": "intersectsNonAirBlock",
+    "owner": "wexside/llIillIillliIl",
+    "original": "iIIIliiilII",
+    "descriptor": "(Lwexside/llIillIillliIl;Lwexside/IlliliIiIilil;)Z",
+    "fingerprint": "ccd36096313c9831f1c9f6ddaf24d495218df0841430e6445c30aa15511fec7a",
+    "cleanInstructions": 98,
+    "evidence": "Retained method body, offline constant decoding and exact selector/identity-proxy resolution; see mapped-java and raw javap."
+  },
+  {
+    "source": "WardenQueries",
+    "readable": "firstEmptyMainInventorySlot",
+    "owner": "wexside/llIillIillliIl",
+    "original": "iIilliiilII",
+    "descriptor": "(Lwexside/llIillIillliIl;Lwexside/liliIillIilllil;)I",
+    "fingerprint": "cb5206af07850d9c821d491a0abcbdeca0ccdf40c73e44bbc51253e1ffe0292c",
+    "cleanInstructions": 91,
+    "evidence": "Retained method body, offline constant decoding and exact selector/identity-proxy resolution; see mapped-java and raw javap."
+  },
+  {
+    "source": "WardenQueries",
+    "readable": "parseFarmAnarchy",
+    "owner": "wexside/llIillIillliIl",
+    "original": "lliIiIiilII",
+    "descriptor": "(Lwexside/llIillIillliIl;Ljava/lang/String;)I",
+    "fingerprint": "644c5cd840a56a865c4531a618c4d4c9e0ac0a8767a637739e78db4dafa3c406",
+    "cleanInstructions": 52,
+    "evidence": "Retained method body, offline constant decoding and exact selector/identity-proxy resolution; see mapped-java and raw javap."
+  },
+  {
+    "source": "WardenQueries",
+    "readable": "escapeReason",
+    "owner": "wexside/llIillIillliIl",
+    "original": "IllIliiilII",
+    "descriptor": "(Lwexside/llIillIillliIl;Lwexside/IlliliIiIilil;)Ljava/lang/String;",
+    "fingerprint": "2e948bd509c48c8b8a455d9c6b6cf6093ddadf253b53f43dc885ed13b2b92245",
+    "cleanInstructions": 181,
+    "evidence": "Retained method body, offline constant decoding and exact selector/identity-proxy resolution; see mapped-java and raw javap."
+  },
+  {
+    "source": "WardenQueries",
+    "readable": "orbitChest",
+    "owner": "wexside/llIillIillliIl",
+    "original": "iiIiiIiilII",
+    "descriptor": "(Lwexside/llIillIillliIl;Lwexside/IlliliIiIilil;Lwexside/IlIlliIiIllil;)Lwexside/IlIlliIiIllil;",
+    "fingerprint": "097f57c1935c20729384e549e3c7330fc14e3815136a0a13258f2db67a6baba2",
+    "cleanInstructions": 48,
+    "evidence": "Retained method body, offline constant decoding and exact selector/identity-proxy resolution; see mapped-java and raw javap."
+  },
+  {
+    "source": "WardenCoordinator",
+    "readable": "transition",
+    "owner": "wexside/llIillIillliIl",
+    "original": "liIiiIiilII",
+    "descriptor": "(Lwexside/llIillIillliIl;Lwexside/lililillllIllil;Ljava/lang/String;)V",
+    "fingerprint": "cff79daf28c2043e7ed3495fd2ed6b737f8260fde086bbc996772e5b0c1c73f7",
+    "cleanInstructions": 111,
+    "evidence": "Retained method body, offline constant decoding and exact selector/identity-proxy resolution; see mapped-java and raw javap."
+  },
+  {
+    "source": "WardenCoordinator",
+    "readable": "pauseAfterInteraction",
+    "owner": "wexside/llIillIillliIl",
+    "original": "iiiiiIiilII",
+    "descriptor": "(Lwexside/IlliliIiIilil;Lwexside/llIillIillliIl;)V",
+    "fingerprint": "e4f1b6722bbd5aaee4f156b2de443238b716249db1ade9680e49fd2f97167a6c",
+    "cleanInstructions": 11,
+    "evidence": "Retained method body, offline constant decoding and exact selector/identity-proxy resolution; see mapped-java and raw javap."
+  },
+  {
+    "source": "WardenCoordinator",
+    "readable": "pulseHomeCommand",
+    "owner": "wexside/llIillIillliIl",
+    "original": "lillliiilII",
+    "descriptor": "(Lwexside/llIillIillliIl;Lwexside/IlliliIiIilil;)V",
+    "fingerprint": "eac5c280156406414a9daf352ab609b6a41ed62c96e48ddc1f68db5958426a63",
+    "cleanInstructions": 11,
+    "evidence": "Retained method body, offline constant decoding and exact selector/identity-proxy resolution; see mapped-java and raw javap."
+  },
+  {
+    "source": "WardenCoordinator",
+    "readable": "closeContainerPeriodically",
+    "owner": "wexside/llIillIillliIl",
+    "original": "lliiiIiilII",
+    "descriptor": "(Lwexside/IlliliIiIilil;)V",
+    "fingerprint": "779ab2c2e4c6e5a4846d886ec936d7a4267d1c6e49563799fbbbb12939d680dc",
+    "cleanInstructions": 8,
+    "evidence": "Retained method body, offline constant decoding and exact selector/identity-proxy resolution; see mapped-java and raw javap."
+  },
+  {
+    "source": "WardenCoordinator",
+    "readable": "approachChest",
+    "owner": "wexside/llIillIillliIl",
+    "original": "lIlIliiilII",
+    "descriptor": "(Lwexside/llIillIillliIl;Lwexside/IlliliIiIilil;Lwexside/IlIlliIiIllil;)V",
+    "fingerprint": "43acc3859cf50d01c271ba6f740bd154462b3a17fc48683b1f699d4cc3250235",
+    "cleanInstructions": 61,
+    "evidence": "Retained method body, offline constant decoding and exact selector/identity-proxy resolution; see mapped-java and raw javap."
+  },
+  {
+    "source": "WardenCoordinator",
+    "readable": "tickStallWatchdog",
+    "owner": "wexside/llIillIillliIl",
+    "original": "iiliiIiilII",
+    "descriptor": "(Lwexside/llIillIillliIl;Lwexside/IlliliIiIilil;)V",
+    "fingerprint": "9935aba24176f89ff840e437bc8ec874554732036ca6ac4c2036ee6614c1859b",
+    "cleanInstructions": 121,
+    "evidence": "Retained method body, offline constant decoding and exact selector/identity-proxy resolution; see mapped-java and raw javap."
+  },
+  {
+    "source": "WardenCoordinator",
+    "readable": "handleCollectionEscape",
+    "owner": "wexside/llIillIillliIl",
+    "original": "iiIlliiilII",
+    "descriptor": "(Lwexside/llIillIillliIl;Lwexside/IlliliIiIilil;)Z",
+    "fingerprint": "eda852004d8e582020ac0789f344dd441d3d1decd997b41af868b18da2109204",
+    "cleanInstructions": 260,
+    "evidence": "Retained method body, offline constant decoding and exact selector/identity-proxy resolution; see mapped-java and raw javap."
+  },
+  {
+    "source": "WardenAnarchyRoute",
+    "readable": "start",
+    "owner": "wexside/lillIililililil",
+    "original": "lliiIllIIl",
+    "descriptor": "(Lwexside/lillIililililil;ILjava/util/List;)V",
+    "fingerprint": "38d8cc5999f205acef05481af48a3eca97ef9be60b9073c7a34a3eb3cb2d2a8a",
+    "cleanInstructions": 64,
+    "evidence": "Retained method body, offline constant decoding and exact selector/identity-proxy resolution; see mapped-java and raw javap."
+  },
+  {
+    "source": "WardenAnarchyRoute",
+    "readable": "home",
+    "owner": "wexside/lillIililililil",
+    "original": "iIIiIllIIl",
+    "descriptor": "(Lwexside/lillIililililil;)I",
+    "fingerprint": "5bc5f54360adf61f3b1a1a9ad44016e916cadbf7d99137f60f1ba22fcee21c9d",
+    "cleanInstructions": 11,
+    "evidence": "Retained method body, offline constant decoding and exact selector/identity-proxy resolution; see mapped-java and raw javap."
+  },
+  {
+    "source": "WardenAnarchyRoute",
+    "readable": "target",
+    "owner": "wexside/lillIililililil",
+    "original": "IIiiIllIIl",
+    "descriptor": "(Lwexside/lillIililililil;)I",
+    "fingerprint": "044456dce8dc71dacd98b3a9965a1f7107d1f83a020311bc8847df61a0d92cf0",
+    "cleanInstructions": 18,
+    "evidence": "Retained method body, offline constant decoding and exact selector/identity-proxy resolution; see mapped-java and raw javap."
+  },
+  {
+    "source": "WardenAnarchyRoute",
+    "readable": "advance",
+    "owner": "wexside/lillIililililil",
+    "original": "IiIiIllIIl",
+    "descriptor": "(Lwexside/lillIililililil;)V",
+    "fingerprint": "f15525f12883fd9c715352252bee94894ed642ae3f1f26604083dd21f736c76d",
+    "cleanInstructions": 30,
+    "evidence": "Retained method body, offline constant decoding and exact selector/identity-proxy resolution; see mapped-java and raw javap."
+  },
+  {
+    "source": "WardenAnarchyRoute",
+    "readable": "ready",
+    "owner": "wexside/lillIililililil",
+    "original": "lIIiIllIIl",
+    "descriptor": "(Lwexside/lillIililililil;)Z",
+    "fingerprint": "9dfb432a6baf298346a80a06b0551bf3e94c6e2d7deeb12d91af1dbec71151a4",
+    "cleanInstructions": 15,
+    "evidence": "Retained method body, offline constant decoding and exact selector/identity-proxy resolution; see mapped-java and raw javap."
+  },
+  {
+    "source": "WardenConsumableWindow",
+    "readable": "reset",
+    "owner": "wexside/IlIiIlliliIllil",
+    "original": "llliiiIliI",
+    "descriptor": "(Lwexside/IlIiIlliliIllil;)V",
+    "fingerprint": "25b8da093f81250073a43a7656461278ec423c0001313ca00011242caaa02ffe",
+    "cleanInstructions": 7,
+    "evidence": "Retained method body, offline constant decoding and exact selector/identity-proxy resolution; see mapped-java and raw javap."
+  },
+  {
+    "source": "WardenConsumableWindow",
+    "readable": "shouldDeferConsumables",
+    "owner": "wexside/IlIiIlliliIllil",
+    "original": "liiIiiIliI",
+    "descriptor": "(Lwexside/IlIiIlliliIllil;Ljava/lang/Object;JZDIIFJ)Z",
+    "fingerprint": "0cb44919730f4a2282e47f127acec255bc825b266cda0a6aa30b5f9fad2514cc",
+    "cleanInstructions": 95,
+    "evidence": "Retained method body, offline constant decoding and exact selector/identity-proxy resolution; see mapped-java and raw javap."
+  },
+  {
+    "source": "WardenLootFilter",
+    "readable": "threshold",
+    "owner": "wexside/IlIlIillIiIilil",
+    "original": "IIIlIllI",
+    "descriptor": "(Lwexside/IlIlIillIiIilil;I)I",
+    "fingerprint": "eb187bd6b951a2395417f2fbc89af1ef6b4603105489553b78bf3dcb137621f1",
+    "cleanInstructions": 39,
+    "evidence": "Retained method body, offline constant decoding and exact selector/identity-proxy resolution; see mapped-java and raw javap."
+  },
+  {
+    "source": "WardenLootFilter",
+    "readable": "shouldSkip",
+    "owner": "wexside/IlIlIillIiIilil",
+    "original": "lIilIllI",
+    "descriptor": "(Lwexside/IlIlIillIiIilil;Lwexside/IlIlIlllIllllil;)Z",
+    "fingerprint": "f49fffabc8ed12dd40d99216b817fd1884713c6c3988758603fa8a6aa0fa0fb0",
+    "cleanInstructions": 57,
+    "evidence": "Retained method body, offline constant decoding and exact selector/identity-proxy resolution; see mapped-java and raw javap."
+  },
+  {
+    "source": "WardenLootFilter",
+    "readable": "skippedAtMedium",
+    "owner": "wexside/IlIlIillIiIilil",
+    "original": "iiIlIllI",
+    "descriptor": "(Lwexside/IlIlIillIiIilil;Lwexside/IlIlIlllIllllil;)Z",
+    "fingerprint": "051f2f9dde302773cf920f90a870ffafd711b0aec8e62599ea6366dbd1f15639",
+    "cleanInstructions": 92,
+    "evidence": "Retained method body, offline constant decoding and exact selector/identity-proxy resolution; see mapped-java and raw javap."
+  },
+  {
+    "source": "WardenLootFilter",
+    "readable": "skippedAtHigh",
+    "owner": "wexside/IlIlIillIiIilil",
+    "original": "IIilIllI",
+    "descriptor": "(Lwexside/IlIlIillIiIilil;Lwexside/IlIlIlllIllllil;)Z",
+    "fingerprint": "d4ce05eaca24ea8df3121ce6b396292a1671d4f8ce21cb59b925eb9df300e68c",
+    "cleanInstructions": 132,
+    "evidence": "Retained method body, offline constant decoding and exact selector/identity-proxy resolution; see mapped-java and raw javap."
+  },
+  {
+    "source": "WardenLootFilter",
+    "readable": "customItemId",
+    "owner": "wexside/IlIlIillIiIilil",
+    "original": "IlilIllI",
+    "descriptor": "(Lwexside/IlIlIillIiIilil;Lwexside/IlIlIlllIllllil;)Ljava/lang/String;",
+    "fingerprint": "94acee08e31628ee129d173fb3afbe9df8a7d3dd2d4a6d3363938dc7747469f6",
+    "cleanInstructions": 32,
+    "evidence": "Retained method body, offline constant decoding and exact selector/identity-proxy resolution; see mapped-java and raw javap."
+  },
+  {
+    "source": "WardenSupplyFailures",
+    "readable": "reset",
+    "owner": "wexside/IlllIililiIlIil",
+    "original": "reset",
+    "descriptor": "()V",
+    "fingerprint": "29199c66fc8a65d7a629dd01177d51430a69a4a1e532cd63ee52f215a296ba96",
+    "cleanInstructions": 6,
+    "evidence": "Retained method body, offline constant decoding and exact selector/identity-proxy resolution; see mapped-java and raw javap."
+  },
+  {
+    "source": "WardenSupplyFailures",
+    "readable": "collectionAttempted",
+    "owner": "wexside/IlllIililiIlIil",
+    "original": "iiiIIlliIl",
+    "descriptor": "()Z",
+    "fingerprint": "69e08d79d2759b63fa259f4b984fe2dab6c5ab75096046f1cf6776d0af849be9",
+    "cleanInstructions": 3,
+    "evidence": "Retained method body, offline constant decoding and exact selector/identity-proxy resolution; see mapped-java and raw javap."
+  },
+  {
+    "source": "WardenSupplyFailures",
+    "readable": "exhausted",
+    "owner": "wexside/IlllIililiIlIil",
+    "original": "iIliIlliIl",
+    "descriptor": "()Z",
+    "fingerprint": "7122b890d173ff6311078998e47aee4fee468d9a3410512978abc0d76838d46d",
+    "cleanInstructions": 13,
+    "evidence": "Retained method body, offline constant decoding and exact selector/identity-proxy resolution; see mapped-java and raw javap."
+  },
+  {
+    "source": "WardenSupplyFailures",
+    "readable": "clearFailures",
+    "owner": "wexside/IlllIililiIlIil",
+    "original": "IlliIlliIl",
+    "descriptor": "()V",
+    "fingerprint": "35f5a5f89a5b56f2903e5a8d38786f9b1de8053bf616c1ae9158c62d4f817bbb",
+    "cleanInstructions": 7,
+    "evidence": "Retained method body, offline constant decoding and exact selector/identity-proxy resolution; see mapped-java and raw javap."
+  },
+  {
+    "source": "WardenSupplyFailures",
+    "readable": "markCollectionAttempt",
+    "owner": "wexside/IlllIililiIlIil",
+    "original": "lIliIlliIl",
+    "descriptor": "()V",
+    "fingerprint": "196f16ca52f14ba57e395553dde9bf28169c9b851c69c0ee9cc99073b3b584f7",
+    "cleanInstructions": 4,
+    "evidence": "Retained method body, offline constant decoding and exact selector/identity-proxy resolution; see mapped-java and raw javap."
+  },
+  {
+    "source": "WardenSupplyFailures",
+    "readable": "failed",
+    "owner": "wexside/IlllIililiIlIil",
+    "original": "failed",
+    "descriptor": "()V",
+    "fingerprint": "23ca8b171dd71aaa4e58559d06c48c7a935b15ef11c516ae58a116d9d540d2ab",
+    "cleanInstructions": 23,
+    "evidence": "Retained method body, offline constant decoding and exact selector/identity-proxy resolution; see mapped-java and raw javap."
+  },
+  {
+    "source": "WardenDeathTracker",
+    "readable": "acceptMessage",
+    "owner": "wexside/IiIlIiIilllilil",
+    "original": "liiiilll",
+    "descriptor": "(Lwexside/IiIlIiIilllilil;Lwexside/IillllIlIlllIil;)V",
+    "fingerprint": "8efb63fb34b88f4e59d1a8bfb67655c2b5f0efad07fc9579d11271c9416a5f53",
+    "cleanInstructions": 46,
+    "evidence": "Retained method body, offline constant decoding and exact selector/identity-proxy resolution; see mapped-java and raw javap."
+  },
+  {
+    "source": "WardenDeathTracker",
+    "readable": "consumeDeath",
+    "owner": "wexside/IiIlIiIilllilil",
+    "original": "iiiiilll",
+    "descriptor": "(Lwexside/IiIlIiIilllilil;)Z",
+    "fingerprint": "6ef32c5221949521e853dd89375e96ce20a6c63973949046c56694449281562d",
+    "cleanInstructions": 62,
+    "evidence": "Retained method body, offline constant decoding and exact selector/identity-proxy resolution; see mapped-java and raw javap."
+  },
+  {
+    "source": "WardenDeathTracker",
+    "readable": "consumeKiller",
+    "owner": "wexside/IiIlIiIilllilil",
+    "original": "iliiilll",
+    "descriptor": "(Lwexside/IiIlIiIilllilil;)Ljava/lang/String;",
+    "fingerprint": "19796bc46a150cdde675cdb7e60bbe30339720e71efb6debc220ba327845ca34",
+    "cleanInstructions": 18,
+    "evidence": "Retained method body, offline constant decoding and exact selector/identity-proxy resolution; see mapped-java and raw javap."
+  },
+  {
+    "source": "WardenLootLevel",
+    "readable": "scale",
+    "owner": "wexside/IiliIillliIllil",
+    "original": "illIIIiiIiI",
+    "descriptor": "(Lwexside/IiliIillliIllil;I)I",
+    "fingerprint": "99deb02796b5e2d10cd4e9ed02d7bc477512a9c2158ad55d7d0a0caff599ba5a",
+    "cleanInstructions": 21,
+    "evidence": "Retained method body, offline constant decoding and exact selector/identity-proxy resolution; see mapped-java and raw javap."
+  },
+  {
+    "source": "WardenLootLevel",
+    "readable": "factor",
+    "owner": "wexside/IiliIillliIllil",
+    "original": "IIilIIiiIiI",
+    "descriptor": "(Lwexside/IiliIillliIllil;)D",
+    "fingerprint": "256d84210060094d3457ded05502cefdd4930c18675a07bfa88d9fe1751a28c4",
+    "cleanInstructions": 17,
+    "evidence": "Retained method body, offline constant decoding and exact selector/identity-proxy resolution; see mapped-java and raw javap."
+  },
+  {
+    "source": "WardenLootLevel",
+    "readable": "label",
+    "owner": "wexside/IiliIillliIllil",
+    "original": "liilIIiiIiI",
+    "descriptor": "(Lwexside/IiliIillliIllil;)Ljava/lang/String;",
+    "fingerprint": "ad91f4874036f34c6a3c3d414d970755a1dd6cd09e56da3c39d72b31069a79ac",
+    "cleanInstructions": 19,
+    "evidence": "Retained method body, offline constant decoding and exact selector/identity-proxy resolution; see mapped-java and raw javap."
+  },
+  {
+    "source": "WardenLootLevel",
+    "readable": "fromLabel",
+    "owner": "wexside/llIiIllillIllil",
+    "original": "lIlIiIlIl",
+    "descriptor": "(Ljava/lang/String;)Lwexside/IiliIillliIllil;",
+    "fingerprint": "4735b850be09b61b8b1ecc3259271a0d96ed64601a0710bb65d05bd8f973cab4",
+    "cleanInstructions": 89,
+    "evidence": "Retained method body, offline constant decoding and exact selector/identity-proxy resolution; see mapped-java and raw javap."
+  },
+  {
+    "source": "WardenFarmRegion",
+    "readable": "containsHorizontal",
+    "owner": "wexside/lililllillIllil",
+    "original": "lIIiIIlIl",
+    "descriptor": "(Lwexside/IlIlliIiIllil;)Z",
+    "fingerprint": "ba2117fa20592fdde7c1d68fefbea00f47ba1ec008700549e707b7989ccb7723",
+    "cleanInstructions": 49,
+    "evidence": "Retained method body, offline constant decoding and exact selector/identity-proxy resolution; see mapped-java and raw javap."
+  },
+  {
+    "source": "WardenFarmRegion",
+    "readable": "contains",
+    "owner": "wexside/lililllillIllil",
+    "original": "IlIiIIlIl",
+    "descriptor": "(Lwexside/IlliliIiIilil;)Z",
+    "fingerprint": "152e245eeaf9d27986cc5c88f35aa35a9e126367b4b139c0d580ab3b1f4b53fc",
+    "cleanInstructions": 60,
+    "evidence": "Retained method body, offline constant decoding and exact selector/identity-proxy resolution; see mapped-java and raw javap."
+  },
+  {
+    "source": "WardenFarmRegion",
+    "readable": "containsVolume",
+    "owner": "wexside/lililllillIllil",
+    "original": "iiliIIlIl",
+    "descriptor": "(Lwexside/IlIlliIiIllil;)Z",
+    "fingerprint": "192b028b91407dc962542b8f097ded3ef39a43326b905c48958be349b443490f",
+    "cleanInstructions": 55,
+    "evidence": "Retained method body, offline constant decoding and exact selector/identity-proxy resolution; see mapped-java and raw javap."
+  },
+  {
+    "source": "WardenFarmRegion",
+    "readable": "clampX",
+    "owner": "wexside/lililllillIllil",
+    "original": "ilIiIIlIl",
+    "descriptor": "(II)I",
+    "fingerprint": "c82089c81c6865096a4138d9f609d75b943b033c06622d98834b0d5c96993548",
+    "cleanInstructions": 29,
+    "evidence": "Retained method body, offline constant decoding and exact selector/identity-proxy resolution; see mapped-java and raw javap."
+  },
+  {
+    "source": "WardenFarmRegion",
+    "readable": "clampZ",
+    "owner": "wexside/lililllillIllil",
+    "original": "llIiIIlIl",
+    "descriptor": "(II)I",
+    "fingerprint": "0d6bf72e3775e3dba2eace4889850f03f50a3f9e20c17b9eeb012648aa89fe72",
+    "cleanInstructions": 29,
+    "evidence": "Retained method body, offline constant decoding and exact selector/identity-proxy resolution; see mapped-java and raw javap."
+  },
+  {
+    "source": "WardenThreatTracker",
+    "readable": "reset",
+    "owner": "wexside/IiliIlliIlIill",
+    "original": "IliililiiI",
+    "descriptor": "(Lwexside/IiliIlliIlIill;)V",
+    "fingerprint": "6f2be4c2f2d7e6a7f15eed25a8c6046e9ccdada74b9bc9f9f636f44a7f1251eb",
+    "cleanInstructions": 7,
+    "evidence": "Retained method body, offline constant decoding and exact selector/identity-proxy resolution; see mapped-java and raw javap."
+  },
+  {
+    "source": "WardenThreatTracker",
+    "readable": "onSound",
+    "owner": "wexside/IiliIlliIlIill",
+    "original": "iiIililiiI",
+    "descriptor": "(Lwexside/IiliIlliIlIill;Lwexside/IillllIlIlllIil;)V",
+    "fingerprint": "21dfe9181fa9a6ba3a8d0d848c60804d115c8be929b59fe6981a95ee26880526",
+    "cleanInstructions": 34,
+    "evidence": "Retained method body, offline constant decoding and exact selector/identity-proxy resolution; see mapped-java and raw javap."
+  },
+  {
+    "source": "WardenThreatTracker",
+    "readable": "tick",
+    "owner": "wexside/IiliIlliIlIill",
+    "original": "lIllIiliiI",
+    "descriptor": "(Lwexside/IiliIlliIlIill;)V",
+    "fingerprint": "12126f0c980a07d8576d9ce0695d4485e5556f6331a192ce5adc127655d70624",
+    "cleanInstructions": 78,
+    "evidence": "Retained method body, offline constant decoding and exact selector/identity-proxy resolution; see mapped-java and raw javap."
+  },
+  {
+    "source": "WardenThreatTracker",
+    "readable": "nearRememberedWarden",
+    "owner": "wexside/IiliIlliIlIill",
+    "original": "lIlililiiI",
+    "descriptor": "(Lwexside/IiliIlliIlIill;Lwexside/IlIlliIiIllil;)Z",
+    "fingerprint": "5a265148f63f19fe7f104405c58d3fe07a18604c321396806d01eab95756d30d",
+    "cleanInstructions": 67,
+    "evidence": "Retained method body, offline constant decoding and exact selector/identity-proxy resolution; see mapped-java and raw javap."
+  },
+  {
+    "source": "WardenThreatTracker",
+    "readable": "nearbyWardens",
+    "owner": "wexside/IiliIlliIlIill",
+    "original": "IlIililiiI",
+    "descriptor": "(Lwexside/IiliIlliIlIill;Lwexside/IlliliIiIilil;)Ljava/util/List;",
+    "fingerprint": "92bb1ec8aec3aa71c24535725d1a1c8864a6ffa30d6daa7e87563b62d9bc8e50",
+    "cleanInstructions": 16,
+    "evidence": "Retained method body, offline constant decoding and exact selector/identity-proxy resolution; see mapped-java and raw javap."
+  },
+  {
+    "source": "WardenThreatTracker",
+    "readable": "wardenNearby",
+    "owner": "wexside/IiliIlliIlIill",
+    "original": "iIlililiiI",
+    "descriptor": "(Lwexside/IiliIlliIlIill;)Z",
+    "fingerprint": "4a663d1dd49d85cfd6de9c15be79a70a6a69a2596b64b5909e4b2bec1db256af",
+    "cleanInstructions": 52,
+    "evidence": "Retained method body, offline constant decoding and exact selector/identity-proxy resolution; see mapped-java and raw javap."
+  },
+  {
+    "source": "WardenThreatTracker",
+    "readable": "angryWardenApproaching",
+    "owner": "wexside/IiliIlliIlIill",
+    "original": "IilililiiI",
+    "descriptor": "(Lwexside/IiliIlliIlIill;)Z",
+    "fingerprint": "902a82bb099de130cb98fa0aee6c5b9741b166cd2e1d6c3639a66bcc3bdab6b3",
+    "cleanInstructions": 81,
+    "evidence": "Retained method body, offline constant decoding and exact selector/identity-proxy resolution; see mapped-java and raw javap."
+  },
+  {
+    "source": "WardenThreatTracker",
+    "readable": "facingPlayer",
+    "owner": "wexside/IiliIlliIlIill",
+    "original": "liIililiiI",
+    "descriptor": "(Lwexside/IiliIlliIlIill;Lwexside/IlliliIiIilil;Lwexside/IiIlIllillllIil;)Z",
+    "fingerprint": "8e508f3a648c99e4f1ac5eafd9b37da1696812eccadbf8d9f2c60f993561c4ae",
+    "cleanInstructions": 41,
+    "evidence": "Retained method body, offline constant decoding and exact selector/identity-proxy resolution; see mapped-java and raw javap."
+  },
+  {
+    "source": "WardenThreatTracker",
+    "readable": "movingTowardPlayer",
+    "owner": "wexside/IiliIlliIlIill",
+    "original": "IIllIiliiI",
+    "descriptor": "(Lwexside/IlliliIiIilil;Lwexside/IiIlIllillllIil;)Z",
+    "fingerprint": "df8ead35e44bdec560405c236fbb145f8732592b614c65e64bcdfe15da84abb2",
+    "cleanInstructions": 35,
+    "evidence": "Retained method body, offline constant decoding and exact selector/identity-proxy resolution; see mapped-java and raw javap."
+  },
+  {
+    "source": "WardenThreatTracker",
+    "readable": "nearestWardenDistance",
+    "owner": "wexside/IiliIlliIlIill",
+    "original": "IlllIiliiI",
+    "descriptor": "(Lwexside/IiliIlliIlIill;Lwexside/IlliliIiIilil;)D",
+    "fingerprint": "6f162398691a6ddd82c4fd7dafcffbc375a730db1b31c8d13a41f684b04737bb",
+    "cleanInstructions": 36,
+    "evidence": "Retained method body, offline constant decoding and exact selector/identity-proxy resolution; see mapped-java and raw javap."
+  }
+]

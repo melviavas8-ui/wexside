@@ -1,0 +1,104 @@
+plugins {
+    id 'net.fabricmc.fabric-loom-remap' version '1.17.12'
+}
+group = 'ru.wexside'
+version = '1.0.0-recovered'
+repositories {
+    exclusiveContent {
+        forRepository { mavenCentral() }
+        filter { includeGroupByRegex 'com[.]twelvemonkeys.*' }
+    }
+    mavenCentral()
+}
+dependencies {
+    minecraft 'com.mojang:minecraft:1.21.11'
+    mappings 'net.fabricmc:yarn:1.21.11+build.6:v2'
+    modImplementation 'net.fabricmc:fabric-loader:0.19.3'
+    modImplementation 'net.fabricmc.fabric-api:fabric-api:0.141.6+1.21.11'
+    implementation 'com.twelvemonkeys.imageio:imageio-webp:3.12.0'
+    include 'com.twelvemonkeys.imageio:imageio-webp:3.12.0'
+    include 'com.twelvemonkeys.imageio:imageio-core:3.12.0'
+    include 'com.twelvemonkeys.imageio:imageio-metadata:3.12.0'
+    include 'com.twelvemonkeys.common:common-lang:3.12.0'
+    include 'com.twelvemonkeys.common:common-io:3.12.0'
+    include 'com.twelvemonkeys.common:common-image:3.12.0'
+}
+tasks.withType(JavaCompile).configureEach {
+    options.release = 21
+    options.encoding = 'UTF-8'
+    options.compilerArgs += ['-Xmaxerrs', '2000']
+}
+java { withSourcesJar() }
+// Delivered sources and the sources JAR remain named Yarn source; only the installable binary is remapped.
+tasks.named('remapSourcesJar') { enabled = false }
+
+tasks.register('recoveryChecks', JavaExec) {
+    dependsOn testClasses
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'ru.wexside.RecoveryChecks'
+}
+tasks.named('check') { dependsOn 'recoveryChecks' }
+tasks.register('configRecoveryChecks', JavaExec) {
+    dependsOn testClasses
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'ru.wexside.ConfigRecoveryChecks'
+}
+tasks.register('projectileRecoveryChecks', JavaExec) {
+    dependsOn testClasses
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'ru.wexside.util.ProjectileRecoveryChecks'
+}
+tasks.named('check') { dependsOn 'configRecoveryChecks', 'projectileRecoveryChecks' }
+// Behavioral checks use a standalone main instead of JUnit discovery.
+tasks.named('test') { failOnNoDiscoveredTests = false }
+
+tasks.register('writeVerificationClasspath') {
+    dependsOn classes
+    doLast {
+        def destination = layout.buildDirectory.file('recovery/runtime-classpath.txt').get().asFile
+        destination.parentFile.mkdirs()
+        destination.text = sourceSets.main.runtimeClasspath.files.collect { it.absolutePath }.join('\n')
+    }
+}
+
+sourceSets {
+    recovery {
+        compileClasspath += sourceSets.main.output + sourceSets.main.compileClasspath
+        runtimeClasspath += sourceSets.main.output + sourceSets.main.runtimeClasspath
+    }
+    recoveryTest {
+        compileClasspath += sourceSets.recovery.output + sourceSets.recovery.compileClasspath
+        runtimeClasspath += sourceSets.recovery.output + sourceSets.recovery.runtimeClasspath
+    }
+    smoke {
+        compileClasspath += sourceSets.main.output + sourceSets.main.compileClasspath
+        runtimeClasspath += sourceSets.main.output + sourceSets.main.runtimeClasspath
+    }
+}
+tasks.named('sourcesJar') { from sourceSets.recovery.allSource }
+def retainedChecks = [
+    flightRecoveryChecks: 'ru.wexside.recovery.flight.FlightRecoveryChecks',
+    wardenRecoveryChecks: 'ru.wexside.recovery.warden.RecoveryChecks',
+    crystalLeaseRecoveryChecks: 'ru.wexside.recovery.crystal.CrystalRotationLeaseChecks',
+    crystalConstructionRecoveryChecks: 'ru.wexside.recovery.crystal.CrystalAuraConstructionChecks',
+    crystalControllerRecoveryChecks: 'ru.wexside.recovery.crystal.CrystalControllerChecks',
+    donMarketRecoveryChecks: 'ru.wexside.recovery.donmarket.DonMarketRecoveryChecks'
+]
+retainedChecks.each { taskName, entrypoint ->
+    tasks.register(taskName, JavaExec) {
+        dependsOn recoveryTestClasses
+        classpath = sourceSets.recoveryTest.runtimeClasspath
+        mainClass = entrypoint
+    }
+}
+tasks.named('check') { dependsOn retainedChecks.keySet() }
+tasks.register('smokeJar', Jar) {
+    archiveClassifier = 'smoke-test'
+    from sourceSets.smoke.output
+}
+if (providers.gradleProperty('smoke').isPresent()) {
+    tasks.named('runClient') { dependsOn 'smokeJar' }
+    loom.runs.client.vmArg '-Dfabric.addMods=' + tasks.named('smokeJar').get().archiveFile.get().asFile.absolutePath
+}
+
+

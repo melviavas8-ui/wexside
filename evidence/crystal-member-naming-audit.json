@@ -1,0 +1,1525 @@
+{
+  "scope": "work/full-recovery/project/src/recovery/java/ru/wexside/recovery/crystal",
+  "sourceCount": 20,
+  "declaredFieldCount": 79,
+  "declaredMethodCount": 172,
+  "matchingGenericMembers": [],
+  "proposalCount": 0,
+  "allSourceBytesMatchFrozen": false,
+  "finding": "All recoverable member renames had already been applied before freeze. Remaining obfuscated tokens in RichCrystalRotationController are parameters/locals, outside field/method SemanticRenamer proposal scope. No duplicate/cosmetic member proposals.",
+  "declarations": [
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalAimMath",
+      "kind": "method",
+      "name": "clampPointToBox",
+      "descriptor": "(Lnet/minecraft/util/math/Vec3d;Lnet/minecraft/util/math/Box;)Lnet/minecraft/util/math/Vec3d;"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalAimMath",
+      "kind": "method",
+      "name": "angleToPoint",
+      "descriptor": "(Lnet/minecraft/util/math/Vec3d;Lnet/minecraft/util/math/Vec3d;)Lru/wexside/util/Angle;"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalAttackSharedState",
+      "kind": "field",
+      "name": "blocked",
+      "descriptor": "Z"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalAttackSharedState",
+      "kind": "field",
+      "name": "{}",
+      "descriptor": "()V"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalAuraModule",
+      "kind": "field",
+      "name": "ITEM_USE_RETRY_LIMIT",
+      "descriptor": "I"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalAuraModule",
+      "kind": "field",
+      "name": "crystalSearchTicks",
+      "descriptor": "I"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalAuraModule",
+      "kind": "field",
+      "name": "enabled",
+      "descriptor": "Lru/wexside/setting/BooleanSetting;"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalAuraModule",
+      "kind": "field",
+      "name": "lastSpawnPosition",
+      "descriptor": "Lnet/minecraft/util/math/Vec3d;"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalAuraModule",
+      "kind": "field",
+      "name": "ROTATION_STRATEGY",
+      "descriptor": "Ljava/lang/String;"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalAuraModule",
+      "kind": "field",
+      "name": "placementHotbarSlot",
+      "descriptor": "I"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalAuraModule",
+      "kind": "field",
+      "name": "itemUseRetryTicks",
+      "descriptor": "I"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalAuraModule",
+      "kind": "field",
+      "name": "crystalSearchBounds",
+      "descriptor": "Lnet/minecraft/util/math/Box;"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalAuraModule",
+      "kind": "field",
+      "name": "waitingForItemUseRetry",
+      "descriptor": "Z"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalAuraModule",
+      "kind": "field",
+      "name": "searchRetryTicks",
+      "descriptor": "I"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalAuraModule",
+      "kind": "field",
+      "name": "spawnedCrystalEntityId",
+      "descriptor": "I"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalAuraModule",
+      "kind": "field",
+      "name": "queuedCrystalSlot",
+      "descriptor": "I"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalAuraModule",
+      "kind": "field",
+      "name": "fast",
+      "descriptor": "Lru/wexside/setting/BooleanSetting;"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalAuraModule",
+      "kind": "field",
+      "name": "test",
+      "descriptor": "Lru/wexside/setting/BooleanSetting;"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalAuraModule",
+      "kind": "field",
+      "name": "previousSelectedSlot",
+      "descriptor": "I"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalAuraModule",
+      "kind": "field",
+      "name": "nearbyItemGuard",
+      "descriptor": "Lru/wexside/setting/BooleanSetting;"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalAuraModule",
+      "kind": "field",
+      "name": "selectedSlotRestorePending",
+      "descriptor": "Z"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalAuraModule",
+      "kind": "field",
+      "name": "blocked",
+      "descriptor": "Z"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalAuraModule",
+      "kind": "field",
+      "name": "offhandRestorePending",
+      "descriptor": "Z"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalAuraModule",
+      "kind": "field",
+      "name": "offhandSwapSourceSlot",
+      "descriptor": "I"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalAuraModule",
+      "kind": "field",
+      "name": "targetPos",
+      "descriptor": "Lnet/minecraft/util/math/BlockPos;"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalAuraModule",
+      "kind": "field",
+      "name": "previousEnabledState",
+      "descriptor": "Z"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalAuraModule",
+      "kind": "field",
+      "name": "queuedPlacementPos",
+      "descriptor": "Lnet/minecraft/util/math/BlockPos;"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalAuraModule",
+      "kind": "field",
+      "name": "rotation",
+      "descriptor": "Lru/wexside/recovery/crystal/CrystalRotationLease;"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalAuraModule",
+      "kind": "field",
+      "name": "rotationController",
+      "descriptor": "Lru/wexside/recovery/crystal/CrystalRotationControllerContract;"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalAuraModule",
+      "kind": "field",
+      "name": "handledInputThisTick",
+      "descriptor": "Z"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalAuraModule",
+      "kind": "method",
+      "name": "initialize",
+      "descriptor": "()V"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalAuraModule",
+      "kind": "method",
+      "name": "attackCrystal",
+      "descriptor": "(Lnet/minecraft/entity/Entity;)V"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalAuraModule",
+      "kind": "method",
+      "name": "isOtherCrystalAttackBlocked",
+      "descriptor": "()Z"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalAuraModule",
+      "kind": "method",
+      "name": "clampPointToBox",
+      "descriptor": "(Lru/wexside/recovery/crystal/CrystalAuraModule;Lnet/minecraft/util/math/Vec3d;Lnet/minecraft/util/math/Box;)Lnet/minecraft/util/math/Vec3d;"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalAuraModule",
+      "kind": "method",
+      "name": "onBlockInteraction",
+      "descriptor": "(Lru/wexside/recovery/crystal/CrystalBlockInteractEvent;)V"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalAuraModule",
+      "kind": "method",
+      "name": "updatePlacementConfirmation",
+      "descriptor": "()V"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalAuraModule",
+      "kind": "method",
+      "name": "clearPendingCrystalSearch",
+      "descriptor": "(Lru/wexside/recovery/crystal/CrystalAuraModule;)V"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalAuraModule",
+      "kind": "method",
+      "name": "isOtherCrystalAttackBlocked",
+      "descriptor": "(Lru/wexside/recovery/crystal/CrystalAuraModule;)Z"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalAuraModule",
+      "kind": "method",
+      "name": "attackCrystalAndClearSearch",
+      "descriptor": "(Lnet/minecraft/entity/decoration/EndCrystalEntity;Lru/wexside/recovery/crystal/CrystalAuraModule;)V"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalAuraModule",
+      "kind": "method",
+      "name": "updateBeforeInput",
+      "descriptor": "()V"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalAuraModule",
+      "kind": "method",
+      "name": "releaseRotationLease",
+      "descriptor": "(Lru/wexside/recovery/crystal/CrystalAuraModule;)V"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalAuraModule",
+      "kind": "method",
+      "name": "updatePlacementConfirmation",
+      "descriptor": "(Lru/wexside/recovery/crystal/CrystalAuraModule;)V"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalAuraModule",
+      "kind": "method",
+      "name": "onIncomingPacket",
+      "descriptor": "(Lru/wexside/event/IncomingPacketEvent;)V"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalAuraModule",
+      "kind": "method",
+      "name": "placeCrystalFromHotbar",
+      "descriptor": "(Lru/wexside/recovery/crystal/CrystalAuraModule;Lnet/minecraft/util/math/BlockPos;ILnet/minecraft/util/Hand;)Z"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalAuraModule",
+      "kind": "method",
+      "name": "raycastPlacementTarget",
+      "descriptor": "(Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/util/hit/BlockHitResult;"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalAuraModule",
+      "kind": "method",
+      "name": "updatePendingCrystalAttack",
+      "descriptor": "(Lru/wexside/recovery/crystal/CrystalAuraModule;)V"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalAuraModule",
+      "kind": "method",
+      "name": "clampPointToBox",
+      "descriptor": "(Lnet/minecraft/util/math/Vec3d;Lnet/minecraft/util/math/Box;)Lnet/minecraft/util/math/Vec3d;"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalAuraModule",
+      "kind": "method",
+      "name": "clearTargetPositions",
+      "descriptor": "(Lru/wexside/recovery/crystal/CrystalAuraModule;)V"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalAuraModule",
+      "kind": "method",
+      "name": "beginCrystalSpawnSearch",
+      "descriptor": "(Lnet/minecraft/util/math/BlockPos;)V"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalAuraModule",
+      "kind": "method",
+      "name": "deferItemUseForPlacement",
+      "descriptor": "(Lru/wexside/recovery/crystal/BeforeItemUseEvent;Lru/wexside/recovery/crystal/CrystalAuraModule;)V"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalAuraModule",
+      "kind": "method",
+      "name": "clearQueuedPlacementSlot",
+      "descriptor": "(Lru/wexside/recovery/crystal/CrystalAuraModule;)V"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalAuraModule",
+      "kind": "method",
+      "name": "resetPlacementState",
+      "descriptor": "(Lru/wexside/recovery/crystal/CrystalAuraModule;)V"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalAuraModule",
+      "kind": "method",
+      "name": "getBlockPositionFromHit",
+      "descriptor": "(Lnet/minecraft/util/hit/HitResult;)Lnet/minecraft/util/math/BlockPos;"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalAuraModule",
+      "kind": "method",
+      "name": "onIncomingPacket",
+      "descriptor": "(Lru/wexside/recovery/crystal/CrystalAuraModule;Lru/wexside/event/IncomingPacketEvent;)V"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalAuraModule",
+      "kind": "method",
+      "name": "attackCrystal",
+      "descriptor": "(Lru/wexside/recovery/crystal/CrystalAuraModule;Lnet/minecraft/entity/Entity;)V"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalAuraModule",
+      "kind": "method",
+      "name": "queuePlacement",
+      "descriptor": "(Lnet/minecraft/util/math/BlockPos;ILru/wexside/recovery/crystal/CrystalAuraModule;)V"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalAuraModule",
+      "kind": "method",
+      "name": "onBeforeItemUse",
+      "descriptor": "(Lru/wexside/recovery/crystal/BeforeItemUseEvent;)V"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalAuraModule",
+      "kind": "method",
+      "name": "onBlockInteraction",
+      "descriptor": "(Lru/wexside/recovery/crystal/CrystalAuraModule;Lru/wexside/recovery/crystal/CrystalBlockInteractEvent;)V"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalAuraModule",
+      "kind": "method",
+      "name": "updateQueuedPlacement",
+      "descriptor": "()V"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalAuraModule",
+      "kind": "method",
+      "name": "hasNearbyValuableDrops",
+      "descriptor": "(Lnet/minecraft/entity/Entity;)Z"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalAuraModule",
+      "kind": "method",
+      "name": "applyCrystalRotation",
+      "descriptor": "(Lru/wexside/recovery/crystal/CrystalAuraModule;Lnet/minecraft/client/network/ClientPlayerEntity;Lru/wexside/util/Angle;)V"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalAuraModule",
+      "kind": "method",
+      "name": "attackMatchingCrystalInSearchBox",
+      "descriptor": "(Lru/wexside/recovery/crystal/CrystalAuraModule;)V"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalAuraModule",
+      "kind": "method",
+      "name": "hasNearbyValuableDrops",
+      "descriptor": "(Lru/wexside/recovery/crystal/CrystalAuraModule;Lnet/minecraft/entity/Entity;)Z"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalAuraModule",
+      "kind": "method",
+      "name": "applyCrystalRotation",
+      "descriptor": "(Lnet/minecraft/client/network/ClientPlayerEntity;Lru/wexside/util/Angle;)V"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalAuraModule",
+      "kind": "method",
+      "name": "registerListeners",
+      "descriptor": "(Lru/wexside/recovery/crystal/CrystalAuraModule;)V"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalAuraModule",
+      "kind": "method",
+      "name": "updateBeforeInput",
+      "descriptor": "(Lru/wexside/recovery/crystal/CrystalAuraModule;)V"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalAuraModule",
+      "kind": "method",
+      "name": "placeCrystalFromHotbar",
+      "descriptor": "(Lnet/minecraft/util/math/BlockPos;ILnet/minecraft/util/Hand;)Z"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalAuraModule",
+      "kind": "method",
+      "name": "updateQueuedPlacement",
+      "descriptor": "(Lru/wexside/recovery/crystal/CrystalAuraModule;)V"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalAuraModule",
+      "kind": "method",
+      "name": "attackMatchingCrystalInSearchBox",
+      "descriptor": "()V"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalAuraModule",
+      "kind": "method",
+      "name": "beginCrystalSpawnSearch",
+      "descriptor": "(Lru/wexside/recovery/crystal/CrystalAuraModule;Lnet/minecraft/util/math/BlockPos;)V"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalAuraModule",
+      "kind": "method",
+      "name": "onBeforeItemUse",
+      "descriptor": "(Lru/wexside/recovery/crystal/CrystalAuraModule;Lru/wexside/recovery/crystal/BeforeItemUseEvent;)V"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalAuraModule",
+      "kind": "method",
+      "name": "rotateTowardPoint",
+      "descriptor": "(Lru/wexside/recovery/crystal/CrystalAuraModule;Lnet/minecraft/util/math/Vec3d;)V"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalAuraModule",
+      "kind": "method",
+      "name": "updatePendingCrystalAttack",
+      "descriptor": "()V"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalAuraModule",
+      "kind": "method",
+      "name": "clearCrystalSearchBounds",
+      "descriptor": "(Lru/wexside/recovery/crystal/CrystalAuraModule;)V"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalAuraModule",
+      "kind": "method",
+      "name": "rotateTowardPoint",
+      "descriptor": "(Lnet/minecraft/util/math/Vec3d;)V"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalAuraModule",
+      "kind": "method",
+      "name": "clearPendingCrystalSearch",
+      "descriptor": "()V"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalAuraModule",
+      "kind": "method",
+      "name": "prepareCrystalAttackRotation",
+      "descriptor": "(Lru/wexside/recovery/crystal/CrystalAuraModule;Lnet/minecraft/entity/Entity;)Z"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalAuraModule",
+      "kind": "method",
+      "name": "prepareCrystalAttackRotation",
+      "descriptor": "(Lnet/minecraft/entity/Entity;)Z"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalAuraModule",
+      "kind": "method",
+      "name": "resetPlacementState",
+      "descriptor": "()V"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalAuraModule",
+      "kind": "method",
+      "name": "releaseRotationLease",
+      "descriptor": "()V"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalAuraModule",
+      "kind": "method",
+      "name": "raycastPlacementTarget",
+      "descriptor": "(Lru/wexside/recovery/crystal/CrystalAuraModule;Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/util/hit/BlockHitResult;"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalAuraModule",
+      "kind": "method",
+      "name": "lambda$registerListeners$2",
+      "descriptor": "(Lru/wexside/recovery/crystal/CrystalAuraModule;Lru/wexside/event/WorldSessionEvent;)V"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalAuraModule",
+      "kind": "method",
+      "name": "lambda$registerListeners$1",
+      "descriptor": "(Lru/wexside/recovery/crystal/CrystalAuraModule;Lru/wexside/recovery/crystal/CrystalUpdateEvent;)V"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalAuraModule",
+      "kind": "method",
+      "name": "lambda$registerListeners$0",
+      "descriptor": "(Lru/wexside/recovery/crystal/CrystalAuraModule;Lru/wexside/recovery/crystal/BeforeInputHandlingEvent;)V"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalAuraModule",
+      "kind": "method",
+      "name": "lambda$hasNearbyValuableDrops$2",
+      "descriptor": "(Lnet/minecraft/item/Item;)Z"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalAuraModule",
+      "kind": "method",
+      "name": "lambda$hasNearbyValuableDrops$1",
+      "descriptor": "(Lnet/minecraft/entity/ItemEntity;)Lnet/minecraft/item/Item;"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalAuraModule",
+      "kind": "method",
+      "name": "lambda$hasNearbyValuableDrops$0",
+      "descriptor": "(Lnet/minecraft/entity/ItemEntity;)Z"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalAuraModule",
+      "kind": "method",
+      "name": "lambda$attackMatchingCrystalInSearchBox$0",
+      "descriptor": "(Lnet/minecraft/entity/decoration/EndCrystalEntity;)Z"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalAuraModule",
+      "kind": "method",
+      "name": "lambda$updatePendingCrystalAttack$0",
+      "descriptor": "(Lnet/minecraft/entity/decoration/EndCrystalEntity;)Z"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalAuraSettings",
+      "kind": "field",
+      "name": "enabled",
+      "descriptor": "Lru/wexside/setting/BooleanSetting;"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalAuraSettings",
+      "kind": "field",
+      "name": "fast",
+      "descriptor": "Lru/wexside/setting/BooleanSetting;"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalAuraSettings",
+      "kind": "field",
+      "name": "test",
+      "descriptor": "Lru/wexside/setting/BooleanSetting;"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalAuraSettings",
+      "kind": "field",
+      "name": "nearbyItemGuard",
+      "descriptor": "Lru/wexside/setting/BooleanSetting;"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalAuraSettings",
+      "kind": "method",
+      "name": "toString",
+      "descriptor": "()Ljava/lang/String;"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalAuraSettings",
+      "kind": "method",
+      "name": "hashCode",
+      "descriptor": "()I"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalAuraSettings",
+      "kind": "method",
+      "name": "equals",
+      "descriptor": "(Ljava/lang/Object;)Z"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalAuraSettings",
+      "kind": "method",
+      "name": "enabled",
+      "descriptor": "()Lru/wexside/setting/BooleanSetting;"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalAuraSettings",
+      "kind": "method",
+      "name": "fast",
+      "descriptor": "()Lru/wexside/setting/BooleanSetting;"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalAuraSettings",
+      "kind": "method",
+      "name": "test",
+      "descriptor": "()Lru/wexside/setting/BooleanSetting;"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalAuraSettings",
+      "kind": "method",
+      "name": "nearbyItemGuard",
+      "descriptor": "()Lru/wexside/setting/BooleanSetting;"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalBlockInteractEvent",
+      "kind": "field",
+      "name": "block",
+      "descriptor": "Lnet/minecraft/block/Block;"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalBlockInteractEvent",
+      "kind": "field",
+      "name": "position",
+      "descriptor": "Lnet/minecraft/util/math/BlockPos;"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalBlockInteractEvent",
+      "kind": "method",
+      "name": "getBlock",
+      "descriptor": "()Lnet/minecraft/block/Block;"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalBlockInteractEvent",
+      "kind": "method",
+      "name": "getPosition",
+      "descriptor": "()Lnet/minecraft/util/math/BlockPos;"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalInventorySearch",
+      "kind": "method",
+      "name": "findFirstMainInventorySlot",
+      "descriptor": "(Lnet/minecraft/entity/player/PlayerInventory;Lnet/minecraft/item/Item;)I"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalMouseQuantizer",
+      "kind": "method",
+      "name": "quantize",
+      "descriptor": "(FFLjava/util/Random;)F"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalMouseQuantizer",
+      "kind": "method",
+      "name": "quantize",
+      "descriptor": "(FFDLjava/util/Random;)F"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalMovementCorrection",
+      "kind": "field",
+      "name": "NONE",
+      "descriptor": "Lru/wexside/recovery/crystal/CrystalMovementCorrection;"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalMovementCorrection",
+      "kind": "field",
+      "name": "FOCUSED",
+      "descriptor": "Lru/wexside/recovery/crystal/CrystalMovementCorrection;"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalMovementCorrection",
+      "kind": "field",
+      "name": "FREE",
+      "descriptor": "Lru/wexside/recovery/crystal/CrystalMovementCorrection;"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalMovementCorrection",
+      "kind": "field",
+      "name": "LOCK",
+      "descriptor": "Lru/wexside/recovery/crystal/CrystalMovementCorrection;"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalMovementCorrection",
+      "kind": "field",
+      "name": "$VALUES",
+      "descriptor": "[Lru/wexside/recovery/crystal/CrystalMovementCorrection;"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalMovementCorrection",
+      "kind": "method",
+      "name": "values",
+      "descriptor": "()[Lru/wexside/recovery/crystal/CrystalMovementCorrection;"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalMovementCorrection",
+      "kind": "method",
+      "name": "valueOf",
+      "descriptor": "(Ljava/lang/String;)Lru/wexside/recovery/crystal/CrystalMovementCorrection;"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalMovementCorrection",
+      "kind": "method",
+      "name": "$values",
+      "descriptor": "()[Lru/wexside/recovery/crystal/CrystalMovementCorrection;"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalMovementCorrection",
+      "kind": "field",
+      "name": "{}",
+      "descriptor": "()V"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalRotationControllerContract",
+      "kind": "method",
+      "name": "currentRequestOwner",
+      "descriptor": "()Ljava/lang/Object;"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalRotationControllerContract",
+      "kind": "method",
+      "name": "currentAngle",
+      "descriptor": "()Lru/wexside/util/Angle;"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalRotationControllerContract",
+      "kind": "method",
+      "name": "apply",
+      "descriptor": "(Lru/wexside/recovery/crystal/CrystalRotationRequest;Ljava/lang/String;)V"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalRotationControllerContract",
+      "kind": "method",
+      "name": "release",
+      "descriptor": "()V"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalRotationLease",
+      "kind": "field",
+      "name": "owner",
+      "descriptor": "Ljava/lang/Object;"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalRotationLease",
+      "kind": "method",
+      "name": "acquire",
+      "descriptor": "(Ljava/lang/Object;)V"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalRotationLease",
+      "kind": "method",
+      "name": "isOwnedBy",
+      "descriptor": "(Ljava/lang/Object;)Z"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalRotationLease",
+      "kind": "method",
+      "name": "clear",
+      "descriptor": "()V"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalRotationLease",
+      "kind": "method",
+      "name": "release",
+      "descriptor": "(Ljava/lang/Object;Ljava/lang/Runnable;)V"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalRotationRequest",
+      "kind": "field",
+      "name": "target",
+      "descriptor": "Lnet/minecraft/entity/LivingEntity;"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalRotationRequest",
+      "kind": "field",
+      "name": "aimPoint",
+      "descriptor": "Lnet/minecraft/util/math/Vec3d;"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalRotationRequest",
+      "kind": "field",
+      "name": "angle",
+      "descriptor": "Lru/wexside/util/Angle;"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalRotationRequest",
+      "kind": "field",
+      "name": "strength",
+      "descriptor": "Lru/wexside/recovery/crystal/CrystalRotationStrength;"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalRotationRequest",
+      "kind": "field",
+      "name": "correction",
+      "descriptor": "Lru/wexside/recovery/crystal/CrystalMovementCorrection;"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalRotationRequest",
+      "kind": "field",
+      "name": "changeViewLook",
+      "descriptor": "Z"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalRotationRequest",
+      "kind": "method",
+      "name": "hashCode",
+      "descriptor": "()I"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalRotationRequest",
+      "kind": "method",
+      "name": "idle",
+      "descriptor": "()Lru/wexside/recovery/crystal/CrystalRotationRequest;"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalRotationRequest",
+      "kind": "method",
+      "name": "hasTarget",
+      "descriptor": "()Z"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalRotationRequest",
+      "kind": "method",
+      "name": "hasCorrection",
+      "descriptor": "()Z"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalRotationRequest",
+      "kind": "method",
+      "name": "toString",
+      "descriptor": "()Ljava/lang/String;"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalRotationRequest",
+      "kind": "method",
+      "name": "equals",
+      "descriptor": "(Ljava/lang/Object;)Z"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalRotationRequest",
+      "kind": "method",
+      "name": "target",
+      "descriptor": "()Lnet/minecraft/entity/LivingEntity;"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalRotationRequest",
+      "kind": "method",
+      "name": "aimPoint",
+      "descriptor": "()Lnet/minecraft/util/math/Vec3d;"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalRotationRequest",
+      "kind": "method",
+      "name": "angle",
+      "descriptor": "()Lru/wexside/util/Angle;"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalRotationRequest",
+      "kind": "method",
+      "name": "strength",
+      "descriptor": "()Lru/wexside/recovery/crystal/CrystalRotationStrength;"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalRotationRequest",
+      "kind": "method",
+      "name": "correction",
+      "descriptor": "()Lru/wexside/recovery/crystal/CrystalMovementCorrection;"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalRotationRequest",
+      "kind": "method",
+      "name": "changeViewLook",
+      "descriptor": "()Z"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalRotationStrategy",
+      "kind": "method",
+      "name": "step",
+      "descriptor": "(Lru/wexside/util/RotationState;Lru/wexside/recovery/crystal/CrystalRotationRequest;)Lru/wexside/misc/RotationApplyResult;"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalRotationStrategy",
+      "kind": "method",
+      "name": "onDeactivated",
+      "descriptor": "(Lru/wexside/util/RotationState;)V"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalRotationStrategy",
+      "kind": "method",
+      "name": "onActivated",
+      "descriptor": "(Lru/wexside/util/RotationState;)V"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalRotationStrategyFactory",
+      "kind": "method",
+      "name": "create",
+      "descriptor": "(Ljava/lang/String;)Lru/wexside/recovery/crystal/CrystalRotationStrategy;"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalRotationStrength",
+      "kind": "field",
+      "name": "NONE",
+      "descriptor": "Lru/wexside/recovery/crystal/CrystalRotationStrength;"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalRotationStrength",
+      "kind": "field",
+      "name": "SOFT",
+      "descriptor": "Lru/wexside/recovery/crystal/CrystalRotationStrength;"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalRotationStrength",
+      "kind": "field",
+      "name": "HARD",
+      "descriptor": "Lru/wexside/recovery/crystal/CrystalRotationStrength;"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalRotationStrength",
+      "kind": "field",
+      "name": "$VALUES",
+      "descriptor": "[Lru/wexside/recovery/crystal/CrystalRotationStrength;"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalRotationStrength",
+      "kind": "method",
+      "name": "values",
+      "descriptor": "()[Lru/wexside/recovery/crystal/CrystalRotationStrength;"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalRotationStrength",
+      "kind": "method",
+      "name": "valueOf",
+      "descriptor": "(Ljava/lang/String;)Lru/wexside/recovery/crystal/CrystalRotationStrength;"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalRotationStrength",
+      "kind": "method",
+      "name": "$values",
+      "descriptor": "()[Lru/wexside/recovery/crystal/CrystalRotationStrength;"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.CrystalRotationStrength",
+      "kind": "field",
+      "name": "{}",
+      "descriptor": "()V"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.PatchedCrystalRotationStrategy",
+      "kind": "method",
+      "name": "wrap",
+      "descriptor": "(F)F"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.PatchedCrystalRotationStrategy",
+      "kind": "method",
+      "name": "approach",
+      "descriptor": "(Lru/wexside/util/Angle;Lru/wexside/util/Angle;)Lru/wexside/util/Angle;"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.PatchedCrystalRotationStrategy",
+      "kind": "method",
+      "name": "step",
+      "descriptor": "(Lru/wexside/util/RotationState;Lru/wexside/recovery/crystal/CrystalRotationRequest;)Lru/wexside/misc/RotationApplyResult;"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.PatchedCrystalRotationStrategy",
+      "kind": "method",
+      "name": "onDeactivated",
+      "descriptor": "(Lru/wexside/util/RotationState;)V"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.PatchedCrystalRotationStrategy",
+      "kind": "method",
+      "name": "onActivated",
+      "descriptor": "(Lru/wexside/util/RotationState;)V"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.PatchedCrystalRotationStrategyFactory",
+      "kind": "field",
+      "name": "strategies",
+      "descriptor": "Ljava/util/Map;"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.PatchedCrystalRotationStrategyFactory",
+      "kind": "method",
+      "name": "initializeStrategies",
+      "descriptor": "()V"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.PatchedCrystalRotationStrategyFactory",
+      "kind": "method",
+      "name": "runtimeName",
+      "descriptor": "(Ljava/lang/String;)Ljava/lang/String;"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.PatchedCrystalRotationStrategyFactory",
+      "kind": "method",
+      "name": "create",
+      "descriptor": "(Ljava/lang/String;)Lru/wexside/recovery/crystal/CrystalRotationStrategy;"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.RichCrystalRotationController",
+      "kind": "field",
+      "name": "tickCounter",
+      "descriptor": "J"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.RichCrystalRotationController",
+      "kind": "field",
+      "name": "viewRotationInitialized",
+      "descriptor": "Z"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.RichCrystalRotationController",
+      "kind": "field",
+      "name": "lastLookPacketPlayer",
+      "descriptor": "Lnet/minecraft/client/network/ClientPlayerEntity;"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.RichCrystalRotationController",
+      "kind": "field",
+      "name": "previousAngle",
+      "descriptor": "Lru/wexside/util/Angle;"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.RichCrystalRotationController",
+      "kind": "field",
+      "name": "lastPacketAngle",
+      "descriptor": "Lru/wexside/util/Angle;"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.RichCrystalRotationController",
+      "kind": "field",
+      "name": "viewChangeRequested",
+      "descriptor": "Z"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.RichCrystalRotationController",
+      "kind": "field",
+      "name": "serverCorrectionCooldown",
+      "descriptor": "I"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.RichCrystalRotationController",
+      "kind": "field",
+      "name": "strategyFactory",
+      "descriptor": "Lru/wexside/recovery/crystal/CrystalRotationStrategyFactory;"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.RichCrystalRotationController",
+      "kind": "field",
+      "name": "ticksSinceHit",
+      "descriptor": "I"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.RichCrystalRotationController",
+      "kind": "field",
+      "name": "lastPlayerTargetTick",
+      "descriptor": "J"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.RichCrystalRotationController",
+      "kind": "field",
+      "name": "strategy",
+      "descriptor": "Lru/wexside/recovery/crystal/CrystalRotationStrategy;"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.RichCrystalRotationController",
+      "kind": "field",
+      "name": "SERVER_CORRECTION_COOLDOWN",
+      "descriptor": "I"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.RichCrystalRotationController",
+      "kind": "field",
+      "name": "random",
+      "descriptor": "Ljava/util/Random;"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.RichCrystalRotationController",
+      "kind": "field",
+      "name": "continuousViewYaw",
+      "descriptor": "F"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.RichCrystalRotationController",
+      "kind": "field",
+      "name": "UNWRITTEN_STRATEGY_NAME",
+      "descriptor": "Ljava/lang/String;"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.RichCrystalRotationController",
+      "kind": "field",
+      "name": "viewUpdatedThisTick",
+      "descriptor": "Z"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.RichCrystalRotationController",
+      "kind": "field",
+      "name": "ticksSinceAttack",
+      "descriptor": "I"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.RichCrystalRotationController",
+      "kind": "field",
+      "name": "activeAngle",
+      "descriptor": "Lru/wexside/util/Angle;"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.RichCrystalRotationController",
+      "kind": "field",
+      "name": "strategyName",
+      "descriptor": "Ljava/lang/String;"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.RichCrystalRotationController",
+      "kind": "field",
+      "name": "currentRequest",
+      "descriptor": "Lru/wexside/recovery/crystal/CrystalRotationRequest;"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.RichCrystalRotationController",
+      "kind": "field",
+      "name": "viewPitch",
+      "descriptor": "F"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.RichCrystalRotationController",
+      "kind": "field",
+      "name": "UNWRITTEN_REQUEST_SENTINEL",
+      "descriptor": "Lru/wexside/recovery/crystal/CrystalRotationRequest;"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.RichCrystalRotationController",
+      "kind": "field",
+      "name": "lastLookPacketValid",
+      "descriptor": "Z"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.RichCrystalRotationController",
+      "kind": "field",
+      "name": "backgroundRequest",
+      "descriptor": "Lru/wexside/recovery/crystal/CrystalRotationRequest;"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.RichCrystalRotationController",
+      "kind": "field",
+      "name": "tickAngleSnapshot",
+      "descriptor": "Lru/wexside/util/Angle;"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.RichCrystalRotationController",
+      "kind": "method",
+      "name": "currentRequestOwner",
+      "descriptor": "()Ljava/lang/Object;"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.RichCrystalRotationController",
+      "kind": "method",
+      "name": "currentAngle",
+      "descriptor": "()Lru/wexside/util/Angle;"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.RichCrystalRotationController",
+      "kind": "method",
+      "name": "apply",
+      "descriptor": "(Lru/wexside/recovery/crystal/CrystalRotationRequest;Ljava/lang/String;)V"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.RichCrystalRotationController",
+      "kind": "method",
+      "name": "release",
+      "descriptor": "()V"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.RichCrystalRotationController",
+      "kind": "method",
+      "name": "hasActiveAngle",
+      "descriptor": "()Z"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.RichCrystalRotationController",
+      "kind": "method",
+      "name": "tick",
+      "descriptor": "()V"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.RichCrystalRotationController",
+      "kind": "method",
+      "name": "updateWhenUnwrittenSentinel",
+      "descriptor": "(Lru/wexside/recovery/crystal/RichCrystalRotationController;)V"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.RichCrystalRotationController",
+      "kind": "method",
+      "name": "selectStrategy",
+      "descriptor": "(Lru/wexside/recovery/crystal/RichCrystalRotationController;Ljava/lang/String;)V"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.RichCrystalRotationController",
+      "kind": "method",
+      "name": "hasRecentPlayerTarget",
+      "descriptor": "(Lru/wexside/recovery/crystal/RichCrystalRotationController;)Z"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.RichCrystalRotationController",
+      "kind": "method",
+      "name": "updateViewRotation",
+      "descriptor": "(Lru/wexside/recovery/crystal/RichCrystalRotationController;)V"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.RichCrystalRotationController",
+      "kind": "method",
+      "name": "isUnwrittenRequestSentinel",
+      "descriptor": "(Lru/wexside/recovery/crystal/RichCrystalRotationController;)Z"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.RichCrystalRotationController",
+      "kind": "method",
+      "name": "handleOutgoingPacket",
+      "descriptor": "(Lru/wexside/recovery/crystal/RichCrystalRotationController;Lru/wexside/event/OutgoingPacketEvent;)V"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.RichCrystalRotationController",
+      "kind": "method",
+      "name": "requestViewChange",
+      "descriptor": "()V"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.RichCrystalRotationController",
+      "kind": "method",
+      "name": "resetTicksSinceHit",
+      "descriptor": "(Lru/wexside/recovery/crystal/RichCrystalRotationController;)V"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.RichCrystalRotationController",
+      "kind": "method",
+      "name": "onOutgoingPacket",
+      "descriptor": "(Lru/wexside/event/OutgoingPacketEvent;)V"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.RichCrystalRotationController",
+      "kind": "method",
+      "name": "quantizeAngle",
+      "descriptor": "(Lru/wexside/util/Angle;Lru/wexside/util/Angle;)Lru/wexside/util/Angle;"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.RichCrystalRotationController",
+      "kind": "method",
+      "name": "applyAndTestOriginalIdleBranch",
+      "descriptor": "(Lru/wexside/recovery/crystal/CrystalRotationRequest;Ljava/lang/String;)Z"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.RichCrystalRotationController",
+      "kind": "method",
+      "name": "advanceTick",
+      "descriptor": "(Lru/wexside/recovery/crystal/RichCrystalRotationController;)V"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.RichCrystalRotationController",
+      "kind": "method",
+      "name": "quantizeAngle",
+      "descriptor": "(Lru/wexside/recovery/crystal/RichCrystalRotationController;Lru/wexside/util/Angle;Lru/wexside/util/Angle;)Lru/wexside/util/Angle;"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.RichCrystalRotationController",
+      "kind": "method",
+      "name": "release",
+      "descriptor": "(Lru/wexside/recovery/crystal/RichCrystalRotationController;)V"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.RichCrystalRotationController",
+      "kind": "method",
+      "name": "getValidatedPacketAngle",
+      "descriptor": "()Lru/wexside/util/Angle;"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.RichCrystalRotationController",
+      "kind": "method",
+      "name": "getLastPacketAngle",
+      "descriptor": "(Lru/wexside/recovery/crystal/RichCrystalRotationController;)Lru/wexside/util/Angle;"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.RichCrystalRotationController",
+      "kind": "method",
+      "name": "retainCurrentPlayerTarget",
+      "descriptor": "()V"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.RichCrystalRotationController",
+      "kind": "method",
+      "name": "onCrystalUpdate",
+      "descriptor": "(Lru/wexside/recovery/crystal/CrystalUpdateEvent;)V"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.RichCrystalRotationController",
+      "kind": "method",
+      "name": "resetTicksSinceAttack",
+      "descriptor": "(Lru/wexside/recovery/crystal/RichCrystalRotationController;)V"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.RichCrystalRotationController",
+      "kind": "method",
+      "name": "selectStrategy",
+      "descriptor": "(Ljava/lang/String;)V"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.RichCrystalRotationController",
+      "kind": "method",
+      "name": "onIncomingPacket",
+      "descriptor": "(Lru/wexside/event/IncomingPacketEvent;)V"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.RichCrystalRotationController",
+      "kind": "method",
+      "name": "hasBackgroundRequest",
+      "descriptor": "()Z"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.RichCrystalRotationController",
+      "kind": "method",
+      "name": "resetTicksSinceHit",
+      "descriptor": "()V"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.RichCrystalRotationController",
+      "kind": "method",
+      "name": "createRotationState",
+      "descriptor": "(Lru/wexside/recovery/crystal/RichCrystalRotationController;Lru/wexside/recovery/crystal/CrystalRotationRequest;)Lru/wexside/util/RotationState;"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.RichCrystalRotationController",
+      "kind": "method",
+      "name": "isPacketPitchWithin",
+      "descriptor": "(Lru/wexside/recovery/crystal/RichCrystalRotationController;FF)Z"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.RichCrystalRotationController",
+      "kind": "method",
+      "name": "getLastPacketAngle",
+      "descriptor": "()Lru/wexside/util/Angle;"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.RichCrystalRotationController",
+      "kind": "method",
+      "name": "hasBackgroundRequest",
+      "descriptor": "(Lru/wexside/recovery/crystal/RichCrystalRotationController;)Z"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.RichCrystalRotationController",
+      "kind": "method",
+      "name": "getTicksSinceHit",
+      "descriptor": "(Lru/wexside/recovery/crystal/RichCrystalRotationController;)I"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.RichCrystalRotationController",
+      "kind": "method",
+      "name": "createRotationState",
+      "descriptor": "(Lru/wexside/recovery/crystal/CrystalRotationRequest;)Lru/wexside/util/RotationState;"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.RichCrystalRotationController",
+      "kind": "method",
+      "name": "getValidatedPacketAngle",
+      "descriptor": "(Lru/wexside/recovery/crystal/RichCrystalRotationController;)Lru/wexside/util/Angle;"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.RichCrystalRotationController",
+      "kind": "method",
+      "name": "isPacketPitchWithin",
+      "descriptor": "(FF)Z"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.RichCrystalRotationController",
+      "kind": "method",
+      "name": "applyNavigationAngle",
+      "descriptor": "(Lru/wexside/recovery/crystal/RichCrystalRotationController;Lru/wexside/util/Angle;)V"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.RichCrystalRotationController",
+      "kind": "method",
+      "name": "retainCurrentPlayerTarget",
+      "descriptor": "(Lru/wexside/recovery/crystal/RichCrystalRotationController;)V"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.RichCrystalRotationController",
+      "kind": "method",
+      "name": "decrementServerCorrectionCooldown",
+      "descriptor": "(Lru/wexside/recovery/crystal/RichCrystalRotationController;)V"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.RichCrystalRotationController",
+      "kind": "method",
+      "name": "applyRequest",
+      "descriptor": "(Lru/wexside/recovery/crystal/RichCrystalRotationController;Lru/wexside/recovery/crystal/CrystalRotationRequest;Ljava/lang/String;)Lru/wexside/misc/RotationApplyResult;"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.RichCrystalRotationController",
+      "kind": "method",
+      "name": "touchOwnedPlayerRequest",
+      "descriptor": "(Lru/wexside/recovery/crystal/RichCrystalRotationController;Lru/wexside/recovery/crystal/CrystalRotationRequest;)V"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.RichCrystalRotationController",
+      "kind": "method",
+      "name": "applyRequest",
+      "descriptor": "(Lru/wexside/recovery/crystal/CrystalRotationRequest;Ljava/lang/String;)Lru/wexside/misc/RotationApplyResult;"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.RichCrystalRotationController",
+      "kind": "method",
+      "name": "handleIncomingPacket",
+      "descriptor": "(Lru/wexside/recovery/crystal/RichCrystalRotationController;Lru/wexside/event/IncomingPacketEvent;)V"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.RichCrystalRotationController",
+      "kind": "method",
+      "name": "updateWhenUnwrittenSentinel",
+      "descriptor": "()V"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.RichCrystalRotationController",
+      "kind": "method",
+      "name": "getTicksSinceHit",
+      "descriptor": "()I"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.RichCrystalRotationController",
+      "kind": "method",
+      "name": "updateViewRotation",
+      "descriptor": "()V"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.RichCrystalRotationController",
+      "kind": "method",
+      "name": "applyAndTestOriginalIdleBranch",
+      "descriptor": "(Lru/wexside/recovery/crystal/RichCrystalRotationController;Lru/wexside/recovery/crystal/CrystalRotationRequest;Ljava/lang/String;)Z"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.RichCrystalRotationController",
+      "kind": "method",
+      "name": "getCurrentRequest",
+      "descriptor": "()Lru/wexside/recovery/crystal/CrystalRotationRequest;"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.RichCrystalRotationController",
+      "kind": "method",
+      "name": "resetTicksSinceAttack",
+      "descriptor": "()V"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.RichCrystalRotationController",
+      "kind": "method",
+      "name": "hasRecentPlayerTarget",
+      "descriptor": "()Z"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.RichCrystalRotationController",
+      "kind": "method",
+      "name": "applyNavigationAngle",
+      "descriptor": "(Lru/wexside/util/Angle;)V"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.RichCrystalRotationController",
+      "kind": "method",
+      "name": "getTickAngleSnapshot",
+      "descriptor": "()Lru/wexside/util/Angle;"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.RichCrystalRotationController",
+      "kind": "method",
+      "name": "touchOwnedPlayerRequest",
+      "descriptor": "(Lru/wexside/recovery/crystal/CrystalRotationRequest;)V"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.RichCrystalRotationController",
+      "kind": "method",
+      "name": "onWorldSession",
+      "descriptor": "(Lru/wexside/event/WorldSessionEvent;)V"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.RichCrystalRotationController",
+      "kind": "method",
+      "name": "isUnwrittenRequestSentinel",
+      "descriptor": "()Z"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.RichCrystalRotationController",
+      "kind": "method",
+      "name": "clearViewChangeRequest",
+      "descriptor": "()V"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.RichCrystalRotationController",
+      "kind": "method",
+      "name": "getActiveAngle",
+      "descriptor": "()Lru/wexside/util/Angle;"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.RichCrystalRotationController",
+      "kind": "method",
+      "name": "getContinuousViewYaw",
+      "descriptor": "()Ljava/lang/Float;"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.RichCrystalRotationController",
+      "kind": "method",
+      "name": "shouldChangeView",
+      "descriptor": "()Z"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.RichCrystalRotationController",
+      "kind": "method",
+      "name": "getViewPitch",
+      "descriptor": "()F"
+    },
+    {
+      "owner": "ru.wexside.recovery.crystal.RichCrystalRotationController",
+      "kind": "field",
+      "name": "{}",
+      "descriptor": "()V"
+    }
+  ],
+  "sourceDifferencesFromFrozen": [
+    {
+      "file": "CrystalAuraModule.java",
+      "difference": "Root integration removed the leading CFR attribution comment; declarations/bodies unchanged."
+    }
+  ],
+  "richControllerBytesMatchFrozen": true
+}

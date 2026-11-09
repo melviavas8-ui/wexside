@@ -1,0 +1,1 @@
+PASS: registry/configuration, brightness toggle cycles, timer injection, alternative menu keys, potion popup ownership, hand mask/blur/material/energy GPU readback, GUI open for 80 client ticks. Full gameplay lifecycle, stability and FPS are not tested.

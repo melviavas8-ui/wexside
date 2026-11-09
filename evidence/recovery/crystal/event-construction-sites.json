@@ -1,0 +1,30 @@
+[
+  {
+    "event": "wexside/IillllIlIlllIil",
+    "caller": "wexside/IlIlliIllllllil",
+    "readable": "net/minecraft/network/ClientConnection",
+    "method": "IIIliIIlliI",
+    "desc": "(Lwexside/lilillIlIiIiIll;Lwexside/liIililllllllil;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V"
+  },
+  {
+    "event": "wexside/IlIllillIiIiIil",
+    "caller": "wexside/liIlllllIiliIl",
+    "readable": "net/minecraft/client/network/ClientPlayerInteractionManager",
+    "method": "lliillIiIlI",
+    "desc": "(Lwexside/IlliliIiIilil;Lwexside/IlllllIlllIll;Lwexside/liIlIillllllll;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V"
+  },
+  {
+    "event": "wexside/IlliliIlllIlll",
+    "caller": "wexside/lillIiIlliliIll",
+    "readable": "net/minecraft/client/MinecraftClient",
+    "method": "liiliIIIliI",
+    "desc": "(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V"
+  },
+  {
+    "event": "wexside/liIlllIiIlIilil",
+    "caller": "wexside/lillIiIlliliIll",
+    "readable": "net/minecraft/client/MinecraftClient",
+    "method": "IlIIiIIIliI",
+    "desc": "(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V"
+  }
+]

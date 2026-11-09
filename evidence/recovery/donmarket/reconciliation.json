@@ -1,0 +1,140 @@
+{
+  "owner": "wexside/liIiIlIiIiIiIil",
+  "variants": {
+    "mainJar": {
+      "sha256": "9d1a84b08b57b89e7eb552c1ec1f59b27c28f9aa1584fcc20cad8c98196c89b1",
+      "size": 5143
+    },
+    "work/input/Wexside-Launcher/temp_dump/wexside/liIiIlIiIiIiIil.class": {
+      "sha256": "1d8f1f58f7efd3a3fdd057d5adc560ae98179889d650dbd27bed322757472113",
+      "size": 6512
+    },
+    "work/full-recovery/new-launcher-input/temp_dump/wexside/liIiIlIiIiIiIil.class": {
+      "sha256": "1d8f1f58f7efd3a3fdd057d5adc560ae98179889d650dbd27bed322757472113",
+      "size": 6512
+    }
+  },
+  "originalToReadable": {
+    "register": "registerTick",
+    "rule": "rule",
+    "tick": "tick",
+    "hidden": "hiddenNumber",
+    "lIlllIIilII": "controller",
+    "ilIllIIilII": "hiddenNumber visibility callback false",
+    "liIllIIilII": "startOrTogglePause",
+    "iilllIIilII": "rule",
+    "iiIllIIilII": "stopAndReset",
+    "IiIllIIilII": "togglePause",
+    "llIllIIilII": "isActive",
+    "iIlllIIilII": "tick listener",
+    "IlIllIIilII": "startOrTogglePause",
+    "lllllIIilII": "disable",
+    "lilllIIilII": "isPaused",
+    "IIlllIIilII": "hiddenNumber",
+    "IiiiilIilII": "stopAndReset",
+    "IllllIIilII": "tick",
+    "IIIllIIilII": "click",
+    "iiiiilIilII": "type",
+    "illllIIilII": "render",
+    "iIIllIIilII": "input",
+    "IilllIIilII": "registerTick",
+    "lIIllIIilII": "controller",
+    "<init>": "explicit required input constructor; metadata forwarded originally; state/settings initialization absent"
+  },
+  "fiveBodyDifferences": [
+    {
+      "name": "IllllIIilII",
+      "desc": "(Lwexside/liIiIlIiIiIiIil;)V",
+      "new_insns": 99,
+      "old_insns": 1,
+      "new_fp": "03e778ade10269f6beaa890b50de55b914c03560a1d51fbc4d8fc91f23c647b9",
+      "old_fp": "73568f9ad45002ce3a5bd126a30314ddb99e01e110b6728999d852b301fd4d7f",
+      "new_refs": [
+        "F wexside/liIiIlIiIiIiIil overlay Lwexside/IlliIlIiIililil;",
+        "M wexside/IlliIlIiIililil tick ()V",
+        "F wexside/liIiIlIiIiIiIil iliiiiIiilII Lwexside/IillliliIilill;",
+        "M wexside/IililililiIlIil IIllIIllII (I)Ljava/lang/Object;",
+        "M wexside/llIlliIllllilil IllIiiIiilI ()Lwexside/llliIlIiIlIiIl;",
+        "M wexside/IililililiIlIil IIllIIllII (I)Ljava/lang/Object;",
+        "M wexside/llIlliIllllilil IllIiiIiilI ()Lwexside/llliIlIiIlIiIl;",
+        "F wexside/liIiIlIiIiIiIil illiiiIiilII Lwexside/IlllIiIiIlIilil;",
+        "M java/util/Objects requireNonNull (Ljava/lang/Object;)Ljava/lang/Object;",
+        "F wexside/liIiIlIiIiIiIil budget Lwexside/IlllIiIiIlIilil;",
+        "M java/util/Objects requireNonNull (Ljava/lang/Object;)Ljava/lang/Object;",
+        "M wexside/IillliliIilill <init> (Lwexside/llliIiIilillIil;Lwexside/llliIlIiIlIiIl;Ljava/util/function/BooleanSupplier;Ljava/util/function/Supplier;Ljava/util/function/IntSupplier;Ljava/util/function/IntSupplier;Ljava/lang/Runnable;)V",
+        "F wexside/liIiIlIiIiIiIil iliiiiIiilII Lwexside/IillliliIilill;",
+        "F wexside/liIiIlIiIiIiIil iliiiiIiilII Lwexside/IillliliIilill;",
+        "M wexside/IillliliIilill tick ()V"
+      ],
+      "old_refs": []
+    },
+    {
+      "name": "IIIllIIilII",
+      "desc": "(I)Z",
+      "new_insns": 16,
+      "old_insns": 2,
+      "new_fp": "3704e02a9665b67f5d5efd09703183527cc2586c6b4b46e593c68e85e9d583b8",
+      "old_fp": "2456aa7907f2f9c2fbea4ea046fd0b69c6d2235ea3bd40adb89f56a7ec211c37",
+      "new_refs": [
+        "F wexside/liIiIlIiIiIiIil INSTANCE Lwexside/liIiIlIiIiIiIil;",
+        "F wexside/liIiIlIiIiIiIil iliiiiIiilII Lwexside/IillliliIilill;",
+        "F wexside/liIiIlIiIiIiIil overlay Lwexside/IlliIlIiIililil;",
+        "M wexside/IlliIlIiIililil click (I)Z"
+      ],
+      "old_refs": []
+    },
+    {
+      "name": "iiiiilIilII",
+      "desc": "(C)Z",
+      "new_insns": 11,
+      "old_insns": 2,
+      "new_fp": "5c25b4966763aea308e09d62babe4e07e66c9692b2af7dca31b807fe62a5a25f",
+      "old_fp": "f158ddf062e3f9c62037e36497461258ef75aa6f505dbcf3fc38f05dd61b52b0",
+      "new_refs": [
+        "F wexside/liIiIlIiIiIiIil INSTANCE Lwexside/liIiIlIiIiIiIil;",
+        "F wexside/liIiIlIiIiIiIil INSTANCE Lwexside/liIiIlIiIiIiIil;",
+        "F wexside/liIiIlIiIiIiIil overlay Lwexside/IlliIlIiIililil;",
+        "M wexside/IlliIlIiIililil type (C)Z"
+      ],
+      "old_refs": []
+    },
+    {
+      "name": "illllIIilII",
+      "desc": "(Lorg/joml/Matrix4f;)V",
+      "new_insns": 12,
+      "old_insns": 1,
+      "new_fp": "7db58e6302cb0380c91598dd600422a42dec1a9b6336b55e0ca0fce8e2aa1864",
+      "old_fp": "73568f9ad45002ce3a5bd126a30314ddb99e01e110b6728999d852b301fd4d7f",
+      "new_refs": [
+        "F wexside/liIiIlIiIiIiIil INSTANCE Lwexside/liIiIlIiIiIiIil;",
+        "F wexside/liIiIlIiIiIiIil iliiiiIiilII Lwexside/IillliliIilill;",
+        "F wexside/liIiIlIiIiIiIil overlay Lwexside/IlliIlIiIililil;",
+        "M wexside/IlliIlIiIililil render (Lorg/joml/Matrix4f;)V"
+      ],
+      "old_refs": []
+    },
+    {
+      "name": "iIIllIIilII",
+      "desc": "(I)Z",
+      "new_insns": 11,
+      "old_insns": 2,
+      "new_fp": "1c37bddef5fdc88bd34e3414a499d3880576d6b031375390e8aaf3d3760d98ec",
+      "old_fp": "2456aa7907f2f9c2fbea4ea046fd0b69c6d2235ea3bd40adb89f56a7ec211c37",
+      "new_refs": [
+        "F wexside/liIiIlIiIiIiIil INSTANCE Lwexside/liIiIlIiIiIiIil;",
+        "F wexside/liIiIlIiIiIiIil INSTANCE Lwexside/liIiIlIiIiIiIil;",
+        "F wexside/liIiIlIiIiIiIil overlay Lwexside/IlliIlIiIililil;",
+        "M wexside/IlliIlIiIililil input (I)Z"
+      ],
+      "old_refs": []
+    }
+  ],
+  "identityEvidence": {
+    "controllerOriginalOwner": "wexside/IillliliIilill",
+    "decodedOwner": "donmarket_runner",
+    "bootstrapOwner": "wexside/liIillIlIlliIil",
+    "encoded": "9F7FFF74DF753F761F7A7F695F70BF7E9F6FFF44DF693F6E1F757F755F7EBF69",
+    "seed": -939183886
+  },
+  "referenceReconciliation": "No propagated class mapping for module or its controller/session/overlay/rule. Full reference index contains no fields named budget and no matching controller constructor references. Verified-modules correctly leaves identity unresolved; Timer/FastPlace candidates reflect shared module/setting shape, not a matching implementation."
+}

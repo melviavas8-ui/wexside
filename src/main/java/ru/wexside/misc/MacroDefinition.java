@@ -1,0 +1,58 @@
+package ru.wexside.misc;
+
+import java.util.Objects;
+import ru.wexside.misc.MacroType;
+
+public final class MacroDefinition {
+    private final int keyCode;
+    private final String message;
+    private final String name;
+    private final MacroType type;
+
+    public int getKeyCode() {
+        return this.keyCode;
+    }
+
+    public boolean equals(Object object) {
+        if (this == object) {
+            return true;
+        }
+        if (!(object instanceof MacroDefinition)) {
+            return false;
+        }
+        MacroDefinition macroDefinition = (MacroDefinition)object;
+        return this.keyCode == macroDefinition.keyCode && this.type == macroDefinition.type && Objects.equals(this.name, macroDefinition.name) && Objects.equals(this.message, macroDefinition.message);
+    }
+
+    public String toString() {
+        String string = String.valueOf((Object)this.type);
+        int n = this.keyCode;
+        String string2 = this.message;
+        String string3 = this.name;
+        return "Macro[name=" + string3 + ", message=" + string2 + ", key=" + n + ", type=" + string + "]";
+    }
+
+    public String getMessage() {
+        return this.message;
+    }
+
+    public String getName() {
+        return this.name;
+    }
+
+    public int hashCode() {
+        return Objects.hash(new Object[]{this.name, this.message, this.keyCode, this.type});
+    }
+
+    public MacroType getType() {
+        return this.type;
+    }
+
+    public MacroDefinition(String name, String message, int keyCode, MacroType macroType) {
+        this.name = name;
+        this.message = message;
+        this.keyCode = keyCode;
+        this.type = macroType == null ? MacroType.CHAT : macroType;
+    }
+}
+

@@ -1,0 +1,1877 @@
+[
+  {
+    "original_binaryclass": "wexside/IiIililiIlIilil",
+    "proposed_readableclass": "ru/wexside/module/combat/DamageKnockbackFilterModule",
+    "confidence": "medium",
+    "evidence": [
+      "Distinct from VelocityModule counterpart IlliIiIiliIllil; this class has only enabled option and tracks incoming EntityDamageS2CPacket and EntityVelocityUpdateS2CPacket / DamageTypes; exact product label unresolved."
+    ],
+    "missingfromreference": true,
+    "field_count": 7,
+    "method_count": 30,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/IiIlIlIlllIllil",
+    "proposed_readableclass": "ru/wexside/module/render/TracersModule",
+    "confidence": "high",
+    "evidence": [
+      "Preserved settings/member types + actual mapped game/event API references match this feature; statistical ranking is supporting evidence only.",
+      "Preserved field names: types, width",
+      "Direct literals decoded offline using bytecode-verified teGM0Rro3NgL0yQBhCP28UZ8n algorithm: ['Entities', 'Entities', 'Players', 'Friends', 'Friends', 'Players']"
+    ],
+    "missingfromreference": false,
+    "field_count": 14,
+    "method_count": 11,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/IiIlliIilllilil",
+    "proposed_readableclass": "ru/wexside/module/render/NoRenderModule",
+    "confidence": "high",
+    "evidence": [
+      "Preserved settings/member types + actual mapped game/event API references match this feature; statistical ranking is supporting evidence only.",
+      "Preserved field names: BLOCK_OVERLAY, BOSS_BAR, CAMERA_HURT, EFFECTS_ICONS, FIRE_OVERLAY, SCOREBOARD, TOTEM_OVERLAY, remove",
+      "Direct literals decoded offline using bytecode-verified teGM0Rro3NgL0yQBhCP28UZ8n algorithm: ['Glow', 'Dynamic-FOV', 'Block-Overlay', 'Fire-Overlay', 'Bad-Effects', 'Rain', 'Effects-Icons', 'Bad-Effects', 'World-Lava', 'Totem-Overlay', 'Scoreboard', 'Boss-Bar']"
+    ],
+    "missingfromreference": false,
+    "field_count": 21,
+    "method_count": 11,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/IiIllililllill",
+    "proposed_readableclass": "ru/wexside/module/hud/HUDModule",
+    "confidence": "high",
+    "evidence": [
+      "Preserved settings/member types + actual mapped game/event API references match this feature; statistical ranking is supporting evidence only.",
+      "Preserved field names: elements, notificationEvents, notificationSounds, notificationVolume, notifications, targetHudHurtTint, targetHudRaycast",
+      "Direct literals decoded offline using bytecode-verified teGM0Rro3NgL0yQBhCP28UZ8n algorithm: ['Events', 'Cooldowns', 'Target HUD', 'GPS', 'Watermark', 'Coordinates', 'Old', 'Armor HUD', 'Schedules', 'GPS', 'TPS', 'Environment']"
+    ],
+    "missingfromreference": false,
+    "field_count": 47,
+    "method_count": 37,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/IiIlllIlIililil",
+    "proposed_readableclass": "ru/wexside/module/render/ColorCorrectionModule",
+    "confidence": "high",
+    "evidence": [
+      "Preserved settings/member types + actual mapped game/event API references match this feature; statistical ranking is supporting evidence only.",
+      "Preserved field names: brightness, contrast, saturation"
+    ],
+    "missingfromreference": false,
+    "field_count": 6,
+    "method_count": 4,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/IiIlllIlIlliIil",
+    "proposed_readableclass": "ru/wexside/module/hud/HotbarModule",
+    "confidence": "high",
+    "evidence": [
+      "Preserved settings/member types + actual mapped game/event API references match this feature; statistical ranking is supporting evidence only."
+    ],
+    "missingfromreference": false,
+    "field_count": 12,
+    "method_count": 8,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/IiliIillIiIllil",
+    "proposed_readableclass": "ru/wexside/module/hud/CrosshairModule",
+    "confidence": "high",
+    "evidence": [
+      "Existing unique-method fingerprint / aligned-member propagation anchor; see index/propagated-class-mapping.json evidence.",
+      "Preserved field names: color, dot, gap, length"
+    ],
+    "missingfromreference": false,
+    "field_count": 14,
+    "method_count": 9,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/IililllillIill",
+    "proposed_readableclass": "ru/wexside/module/hud/AnimateModule",
+    "confidence": "high",
+    "evidence": [
+      "Existing unique-method fingerprint / aligned-member propagation anchor; see index/propagated-class-mapping.json evidence.",
+      "Preserved field names: bounce, duration, targets",
+      "Direct literals decoded offline using bytecode-verified teGM0Rro3NgL0yQBhCP28UZ8n algorithm: ['Container', 'Chat', 'Chat', 'Container', 'Tab', 'Container', 'Container']"
+    ],
+    "missingfromreference": false,
+    "field_count": 16,
+    "method_count": 22,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/IillIiIlIiIilil",
+    "proposed_readableclass": "ru/wexside/module/render/AspectRatioModule",
+    "confidence": "medium",
+    "evidence": [
+      "Preserved settings/member types + actual mapped game/event API references match this feature; statistical ranking is supporting evidence only.",
+      "Preserved field names: ratio",
+      "Direct literals decoded offline using bytecode-verified teGM0Rro3NgL0yQBhCP28UZ8n algorithm: ['4:3', '16:10', '16:9', 'Custom', 'Custom', '21:9']"
+    ],
+    "missingfromreference": false,
+    "field_count": 4,
+    "method_count": 5,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/IillIlIiIllilil",
+    "proposed_readableclass": "ru/wexside/module/hud/HealthHelperModule",
+    "confidence": "high",
+    "evidence": [
+      "Preserved settings/member types + actual mapped game/event API references match this feature; statistical ranking is supporting evidence only.",
+      "Preserved field names: debuffs, gapple, tint"
+    ],
+    "missingfromreference": false,
+    "field_count": 12,
+    "method_count": 11,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/IillIlllllIilil",
+    "proposed_readableclass": "ru/wexside/module/combat/AttackAuraModule",
+    "confidence": "high",
+    "evidence": [
+      "Existing unique-method fingerprint / aligned-member propagation anchor; see index/propagated-class-mapping.json evidence.",
+      "Preserved field names: accuracy, cps, criticals, fov, range, sorting, targetSelector, targets",
+      "Direct literals decoded offline using bytecode-verified teGM0Rro3NgL0yQBhCP28UZ8n algorithm: ['Polar', 'Legit', 'Legit', 'Legit', '1.8', '1.8', 'Packet', 'Legit', 'Simple']"
+    ],
+    "missingfromreference": false,
+    "field_count": 49,
+    "method_count": 86,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/IillliIlllIllil",
+    "proposed_readableclass": null,
+    "confidence": "unresolved",
+    "evidence": [
+      "Insufficient independent semantic evidence; candidate registry labels intentionally not accepted. Includes selector-dispatch/scattered-helper boundary."
+    ],
+    "missingfromreference": null,
+    "field_count": 2,
+    "method_count": 4,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": [
+      {
+        "reference": "ru/wexside/module/misc/AlternativeMenuKeyModule",
+        "score": 0.0251,
+        "common_refs": [
+          "ru/wexside/module/Module"
+        ]
+      },
+      {
+        "reference": "ru/wexside/module/misc/EspFeatureModule",
+        "score": 0.0235,
+        "common_refs": [
+          "ru/wexside/module/Module"
+        ]
+      }
+    ]
+  },
+  {
+    "original_binaryclass": "wexside/IillllIilillIl",
+    "proposed_readableclass": "ru/wexside/module/render/TargetESPModule",
+    "confidence": "high",
+    "evidence": [
+      "Existing unique-method fingerprint / aligned-member propagation anchor; see index/propagated-class-mapping.json evidence.",
+      "Preserved field names: color, mode",
+      "Direct literals decoded offline using bytecode-verified teGM0Rro3NgL0yQBhCP28UZ8n algorithm: ['Cylinder Script', 'Cylinder', 'Lightning', 'Glare', 'Cylinder', 'Skull', 'Cylinder Lightning', 'Neon Skull', 'Glare Prism', 'Cylinder']"
+    ],
+    "missingfromreference": false,
+    "field_count": 10,
+    "method_count": 15,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/IlIiIlIlllIllil",
+    "proposed_readableclass": "ru/wexside/module/combat/AutoSwapModule",
+    "confidence": "high",
+    "evidence": [
+      "Preserved settings/member types + actual mapped game/event API references match this feature; statistical ranking is supporting evidence only.",
+      "Preserved field names: mode, segments",
+      "Direct literals decoded offline using bytecode-verified teGM0Rro3NgL0yQBhCP28UZ8n algorithm: ['Totem', 'auto_swap', 'Totem', 'Sphere', 'Firework', 'minecraft:don-item', 'FT', 'GApple', 'Shield', 'Legit', 'auto_swap', 'PublicBukkitValues']"
+    ],
+    "missingfromreference": false,
+    "field_count": 29,
+    "method_count": 90,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/IlIiIlIlllliIl",
+    "proposed_readableclass": "ru/wexside/module/render/EntityFragmentParticlesModule",
+    "confidence": "medium",
+    "evidence": [
+      "Tracks entity/model/render-state mappings, extracts ModelPart cuboid surfaces, creates particle fragments and renders in WorldRenderEvent. Separate from fingerprint-anchored HitParticlesModule. Semantic proposed name; trigger subtype still requires full CFG review.",
+      "Direct literals decoded offline using bytecode-verified teGM0Rro3NgL0yQBhCP28UZ8n algorithm: ['Mobs', 'Animals', 'Players']"
+    ],
+    "missingfromreference": true,
+    "field_count": 27,
+    "method_count": 23,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/IlIiIlllIlIllil",
+    "proposed_readableclass": "ru/wexside/module/render/AmbientModule",
+    "confidence": "high",
+    "evidence": [
+      "Existing unique-method fingerprint / aligned-member propagation anchor; see index/propagated-class-mapping.json evidence.",
+      "Preserved field names: fog, fogColor, skyColor",
+      "Direct literals decoded offline using bytecode-verified teGM0Rro3NgL0yQBhCP28UZ8n algorithm: ['Shader', 'Sky Stripes', 'Default', 'Shader', 'Aurora', 'Default', 'Shader', 'Milky Veil', 'Celestial Rift', 'Color', 'Nebula', 'Meteor Shower']"
+    ],
+    "missingfromreference": false,
+    "field_count": 23,
+    "method_count": 20,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/IlIiliIllililil",
+    "proposed_readableclass": "ru/wexside/module/combat/AutoPotionModule",
+    "confidence": "high",
+    "evidence": [
+      "Preserved settings/member types + actual mapped game/event API references match this feature; statistical ranking is supporting evidence only.",
+      "Preserved field names: potions",
+      "Direct literals decoded offline using bytecode-verified teGM0Rro3NgL0yQBhCP28UZ8n algorithm: ['auto_potion']"
+    ],
+    "missingfromreference": false,
+    "field_count": 19,
+    "method_count": 23,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/IlIlIiIiliIllil",
+    "proposed_readableclass": "ru/wexside/module/player/UseTrackerModule",
+    "confidence": "high",
+    "evidence": [
+      "Preserved settings/member types + actual mapped game/event API references match this feature; statistical ranking is supporting evidence only.",
+      "Preserved field names: DRINK, USE, types",
+      "Direct literals decoded offline using bytecode-verified teGM0Rro3NgL0yQBhCP28UZ8n algorithm: ['Hit', 'Drink', 'VI', ')', 'Splash', 'Splash', '- ', 'Use', 'IV', ':', ' (', 'I']"
+    ],
+    "missingfromreference": false,
+    "field_count": 17,
+    "method_count": 51,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/IlIlIllllililil",
+    "proposed_readableclass": "ru/wexside/module/movement/FireworkBoostModule",
+    "confidence": "high",
+    "evidence": [
+      "Receives entity+two-float event created inside mapped FireworkRocketEntity; adjusts event speed terms via pitch-dependent preset/custom float curves and NumberSetting arrays. Decoded RW, Custom, B-HVH modes; not Timer.",
+      "Direct literals decoded offline using bytecode-verified teGM0Rro3NgL0yQBhCP28UZ8n algorithm: ['Custom', 'RW', ' B-HVH', 'RW', 'Custom', ' B-HVH']"
+    ],
+    "missingfromreference": true,
+    "field_count": 34,
+    "method_count": 21,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/IlIlliIlllllll",
+    "proposed_readableclass": "ru/wexside/module/render/HitParticlesModule",
+    "confidence": "high",
+    "evidence": [
+      "Existing unique-method fingerprint / aligned-member propagation anchor; see index/propagated-class-mapping.json evidence.",
+      "Preserved field names: color, count, duration, maxCount, particles, size, strength",
+      "Direct literals decoded offline using bytecode-verified teGM0Rro3NgL0yQBhCP28UZ8n algorithm: ['6', '5', '3', '1', '9', '4', '0', 'Default', '8', '6', '9', '2']"
+    ],
+    "missingfromreference": false,
+    "field_count": 21,
+    "method_count": 19,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/IlIllilillIilil",
+    "proposed_readableclass": "ru/wexside/module/hud/AuctionHelperModule",
+    "confidence": "high",
+    "evidence": [
+      "Existing unique-method fingerprint / aligned-member propagation anchor; see index/propagated-class-mapping.json evidence.",
+      "Preserved field names: affordable, calculator, color, tint",
+      "Direct literals decoded offline using bytecode-verified teGM0Rro3NgL0yQBhCP28UZ8n algorithm: ['-', 'sword', '/ah sell ', '/', 'trident', 'axe', 'shovel', '-?\\\\d+', 'hoe', '\\\\*', '*', 'pickaxe']"
+    ],
+    "missingfromreference": false,
+    "field_count": 18,
+    "method_count": 31,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/IlIlllIiIiIiIil",
+    "proposed_readableclass": "ru/wexside/module/hud/ClientWatermarkModule",
+    "confidence": "medium",
+    "evidence": [
+      "Decoded copyright, fps suffix and /assets/wexside/textures/mops.png; dedicated GUI render path. Distinct from PositionModule counterpart and HUD aggregate. Semantic name, exact original label unproved.",
+      "Direct literals decoded offline using bytecode-verified teGM0Rro3NgL0yQBhCP28UZ8n algorithm: ['pon klient all rights reserved\\nCopyright (C) Phobos, Ltd - All Rights Reserved\\n%s\\n', '@$', ' fps', '/assets/wexside/textures/mops.png']"
+    ],
+    "missingfromreference": true,
+    "field_count": 7,
+    "method_count": 5,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/IlIlllllIiIiIl",
+    "proposed_readableclass": "ru/wexside/module/render/HandAuraModule",
+    "confidence": "medium",
+    "evidence": [
+      "Preserved settings/member types + actual mapped game/event API references match this feature; statistical ranking is supporting evidence only.",
+      "Preserved field names: energy, material"
+    ],
+    "missingfromreference": false,
+    "field_count": 14,
+    "method_count": 23,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/IlliIiIiliIllil",
+    "proposed_readableclass": "ru/wexside/module/combat/VelocityModule",
+    "confidence": "high",
+    "evidence": [
+      "Preserved settings/member types + actual mapped game/event API references match this feature; statistical ranking is supporting evidence only.",
+      "Preserved field names: mode",
+      "Direct literals decoded offline using bytecode-verified teGM0Rro3NgL0yQBhCP28UZ8n algorithm: ['Legit', 'Packet']"
+    ],
+    "missingfromreference": false,
+    "field_count": 5,
+    "method_count": 8,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/IlliIiIlliIllil",
+    "proposed_readableclass": "ru/wexside/module/combat/ElytraHelperModule",
+    "confidence": "medium",
+    "evidence": [
+      "Preserved settings/member types + actual mapped game/event API references match this feature; statistical ranking is supporting evidence only.",
+      "Preserved field names: mode",
+      "Direct literals decoded offline using bytecode-verified teGM0Rro3NgL0yQBhCP28UZ8n algorithm: ['Legit', 'elytra_helper', 'elytra_helper', 'Legit', 'FS', 'elytra_helper', 'elytra_helper', 'Simple', 'elytra_helper', 'elytra_helper']"
+    ],
+    "missingfromreference": false,
+    "field_count": 27,
+    "method_count": 45,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/IlliIiliIililil",
+    "proposed_readableclass": "ru/wexside/module/render/TotemEffectsModule",
+    "confidence": "high",
+    "evidence": [
+      "Preserved settings/member types + actual mapped game/event API references match this feature; statistical ranking is supporting evidence only.",
+      "Preserved field names: color, mode, physics, settings, speed",
+      "Direct literals decoded offline using bytecode-verified teGM0Rro3NgL0yQBhCP28UZ8n algorithm: ['Particles', 'Particles', 'Both', 'Ghost', 'Both', 'Particles', 'Hologram', 'Both', 'Hologram']"
+    ],
+    "missingfromreference": false,
+    "field_count": 19,
+    "method_count": 12,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/IlliIilllllilil",
+    "proposed_readableclass": "ru/wexside/module/render/BlockOverlayModule",
+    "confidence": "high",
+    "evidence": [
+      "Existing unique-method fingerprint / aligned-member propagation anchor; see index/propagated-class-mapping.json evidence.",
+      "Preserved field names: MODEL, outline",
+      "Direct literals decoded offline using bytecode-verified teGM0Rro3NgL0yQBhCP28UZ8n algorithm: ['Plasma', 'Aurora', 'Magnet', 'Ribbons', 'Peel', 'Static', 'Liquid', 'Nebula']"
+    ],
+    "missingfromreference": false,
+    "field_count": 19,
+    "method_count": 9,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/IlliIlliIillIil",
+    "proposed_readableclass": "ru/wexside/module/render/WorldParticlesModule",
+    "confidence": "high",
+    "evidence": [
+      "Existing unique-method fingerprint / aligned-member propagation anchor; see index/propagated-class-mapping.json evidence.",
+      "Preserved field names: color, direction, duration, maxCount, particles, range, size, strength",
+      "Direct literals decoded offline using bytecode-verified teGM0Rro3NgL0yQBhCP28UZ8n algorithm: ['Up', 'Down']"
+    ],
+    "missingfromreference": false,
+    "field_count": 19,
+    "method_count": 16,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/IlliIlllIlliIil",
+    "proposed_readableclass": "ru/wexside/module/render/ShulkerViewerModule",
+    "confidence": "high",
+    "evidence": [
+      "Existing unique-method fingerprint / aligned-member propagation anchor; see index/propagated-class-mapping.json evidence.",
+      "Preserved field names: icons",
+      "Direct literals decoded offline using bytecode-verified teGM0Rro3NgL0yQBhCP28UZ8n algorithm: ['end_troll_box', 'vault_crate', 'shulker_box', '_', '/assets/wexside/textures/gui/shulker_parts.png']"
+    ],
+    "missingfromreference": false,
+    "field_count": 16,
+    "method_count": 23,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/IlliliIlllIilil",
+    "proposed_readableclass": "ru/wexside/module/render/CameraModule",
+    "confidence": "high",
+    "evidence": [
+      "Preserved settings/member types + actual mapped game/event API references match this feature; statistical ranking is supporting evidence only.",
+      "Preserved field names: clip, smooth"
+    ],
+    "missingfromreference": false,
+    "field_count": 7,
+    "method_count": 8,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/IllilillIiIilil",
+    "proposed_readableclass": "ru/wexside/module/render/SeeInvisiblesModule",
+    "confidence": "medium",
+    "evidence": [
+      "Preserved settings/member types + actual mapped game/event API references match this feature; statistical ranking is supporting evidence only.",
+      "Preserved field names: alpha"
+    ],
+    "missingfromreference": false,
+    "field_count": 3,
+    "method_count": 4,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/IllillliIlIlIl",
+    "proposed_readableclass": "ru/wexside/module/render/BrightnessModule",
+    "confidence": "medium",
+    "evidence": [
+      "Preserved settings/member types + actual mapped game/event API references match this feature; statistical ranking is supporting evidence only.",
+      "Preserved field names: strength"
+    ],
+    "missingfromreference": false,
+    "field_count": 2,
+    "method_count": 3,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/IllillllIiIlIl",
+    "proposed_readableclass": "ru/wexside/module/render/TrailsModule",
+    "confidence": "high",
+    "evidence": [
+      "Existing unique-method fingerprint / aligned-member propagation anchor; see index/propagated-class-mapping.json evidence.",
+      "Preserved field names: color, count, glow, size",
+      "Direct literals decoded offline using bytecode-verified teGM0Rro3NgL0yQBhCP28UZ8n algorithm: ['Particles']"
+    ],
+    "missingfromreference": false,
+    "field_count": 41,
+    "method_count": 28,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/liIiIiIiliIllil",
+    "proposed_readableclass": "ru/wexside/module/render/HandModifyModule",
+    "confidence": "high",
+    "evidence": [
+      "Preserved settings/member types + actual mapped game/event API references match this feature; statistical ranking is supporting evidence only.",
+      "Preserved field names: rotate",
+      "Direct literals decoded offline using bytecode-verified teGM0Rro3NgL0yQBhCP28UZ8n algorithm: ['Mode 7', 'Mode 6', 'Mode 4', 'Vanilla', 'Mode 3', 'Mode 2', 'Mode 5', 'None']"
+    ],
+    "missingfromreference": false,
+    "field_count": 23,
+    "method_count": 17,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/liIiIiIilillIl",
+    "proposed_readableclass": "ru/wexside/module/combat/TargetPositionResolverModule",
+    "confidence": "medium",
+    "evidence": [
+      "Tracks target PlayerEntity, multiple positions, bounding box and attack aura; decoded Smart Auto/WithGravity/Resolver modes. Source AimAssist counterpart is liIillllllIlIil; exact feature label and full correction semantics remain open.",
+      "Direct literals decoded offline using bytecode-verified teGM0Rro3NgL0yQBhCP28UZ8n algorithm: ['Smart Auto', 'Smart Auto', 'Smart Auto', 'WithGravity', 'Smart Auto', 'WithGravity', 'Resolver', 'Resolver']"
+    ],
+    "missingfromreference": true,
+    "field_count": 44,
+    "method_count": 112,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/liIiIlIiIiIiIil",
+    "proposed_readableclass": null,
+    "confidence": "unresolved",
+    "evidence": [
+      "Insufficient independent semantic evidence; candidate registry labels intentionally not accepted. Includes selector-dispatch/scattered-helper boundary."
+    ],
+    "missingfromreference": null,
+    "field_count": 22,
+    "method_count": 25,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": [
+      {
+        "reference": "ru/wexside/module/movement/TimerModule",
+        "score": 0.3119,
+        "common_refs": [
+          "ru/wexside/module/Module",
+          "ru/wexside/setting/BooleanSetting",
+          "ru/wexside/setting/NumberSetting",
+          "ru/wexside/setting/NumberSettingBuilder"
+        ]
+      },
+      {
+        "reference": "ru/wexside/module/player/FastPlaceModule",
+        "score": 0.3119,
+        "common_refs": [
+          "ru/wexside/module/Module",
+          "ru/wexside/setting/BooleanSetting",
+          "ru/wexside/setting/NumberSetting",
+          "ru/wexside/setting/NumberSettingBuilder"
+        ]
+      }
+    ],
+    "functional_role": "DonMarket runner bridge (alternate dump and decoded controller owner)",
+    "retained_behavior_source": "src/recovery/java/ru/wexside/recovery/donmarket/DonMarketRunnerBehavior.java"
+  },
+  {
+    "original_binaryclass": "wexside/liIiIlIlliIiIl",
+    "proposed_readableclass": "ru/wexside/module/combat/CrystalAttackModule",
+    "confidence": "high",
+    "evidence": [
+      "Enabled/distance options; concrete EndCrystalEntity enumeration and ClientPlayerInteractionManager attack + Hand usage. Semantic proposed name; original product label unestablished."
+    ],
+    "missingfromreference": true,
+    "field_count": 10,
+    "method_count": 11,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/liIiIlIlliIilil",
+    "proposed_readableclass": "ru/wexside/module/movement/ElytraMotionModule",
+    "confidence": "high",
+    "evidence": [
+      "Repeated decoded elytra_motion owner id and movement/rotation callbacks; source has ElytraHelper but no matching motion feature class.",
+      "Direct literals decoded offline using bytecode-verified teGM0Rro3NgL0yQBhCP28UZ8n algorithm: ['elytra_motion']"
+    ],
+    "missingfromreference": true,
+    "field_count": 13,
+    "method_count": 23,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/liIililillliIl",
+    "proposed_readableclass": "ru/wexside/module/render/FreeLookModule",
+    "confidence": "high",
+    "evidence": [
+      "Preserved settings/member types + actual mapped game/event API references match this feature; statistical ranking is supporting evidence only."
+    ],
+    "missingfromreference": false,
+    "field_count": 8,
+    "method_count": 11,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/liIillIlliIilil",
+    "proposed_readableclass": "ru/wexside/module/player/AuctionAutoBuyModule",
+    "confidence": "medium",
+    "evidence": [
+      "Module owns hopper plus IiIlIlIililill controller with preserved buy/consider/open/tick/interval methods, auction session, latency and offer types. Controller methods process offer predicates and purchases. A separate auction-auto-buy feature beyond source AuctionHelper sell/price HUD; semantic proposed name, exact product label remains open."
+    ],
+    "missingfromreference": true,
+    "field_count": 7,
+    "method_count": 15,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/liIillllllIlIil",
+    "proposed_readableclass": "ru/wexside/module/combat/AimAssistModule",
+    "confidence": "high",
+    "evidence": [
+      "Preserved settings/member types + actual mapped game/event API references match this feature; statistical ranking is supporting evidence only.",
+      "Preserved field names: fov, magnet, mode, sorting, target, targetSelector, targets",
+      "Direct literals decoded offline using bytecode-verified teGM0Rro3NgL0yQBhCP28UZ8n algorithm: ['Legit']"
+    ],
+    "missingfromreference": false,
+    "field_count": 58,
+    "method_count": 74,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/liIlIiIlIlIill",
+    "proposed_readableclass": "ru/wexside/module/render/ConsumablesESPModule",
+    "confidence": "high",
+    "evidence": [
+      "Preserved settings/member types + actual mapped game/event API references match this feature; statistical ranking is supporting evidence only."
+    ],
+    "missingfromreference": false,
+    "field_count": 9,
+    "method_count": 4,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/liIlIlIlllllIil",
+    "proposed_readableclass": "ru/wexside/module/combat/CrystalAuraModule",
+    "confidence": "high",
+    "evidence": [
+      "Concrete EndCrystalEntity placement/attack pipeline: targetPos block, rotation owner, BlockItem/Items/Blocks checks, interaction-manager attack, PlayerScreenHandler slot operations, EntitySpawnS2CPacket tracking and bounding-box/raycast targeting. Distinct from simpler liIiIlIlliIiIl CrystalAttackModule; source Nuker only superficially shares block/vector APIs. Semantic proposed readable name."
+    ],
+    "missingfromreference": true,
+    "field_count": 29,
+    "method_count": 68,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/liIlliIiliIill",
+    "proposed_readableclass": "ru/wexside/module/combat/AutoArmorModule",
+    "confidence": "medium",
+    "evidence": [
+      "Preserved settings/member types + actual mapped game/event API references match this feature; statistical ranking is supporting evidence only.",
+      "Preserved field names: OWNER",
+      "Direct literals decoded offline using bytecode-verified teGM0Rro3NgL0yQBhCP28UZ8n algorithm: ['auto_armor', 'auto_armor', 'auto_armor', 'auto_armor']"
+    ],
+    "missingfromreference": false,
+    "field_count": 15,
+    "method_count": 26,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/liIlllIiIiIllil",
+    "proposed_readableclass": "ru/wexside/module/render/BlockESPModule",
+    "confidence": "high",
+    "evidence": [
+      "Existing unique-method fingerprint / aligned-member propagation anchor; see index/propagated-class-mapping.json evidence."
+    ],
+    "missingfromreference": false,
+    "field_count": 6,
+    "method_count": 11,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/liIlllIiIlllIil",
+    "proposed_readableclass": "ru/wexside/module/render/PredictionsModule",
+    "confidence": "high",
+    "evidence": [
+      "Existing unique-method fingerprint / aligned-member propagation anchor; see index/propagated-class-mapping.json evidence.",
+      "Preserved field names: arrow, crossbow, items, pearl, potions, renderer, trident",
+      "Direct literals decoded offline using bytecode-verified teGM0Rro3NgL0yQBhCP28UZ8n algorithm: ['Classic', 'Alchemy', 'Ether', 'Caustics']"
+    ],
+    "missingfromreference": false,
+    "field_count": 39,
+    "method_count": 35,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/liIlllllllllIil",
+    "proposed_readableclass": "ru/wexside/module/combat/AutoTotemModule",
+    "confidence": "high",
+    "evidence": [
+      "Preserved settings/member types + actual mapped game/event API references match this feature; statistical ranking is supporting evidence only.",
+      "Preserved field names: consider, health",
+      "Direct literals decoded offline using bytecode-verified teGM0Rro3NgL0yQBhCP28UZ8n algorithm: ['auto_totem', 'GApple', 'auto_totem', 'TNT', 'Mace', 'Anchor', 'auto_totem', 'Crystals', 'Falling', 'Absorption']"
+    ],
+    "missingfromreference": false,
+    "field_count": 35,
+    "method_count": 79,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/liliIiIiIiIill",
+    "proposed_readableclass": "ru/wexside/module/render/CriticalHitEffectModule",
+    "confidence": "high",
+    "evidence": [
+      "Existing unique-method fingerprint / aligned-member propagation anchor; see index/propagated-class-mapping.json evidence.",
+      "Preserved field names: color, filled, rise"
+    ],
+    "missingfromreference": false,
+    "field_count": 29,
+    "method_count": 25,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/liliIiIlIlIlIil",
+    "proposed_readableclass": "ru/wexside/module/render/HitEffectModule",
+    "confidence": "medium",
+    "evidence": [
+      "Preserved settings/member types + actual mapped game/event API references match this feature; statistical ranking is supporting evidence only.",
+      "Preserved field names: color, distance, filled",
+      "Direct literals decoded offline using bytecode-verified teGM0Rro3NgL0yQBhCP28UZ8n algorithm: ['Jelly', 'Jelly', 'Ghost']"
+    ],
+    "missingfromreference": false,
+    "field_count": 17,
+    "method_count": 17,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/lililiIillIllil",
+    "proposed_readableclass": "ru/wexside/module/combat/WeaponSpamModule",
+    "confidence": "high",
+    "evidence": [
+      "Preserved settings/member types + actual mapped game/event API references match this feature; statistical ranking is supporting evidence only.",
+      "Preserved field names: BOW, CROSSBOW, TRIDENT, delay, weapons",
+      "Direct literals decoded offline using bytecode-verified teGM0Rro3NgL0yQBhCP28UZ8n algorithm: ['Bow', 'Crossbow', 'Trident', 'Crossbow', 'Bow', 'Bow', 'Trident']"
+    ],
+    "missingfromreference": false,
+    "field_count": 9,
+    "method_count": 10,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/lililiIllillIl",
+    "proposed_readableclass": "ru/wexside/module/render/StructuresModule",
+    "confidence": "high",
+    "evidence": [
+      "Preserved settings/member types + actual mapped game/event API references match this feature; statistical ranking is supporting evidence only.",
+      "Preserved field names: icons",
+      "Direct literals decoded offline using bytecode-verified teGM0Rro3NgL0yQBhCP28UZ8n algorithm: [' ', ' ']"
+    ],
+    "missingfromreference": false,
+    "field_count": 28,
+    "method_count": 13,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/lililililillIl",
+    "proposed_readableclass": null,
+    "confidence": "unresolved",
+    "evidence": [
+      "Insufficient independent semantic evidence; candidate registry labels intentionally not accepted. Includes selector-dispatch/scattered-helper boundary."
+    ],
+    "missingfromreference": null,
+    "field_count": 2,
+    "method_count": 4,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": [
+      {
+        "reference": "ru/wexside/module/misc/AlternativeMenuKeyModule",
+        "score": 0.0251,
+        "common_refs": [
+          "ru/wexside/module/Module"
+        ]
+      },
+      {
+        "reference": "ru/wexside/module/misc/EspFeatureModule",
+        "score": 0.0235,
+        "common_refs": [
+          "ru/wexside/module/Module"
+        ]
+      }
+    ]
+  },
+  {
+    "original_binaryclass": "wexside/lilillIiIlIllil",
+    "proposed_readableclass": "ru/wexside/module/hud/BetterChatModule",
+    "confidence": "medium",
+    "evidence": [
+      "Preserved settings/member types + actual mapped game/event API references match this feature; statistical ranking is supporting evidence only."
+    ],
+    "missingfromreference": false,
+    "field_count": 4,
+    "method_count": 4,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/lillIiIlIillIil",
+    "proposed_readableclass": "ru/wexside/module/hud/PositionModule",
+    "confidence": "high",
+    "evidence": [
+      "Preserved settings/member types + actual mapped game/event API references match this feature; statistical ranking is supporting evidence only.",
+      "Direct literals decoded offline using bytecode-verified teGM0Rro3NgL0yQBhCP28UZ8n algorithm: ['nether', 'xyz: %d, %d, %d (%d, %d)', 'bps: ', '%.2f']"
+    ],
+    "missingfromreference": false,
+    "field_count": 7,
+    "method_count": 4,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/lillIlIlIiIiIil",
+    "proposed_readableclass": null,
+    "confidence": "unresolved",
+    "evidence": [
+      "Insufficient independent semantic evidence; candidate registry labels intentionally not accepted. Includes selector-dispatch/scattered-helper boundary."
+    ],
+    "missingfromreference": null,
+    "field_count": 12,
+    "method_count": 9,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": [
+      {
+        "reference": "ru/wexside/module/movement/SpeedModule",
+        "score": 0.2231,
+        "common_refs": [
+          "net/minecraft/client/MinecraftClient",
+          "net/minecraft/client/network/ClientPlayerEntity",
+          "net/minecraft/client/world/ClientWorld",
+          "net/minecraft/entity/LivingEntity",
+          "net/minecraft/util/math/Box",
+          "net/minecraft/util/math/Vec3d",
+          "ru/wexside/module/Module",
+          "ru/wexside/setting/BooleanSetting"
+        ]
+      },
+      {
+        "reference": "ru/wexside/module/hud/CrosshairModule",
+        "score": 0.2043,
+        "common_refs": [
+          "net/minecraft/client/MinecraftClient",
+          "net/minecraft/client/network/ClientPlayerEntity",
+          "net/minecraft/client/render/RenderTickCounter",
+          "net/minecraft/entity/LivingEntity",
+          "net/minecraft/util/hit/EntityHitResult",
+          "ru/wexside/module/Module",
+          "ru/wexside/setting/BooleanSetting",
+          "ru/wexside/setting/ColorSetting"
+        ]
+      }
+    ]
+  },
+  {
+    "original_binaryclass": "wexside/lillIlIlllIlIil",
+    "proposed_readableclass": "ru/wexside/module/hud/ArrowsModule",
+    "confidence": "high",
+    "evidence": [
+      "Existing unique-method fingerprint / aligned-member propagation anchor; see index/propagated-class-mapping.json evidence.",
+      "Preserved field names: groups, overlap, radius, size, style, threshold",
+      "Direct literals decoded offline using bytecode-verified teGM0Rro3NgL0yQBhCP28UZ8n algorithm: ['Items', 'Players', 'Entities', 'Friends', 'Entities', 'Friends', 'Entities', 'm', 'Players', 'Items', 'Friends', 'Items']"
+    ],
+    "missingfromreference": false,
+    "field_count": 23,
+    "method_count": 37,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/lillIlliIiIllil",
+    "proposed_readableclass": "ru/wexside/module/combat/TriggerBotModule",
+    "confidence": "medium",
+    "evidence": [
+      "Preserved settings/member types + actual mapped game/event API references match this feature; statistical ranking is supporting evidence only.",
+      "Preserved field names: cps, targets",
+      "Direct literals decoded offline using bytecode-verified teGM0Rro3NgL0yQBhCP28UZ8n algorithm: ['Legit', '1.8', 'Legit', 'Legit']"
+    ],
+    "missingfromreference": false,
+    "field_count": 34,
+    "method_count": 46,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/lillllllIlllIil",
+    "proposed_readableclass": "ru/wexside/module/combat/ClickPearlModule",
+    "confidence": "medium",
+    "evidence": [
+      "Preserved settings/member types + actual mapped game/event API references match this feature; statistical ranking is supporting evidence only.",
+      "Preserved field names: key, mode",
+      "Direct literals decoded offline using bytecode-verified teGM0Rro3NgL0yQBhCP28UZ8n algorithm: ['click_pearl', 'click_pearl', 'Legit', 'FS', 'click_pearl', 'click_pearl', 'Legit']"
+    ],
+    "missingfromreference": false,
+    "field_count": 17,
+    "method_count": 31,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/llIiIiIlliIiIil",
+    "proposed_readableclass": "ru/wexside/module/combat/TridentClickerModule",
+    "confidence": "high",
+    "evidence": [
+      "Preserved settings/member types + actual mapped game/event API references match this feature; statistical ranking is supporting evidence only.",
+      "Preserved field names: RANGE, cps, sorting, targetSelector"
+    ],
+    "missingfromreference": false,
+    "field_count": 12,
+    "method_count": 11,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/llIiliIllillIil",
+    "proposed_readableclass": "ru/wexside/module/player/MineHelperModule",
+    "confidence": "high",
+    "evidence": [
+      "Preserved settings/member types + actual mapped game/event API references match this feature; statistical ranking is supporting evidence only.",
+      "Preserved field names: ores",
+      "Direct literals decoded offline using bytecode-verified teGM0Rro3NgL0yQBhCP28UZ8n algorithm: ['Diamond', 'Diamond']"
+    ],
+    "missingfromreference": false,
+    "field_count": 23,
+    "method_count": 35,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/llIiliIlllIllil",
+    "proposed_readableclass": "ru/wexside/module/render/DurationVisualiserModule",
+    "confidence": "high",
+    "evidence": [
+      "Preserved settings/member types + actual mapped game/event API references match this feature; statistical ranking is supporting evidence only."
+    ],
+    "missingfromreference": false,
+    "field_count": 12,
+    "method_count": 7,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/llIilillIlIiIil",
+    "proposed_readableclass": "ru/wexside/module/misc/EspFeatureModule",
+    "confidence": "medium",
+    "evidence": [
+      "Preserved settings/member types + actual mapped game/event API references match this feature; statistical ranking is supporting evidence only."
+    ],
+    "missingfromreference": false,
+    "field_count": 1,
+    "method_count": 5,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/llIillIillliIl",
+    "proposed_readableclass": "ru/wexside/module/player/AutoWardenModule",
+    "confidence": "high",
+    "evidence": [
+      "Repeated direct decoded auto_warden and auto_warden_consumables ids; state machine, start/stop/collect/save/take APIs, container/chest navigation, survival/death/drop helpers. No source-reference counterpart.",
+      "Direct literals decoded offline using bytecode-verified teGM0Rro3NgL0yQBhCP28UZ8n algorithm: ['an', '-', ' t=', ' opens=', '. ', 'auto_warden', ',', ',', ' (an=', ',', 'hub', ': ']"
+    ],
+    "missingfromreference": true,
+    "field_count": 100,
+    "method_count": 124,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/llIilllillIiIil",
+    "proposed_readableclass": "ru/wexside/module/movement/TargetChaseModule",
+    "confidence": "medium",
+    "evidence": [
+      "Aura target, chase option and distance, vector/box tracking and movement helpers; decoded Motion/Rage/RW/Simple modes. Separate from source SpeedModule counterpart. Semantic proposed name, not original label.",
+      "Direct literals decoded offline using bytecode-verified teGM0Rro3NgL0yQBhCP28UZ8n algorithm: ['Rage', 'RW', 'Rage', 'Motion', 'Motion', 'Simple']"
+    ],
+    "missingfromreference": true,
+    "field_count": 48,
+    "method_count": 64,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/llIlliIiIlllIil",
+    "proposed_readableclass": "ru/wexside/module/combat/TapeMouseModule",
+    "confidence": "medium",
+    "evidence": [
+      "Preserved settings/member types + actual mapped game/event API references match this feature; statistical ranking is supporting evidence only.",
+      "Preserved field names: press"
+    ],
+    "missingfromreference": false,
+    "field_count": 9,
+    "method_count": 8,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/lllilillliIilil",
+    "proposed_readableclass": "ru/wexside/module/render/ItemPhysicModule",
+    "confidence": "high",
+    "evidence": [
+      "Both static APIs called by mapped ItemEntityRenderer: liillIIIIII -> iIiiliiilII()Z, llillIIIIII -> liiiliiilII(Box)D. Body is enabled query plus entity bounding-box dimension helper; source ItemPhysic feature matches. Registry label was not used as proof."
+    ],
+    "missingfromreference": false,
+    "field_count": 2,
+    "method_count": 4,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/llllliIlIlIill",
+    "proposed_readableclass": "ru/wexside/module/misc/HologramOptimizerModule",
+    "confidence": "high",
+    "evidence": [
+      "Preserved settings/member types + actual mapped game/event API references match this feature; statistical ranking is supporting evidence only.",
+      "Preserved field names: distance, quality"
+    ],
+    "missingfromreference": false,
+    "field_count": 4,
+    "method_count": 6,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/llllliIlllliIl",
+    "proposed_readableclass": null,
+    "confidence": "unresolved",
+    "evidence": [
+      "Insufficient independent semantic evidence; candidate registry labels intentionally not accepted. Includes selector-dispatch/scattered-helper boundary.",
+      "Direct literals decoded offline using bytecode-verified teGM0Rro3NgL0yQBhCP28UZ8n algorithm: ['builtin:', 'RAINBOW', 'VANILLA']"
+    ],
+    "missingfromreference": null,
+    "field_count": 10,
+    "method_count": 8,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": [
+      {
+        "reference": "ru/wexside/module/player/AutoSpawnModule",
+        "score": 0.1464,
+        "common_refs": [
+          "net/minecraft/text/Text",
+          "ru/wexside/module/Module",
+          "ru/wexside/setting/BooleanSetting",
+          "ru/wexside/setting/ModeSetting",
+          "ru/wexside/setting/NumberSetting"
+        ]
+      },
+      {
+        "reference": "ru/wexside/module/render/AspectRatioModule",
+        "score": 0.1454,
+        "common_refs": [
+          "ru/wexside/module/Module",
+          "ru/wexside/setting/BooleanSetting",
+          "ru/wexside/setting/ModeSetting",
+          "ru/wexside/setting/NumberSetting"
+        ]
+      }
+    ]
+  },
+  {
+    "original_binaryclass": "wexside/llllllIlIlIllil",
+    "proposed_readableclass": "ru/wexside/module/render/ElytraTrailsModule",
+    "confidence": "high",
+    "evidence": [
+      "Existing unique-method fingerprint / aligned-member propagation anchor; see index/propagated-class-mapping.json evidence.",
+      "Preserved field names: color",
+      "Direct literals decoded offline using bytecode-verified teGM0Rro3NgL0yQBhCP28UZ8n algorithm: ['Classic', 'Classic', 'Plasma Wake']"
+    ],
+    "missingfromreference": false,
+    "field_count": 9,
+    "method_count": 14,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/llllllIlllIiIil",
+    "proposed_readableclass": "ru/wexside/module/hud/ExtraTabModule",
+    "confidence": "high",
+    "evidence": [
+      "Independent patched vanilla call sites prove behavior; see module-player-calls.javap.txt and interaction-raycast-evidence.md / PlayerListHud references.",
+      "Preserved settings/member types + actual mapped game/event API references match this feature; statistical ranking is supporting evidence only."
+    ],
+    "missingfromreference": false,
+    "field_count": 2,
+    "method_count": 3,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/lllllllllllilil",
+    "proposed_readableclass": "ru/wexside/module/render/WaypointsModule",
+    "confidence": "high",
+    "evidence": [
+      "Preserved settings/member types + actual mapped game/event API references match this feature; statistical ranking is supporting evidence only.",
+      "Preserved field names: ELLIPSIS",
+      "Direct literals decoded offline using bytecode-verified teGM0Rro3NgL0yQBhCP28UZ8n algorithm: ['Waypoint', 'Event', '...', 'h', '...', '...', 'h', '...', 'm']"
+    ],
+    "missingfromreference": false,
+    "field_count": 12,
+    "method_count": 6,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/IiIiIiliIiliIl",
+    "proposed_readableclass": "ru/wexside/module/player/AutoLeaveModule",
+    "confidence": "high",
+    "evidence": [
+      "Preserved settings/member types + actual mapped game/event API references match this feature; statistical ranking is supporting evidence only.",
+      "Direct literals decoded offline using bytecode-verified teGM0Rro3NgL0yQBhCP28UZ8n algorithm: ['AutoLeave']"
+    ],
+    "missingfromreference": false,
+    "field_count": 3,
+    "method_count": 11,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/IiIlIiIllllilil",
+    "proposed_readableclass": "ru/wexside/module/player/ChestStealerModule",
+    "confidence": "high",
+    "evidence": [
+      "Preserved settings/member types + actual mapped game/event API references match this feature; statistical ranking is supporting evidence only.",
+      "Direct literals decoded offline using bytecode-verified teGM0Rro3NgL0yQBhCP28UZ8n algorithm: ['chest_stealer_close', 'ChestStealer']"
+    ],
+    "missingfromreference": false,
+    "field_count": 18,
+    "method_count": 24,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/IiIlllIillllIil",
+    "proposed_readableclass": "ru/wexside/module/player/FastBreakModule",
+    "confidence": "high",
+    "evidence": [
+      "Preserved settings/member types + actual mapped game/event API references match this feature; statistical ranking is supporting evidence only."
+    ],
+    "missingfromreference": false,
+    "field_count": 6,
+    "method_count": 10,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/IiliIlIlIiIllil",
+    "proposed_readableclass": null,
+    "confidence": "unresolved",
+    "evidence": [
+      "Insufficient independent semantic evidence; candidate registry labels intentionally not accepted. Includes selector-dispatch/scattered-helper boundary."
+    ],
+    "missingfromreference": null,
+    "field_count": 2,
+    "method_count": 4,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": [
+      {
+        "reference": "ru/wexside/module/misc/EspFeatureModule",
+        "score": 0.0235,
+        "common_refs": [
+          "ru/wexside/module/Module"
+        ]
+      },
+      {
+        "reference": "ru/wexside/module/combat/NoEntityTraceModule",
+        "score": 0.0216,
+        "common_refs": [
+          "ru/wexside/module/Module"
+        ]
+      }
+    ]
+  },
+  {
+    "original_binaryclass": "wexside/IillIlIlIiIllil",
+    "proposed_readableclass": "ru/wexside/module/movement/AutoSprintModule",
+    "confidence": "high",
+    "evidence": [
+      "Preserved settings/member types + actual mapped game/event API references match this feature; statistical ranking is supporting evidence only."
+    ],
+    "missingfromreference": false,
+    "field_count": 8,
+    "method_count": 11,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/IillIlllIiIlIil",
+    "proposed_readableclass": "ru/wexside/module/player/AutoFishModule",
+    "confidence": "high",
+    "evidence": [
+      "Preserved settings/member types + actual mapped game/event API references match this feature; statistical ranking is supporting evidence only."
+    ],
+    "missingfromreference": false,
+    "field_count": 13,
+    "method_count": 16,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/IillIlllliIiIl",
+    "proposed_readableclass": "ru/wexside/module/player/FastPlaceModule",
+    "confidence": "medium",
+    "evidence": [
+      "Preserved settings/member types + actual mapped game/event API references match this feature; statistical ranking is supporting evidence only."
+    ],
+    "missingfromreference": false,
+    "field_count": 4,
+    "method_count": 4,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/IillliIlIlIiIil",
+    "proposed_readableclass": "ru/wexside/module/player/NoInteractModule",
+    "confidence": "high",
+    "evidence": [
+      "Preserved settings/member types + actual mapped game/event API references match this feature; statistical ranking is supporting evidence only."
+    ],
+    "missingfromreference": false,
+    "field_count": 8,
+    "method_count": 50,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/IlIillIillIlIil",
+    "proposed_readableclass": "ru/wexside/module/player/NoPushModule",
+    "confidence": "medium",
+    "evidence": [
+      "Preserved settings/member types + actual mapped game/event API references match this feature; statistical ranking is supporting evidence only."
+    ],
+    "missingfromreference": false,
+    "field_count": 6,
+    "method_count": 5,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/IlIillIllllilil",
+    "proposed_readableclass": "ru/wexside/module/movement/GuiMoveModule",
+    "confidence": "high",
+    "evidence": [
+      "Preserved settings/member types + actual mapped game/event API references match this feature; statistical ranking is supporting evidence only.",
+      "Direct literals decoded offline using bytecode-verified teGM0Rro3NgL0yQBhCP28UZ8n algorithm: ['Spooky-T', 'FT']"
+    ],
+    "missingfromreference": false,
+    "field_count": 24,
+    "method_count": 93,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/IlIlIiIiIlIill",
+    "proposed_readableclass": "ru/wexside/module/player/AutoToolModule",
+    "confidence": "high",
+    "evidence": [
+      "Preserved settings/member types + actual mapped game/event API references match this feature; statistical ranking is supporting evidence only.",
+      "Direct literals decoded offline using bytecode-verified teGM0Rro3NgL0yQBhCP28UZ8n algorithm: ['auto_tool', 'auto_tool', 'auto_tool', 'auto_tool', 'auto_tool']"
+    ],
+    "missingfromreference": false,
+    "field_count": 19,
+    "method_count": 73,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/IlIlIiliIlIilil",
+    "proposed_readableclass": "ru/wexside/module/movement/AirStuckModule",
+    "confidence": "medium",
+    "evidence": [
+      "Preserved settings/member types + actual mapped game/event API references match this feature; statistical ranking is supporting evidence only."
+    ],
+    "missingfromreference": false,
+    "field_count": 13,
+    "method_count": 30,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/IlIlIlliIlIilil",
+    "proposed_readableclass": "ru/wexside/module/movement/NoJumpDelayModule",
+    "confidence": "high",
+    "evidence": [
+      "Preserved settings/member types + actual mapped game/event API references match this feature; statistical ranking is supporting evidence only."
+    ],
+    "missingfromreference": false,
+    "field_count": 3,
+    "method_count": 6,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/IlIlllIiIiIlIil",
+    "proposed_readableclass": "ru/wexside/module/movement/NoSlowDownModule",
+    "confidence": "high",
+    "evidence": [
+      "Recovered IlliIIiilII callback cancels cancellable no-field event when enabled, player/world present and LivingEntity.isUsingItem() true. Fingerprint establishes original inherited IiIlIlIlIiI()Z = isUsingItem; event instantiated by ClientPlayerEntity movement path. Raw proof module-noslow-candidate.javap.txt, module-player-calls.javap.txt around3403."
+    ],
+    "missingfromreference": false,
+    "field_count": 2,
+    "method_count": 5,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/IlliIllillIlIil",
+    "proposed_readableclass": "ru/wexside/module/misc/PotionCombinerModule",
+    "confidence": "medium",
+    "evidence": [
+      "Preserved settings/member types + actual mapped game/event API references match this feature; statistical ranking is supporting evidence only.",
+      "Direct literals decoded offline using bytecode-verified teGM0Rro3NgL0yQBhCP28UZ8n algorithm: ['FS']"
+    ],
+    "missingfromreference": false,
+    "field_count": 8,
+    "method_count": 26,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/IllillIiliIill",
+    "proposed_readableclass": "ru/wexside/module/misc/ServerJoinerModule",
+    "confidence": "high",
+    "evidence": [
+      "Preserved settings/member types + actual mapped game/event API references match this feature; statistical ranking is supporting evidence only.",
+      "Direct literals decoded offline using bytecode-verified teGM0Rro3NgL0yQBhCP28UZ8n algorithm: ['server_joiner', 'ReallyWorld', 'ReallyWorld', ':spawn', 'ReallyWorld', 'server_joiner']"
+    ],
+    "missingfromreference": false,
+    "field_count": 17,
+    "method_count": 41,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/IlllliIlIllilil",
+    "proposed_readableclass": "ru/wexside/module/player/OpenWallsModule",
+    "confidence": "high",
+    "evidence": [
+      "Independent patched vanilla call sites prove behavior; see module-player-calls.javap.txt and interaction-raycast-evidence.md / PlayerListHud references.",
+      "Preserved settings/member types + actual mapped game/event API references match this feature; statistical ranking is supporting evidence only."
+    ],
+    "missingfromreference": false,
+    "field_count": 2,
+    "method_count": 4,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/IlllliliIiIlIil",
+    "proposed_readableclass": "ru/wexside/module/movement/EagleModule",
+    "confidence": "high",
+    "evidence": [
+      "Preserved settings/member types + actual mapped game/event API references match this feature; statistical ranking is supporting evidence only."
+    ],
+    "missingfromreference": false,
+    "field_count": 6,
+    "method_count": 11,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/liIiIlIilililil",
+    "proposed_readableclass": "ru/wexside/module/player/AutoSpawnModule",
+    "confidence": "high",
+    "evidence": [
+      "Preserved settings/member types + actual mapped game/event API references match this feature; statistical ranking is supporting evidence only.",
+      "Preserved field names: MODE_AUTO",
+      "Direct literals decoded offline using bytecode-verified teGM0Rro3NgL0yQBhCP28UZ8n algorithm: ['Key', 'Key', 'spawn', 'Auto']"
+    ],
+    "missingfromreference": false,
+    "field_count": 12,
+    "method_count": 16,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/liIiliIilllilil",
+    "proposed_readableclass": "ru/wexside/module/player/NameProtectModule",
+    "confidence": "high",
+    "evidence": [
+      "Preserved settings/member types + actual mapped game/event API references match this feature; statistical ranking is supporting evidence only."
+    ],
+    "missingfromreference": false,
+    "field_count": 5,
+    "method_count": 8,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/liIiliIillllll",
+    "proposed_readableclass": "ru/wexside/module/combat/HitBoxesModule",
+    "confidence": "high",
+    "evidence": [
+      "Preserved settings/member types + actual mapped game/event API references match this feature; statistical ranking is supporting evidence only."
+    ],
+    "missingfromreference": false,
+    "field_count": 9,
+    "method_count": 12,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/liIililiIllill",
+    "proposed_readableclass": "ru/wexside/module/player/NukerModule",
+    "confidence": "high",
+    "evidence": [
+      "Preserved settings/member types + actual mapped game/event API references match this feature; statistical ranking is supporting evidence only.",
+      "Direct literals decoded offline using bytecode-verified teGM0Rro3NgL0yQBhCP28UZ8n algorithm: ['Simple']"
+    ],
+    "missingfromreference": false,
+    "field_count": 15,
+    "method_count": 32,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/liIilillIilill",
+    "proposed_readableclass": "ru/wexside/module/movement/AutoJumpModule",
+    "confidence": "high",
+    "evidence": [
+      "Preserved settings/member types + actual mapped game/event API references match this feature; statistical ranking is supporting evidence only."
+    ],
+    "missingfromreference": false,
+    "field_count": 3,
+    "method_count": 4,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/liIlIlIlliIiIl",
+    "proposed_readableclass": "ru/wexside/module/player/AutoRespawnModule",
+    "confidence": "high",
+    "evidence": [
+      "Preserved settings/member types + actual mapped game/event API references match this feature; statistical ranking is supporting evidence only."
+    ],
+    "missingfromreference": false,
+    "field_count": 2,
+    "method_count": 4,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/liIllillIlllll",
+    "proposed_readableclass": "ru/wexside/module/misc/CommandCharacterModule",
+    "confidence": "medium",
+    "evidence": [
+      "Preserved settings/member types + actual mapped game/event API references match this feature; statistical ranking is supporting evidence only."
+    ],
+    "missingfromreference": false,
+    "field_count": 3,
+    "method_count": 5,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/lilililillIlIil",
+    "proposed_readableclass": "ru/wexside/module/combat/NoEntityTraceModule",
+    "confidence": "high",
+    "evidence": [
+      "Independent patched vanilla call sites prove behavior; see module-player-calls.javap.txt and interaction-raycast-evidence.md / PlayerListHud references.",
+      "Preserved settings/member types + actual mapped game/event API references match this feature; statistical ranking is supporting evidence only."
+    ],
+    "missingfromreference": false,
+    "field_count": 2,
+    "method_count": 4,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/lilillIillIllil",
+    "proposed_readableclass": "ru/wexside/module/misc/SRPSpooferModule",
+    "confidence": "high",
+    "evidence": [
+      "Preserved settings/member types + actual mapped game/event API references match this feature; statistical ranking is supporting evidence only."
+    ],
+    "missingfromreference": false,
+    "field_count": 2,
+    "method_count": 6,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/lillIiliIiIllil",
+    "proposed_readableclass": "ru/wexside/module/misc/CustomSoundsModule",
+    "confidence": "high",
+    "evidence": [
+      "Preserved settings/member types + actual mapped game/event API references match this feature; statistical ranking is supporting evidence only.",
+      "Direct literals decoded offline using bytecode-verified teGM0Rro3NgL0yQBhCP28UZ8n algorithm: [']', ' [', 'sounds', ']', 'client', ' Sound', 'volume_', ' Volume', ' [', 'sound_', '\\\\.']"
+    ],
+    "missingfromreference": false,
+    "field_count": 12,
+    "method_count": 32,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/lillIilillllIil",
+    "proposed_readableclass": "ru/wexside/module/combat/MaceHelperModule",
+    "confidence": "medium",
+    "evidence": [
+      "Preserved settings/member types + actual mapped game/event API references match this feature; statistical ranking is supporting evidence only.",
+      "Preserved field names: phase",
+      "Direct literals decoded offline using bytecode-verified teGM0Rro3NgL0yQBhCP28UZ8n algorithm: ['mace_helper', 'mace_helper', 'mace_helper']"
+    ],
+    "missingfromreference": false,
+    "field_count": 20,
+    "method_count": 43,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/lillIillIlliIil",
+    "proposed_readableclass": "ru/wexside/module/movement/FreeCameraModule",
+    "confidence": "high",
+    "evidence": [
+      "Preserved settings/member types + actual mapped game/event API references match this feature; statistical ranking is supporting evidence only.",
+      "Preserved field names: active"
+    ],
+    "missingfromreference": false,
+    "field_count": 15,
+    "method_count": 28,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/lillIlllIililil",
+    "proposed_readableclass": "ru/wexside/module/player/FakePlayerModule",
+    "confidence": "high",
+    "evidence": [
+      "Preserved settings/member types + actual mapped game/event API references match this feature; statistical ranking is supporting evidence only."
+    ],
+    "missingfromreference": false,
+    "field_count": 10,
+    "method_count": 20,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/lillliIillIilil",
+    "proposed_readableclass": "ru/wexside/module/player/FastExperienceModule",
+    "confidence": "medium",
+    "evidence": [
+      "Preserved settings/member types + actual mapped game/event API references match this feature; statistical ranking is supporting evidence only."
+    ],
+    "missingfromreference": false,
+    "field_count": 2,
+    "method_count": 4,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/lillliIlIlllIil",
+    "proposed_readableclass": "ru/wexside/module/combat/AutoGAppleModule",
+    "confidence": "high",
+    "evidence": [
+      "Preserved settings/member types + actual mapped game/event API references match this feature; statistical ranking is supporting evidence only."
+    ],
+    "missingfromreference": false,
+    "field_count": 3,
+    "method_count": 10,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/llIiIlIilillIl",
+    "proposed_readableclass": null,
+    "confidence": "unresolved",
+    "evidence": [
+      "Insufficient independent semantic evidence; candidate registry labels intentionally not accepted. Includes selector-dispatch/scattered-helper boundary."
+    ],
+    "missingfromreference": null,
+    "field_count": 8,
+    "method_count": 25,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": [
+      {
+        "reference": "ru/wexside/module/render/AmbientModule",
+        "score": 0.1569,
+        "common_refs": [
+          "ru/wexside/module/Module",
+          "ru/wexside/setting/BooleanSetting",
+          "ru/wexside/setting/ColorSetting",
+          "ru/wexside/setting/ModeSetting"
+        ]
+      },
+      {
+        "reference": "ru/wexside/module/misc/AlternativeMenuKeyModule",
+        "score": 0.1568,
+        "common_refs": [
+          "ru/wexside/module/Module",
+          "ru/wexside/setting/BindSetting"
+        ]
+      }
+    ]
+  },
+  {
+    "original_binaryclass": "wexside/llIiIlliIiliIl",
+    "proposed_readableclass": "ru/wexside/module/movement/EdgeJumpModule",
+    "confidence": "high",
+    "evidence": [
+      "Preserved settings/member types + actual mapped game/event API references match this feature; statistical ranking is supporting evidence only."
+    ],
+    "missingfromreference": false,
+    "field_count": 6,
+    "method_count": 10,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/llIiliIllililil",
+    "proposed_readableclass": "ru/wexside/module/player/AutoTPAcceptModule",
+    "confidence": "high",
+    "evidence": [
+      "Preserved settings/member types + actual mapped game/event API references match this feature; statistical ranking is supporting evidence only.",
+      "Direct literals decoded offline using bytecode-verified teGM0Rro3NgL0yQBhCP28UZ8n algorithm: ['tpaccept']"
+    ],
+    "missingfromreference": false,
+    "field_count": 9,
+    "method_count": 23,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/llIiliIllllilil",
+    "proposed_readableclass": "ru/wexside/module/player/AutoEventModule",
+    "confidence": "high",
+    "evidence": [
+      "Preserved settings/member types + actual mapped game/event API references match this feature; statistical ranking is supporting evidence only.",
+      "Direct literals decoded offline using bytecode-verified teGM0Rro3NgL0yQBhCP28UZ8n algorithm: ['event delay', 'event delay']"
+    ],
+    "missingfromreference": false,
+    "field_count": 14,
+    "method_count": 24,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/llIlIlIiIiIlIl",
+    "proposed_readableclass": "ru/wexside/module/misc/SoundRemoverModule",
+    "confidence": "high",
+    "evidence": [
+      "Existing unique-method fingerprint / aligned-member propagation anchor; see index/propagated-class-mapping.json evidence.",
+      "Direct literals decoded offline using bytecode-verified teGM0Rro3NgL0yQBhCP28UZ8n algorithm: ['.sound add ', '0', '1', '|', ',', '.sound remove ']"
+    ],
+    "missingfromreference": false,
+    "field_count": 11,
+    "method_count": 21,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/llIlllIillIilil",
+    "proposed_readableclass": "ru/wexside/module/movement/SpeedModule",
+    "confidence": "high",
+    "evidence": [
+      "Preserved settings/member types + actual mapped game/event API references match this feature; statistical ranking is supporting evidence only.",
+      "Direct literals decoded offline using bytecode-verified teGM0Rro3NgL0yQBhCP28UZ8n algorithm: ['Collision', 'Sneak', 'Sticky']"
+    ],
+    "missingfromreference": false,
+    "field_count": 8,
+    "method_count": 21,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/llliliIilillll",
+    "proposed_readableclass": "ru/wexside/module/player/ItemScrollerModule",
+    "confidence": "medium",
+    "evidence": [
+      "Preserved settings/member types + actual mapped game/event API references match this feature; statistical ranking is supporting evidence only."
+    ],
+    "missingfromreference": false,
+    "field_count": 4,
+    "method_count": 5,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/lllilillIlIiIl",
+    "proposed_readableclass": "ru/wexside/module/movement/FlightModule",
+    "confidence": "high",
+    "evidence": [
+      "Preserved settings/member types + actual mapped game/event API references match this feature; statistical ranking is supporting evidence only.",
+      "Direct literals decoded offline using bytecode-verified teGM0Rro3NgL0yQBhCP28UZ8n algorithm: ['Simple']"
+    ],
+    "missingfromreference": false,
+    "field_count": 9,
+    "method_count": 17,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/lllillIllilill",
+    "proposed_readableclass": "ru/wexside/module/player/AntiAFKModule",
+    "confidence": "high",
+    "evidence": [
+      "Preserved settings/member types + actual mapped game/event API references match this feature; statistical ranking is supporting evidence only.",
+      "Preserved field names: JUMP, MESSAGE, ROTATION, STRAFE",
+      "Direct literals decoded offline using bytecode-verified teGM0Rro3NgL0yQBhCP28UZ8n algorithm: ['Swap-Slot', '/fackatrongeralol', 'Jump', '/fackatrongeralol', '/fackatrongeralol', 'Strafe', 'Simple', 'Strafe', 'Jump+Rotation', 'Anti-Cheat-Flag', '/', 'Rotation']"
+    ],
+    "missingfromreference": false,
+    "field_count": 29,
+    "method_count": 38,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/llllIiliIlllIil",
+    "proposed_readableclass": "ru/wexside/module/combat/ItemHelperModule",
+    "confidence": "medium",
+    "evidence": [
+      "Preserved settings/member types + actual mapped game/event API references match this feature; statistical ranking is supporting evidence only.",
+      "Preserved field names: visualizer",
+      "Direct literals decoded offline using bytecode-verified teGM0Rro3NgL0yQBhCP28UZ8n algorithm: ['item_helper', 'item_helper', 'item_helper', 'Legit']"
+    ],
+    "missingfromreference": false,
+    "field_count": 20,
+    "method_count": 53,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/llllIllllllilil",
+    "proposed_readableclass": "ru/wexside/module/player/AutoEatModule",
+    "confidence": "high",
+    "evidence": [
+      "Preserved settings/member types + actual mapped game/event API references match this feature; statistical ranking is supporting evidence only."
+    ],
+    "missingfromreference": false,
+    "field_count": 12,
+    "method_count": 29,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/llllllIiliIllil",
+    "proposed_readableclass": "ru/wexside/module/movement/TimerModule",
+    "confidence": "medium",
+    "evidence": [
+      "Preserved settings/member types + actual mapped game/event API references match this feature; statistical ranking is supporting evidence only."
+    ],
+    "missingfromreference": false,
+    "field_count": 3,
+    "method_count": 4,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/IiIlIiliIillIl",
+    "proposed_readableclass": "ru/wexside/module/player/ServerHelperModule",
+    "confidence": "medium",
+    "evidence": [
+      "Preserved settings/member types + actual mapped game/event API references match this feature; statistical ranking is supporting evidence only.",
+      "Direct literals decoded offline using bytecode-verified teGM0Rro3NgL0yQBhCP28UZ8n algorithm: ['FS', 'RW', 'HW']"
+    ],
+    "missingfromreference": false,
+    "field_count": 36,
+    "method_count": 143,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/IlliIlIlllIllil",
+    "proposed_readableclass": null,
+    "confidence": "unresolved",
+    "evidence": [
+      "Insufficient independent semantic evidence; candidate registry labels intentionally not accepted. Includes selector-dispatch/scattered-helper boundary."
+    ],
+    "missingfromreference": null,
+    "field_count": 6,
+    "method_count": 12,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": [
+      {
+        "reference": "ru/wexside/module/misc/AlternativeMenuKeyModule",
+        "score": 0.4034,
+        "common_refs": [
+          "ru/wexside/input/BindInput",
+          "ru/wexside/module/Module",
+          "ru/wexside/setting/BindSetting"
+        ]
+      },
+      {
+        "reference": "ru/wexside/module/misc/PotionCombinerModule",
+        "score": 0.2159,
+        "common_refs": [
+          "net/minecraft/client/MinecraftClient",
+          "ru/wexside/WexSideClient",
+          "ru/wexside/input/BindInput",
+          "ru/wexside/module/Module",
+          "ru/wexside/setting/BindSetting"
+        ]
+      }
+    ]
+  },
+  {
+    "original_binaryclass": "wexside/lilililiIiIiIil",
+    "proposed_readableclass": "ru/wexside/module/misc/FriendsModule",
+    "confidence": "high",
+    "evidence": [
+      "Preserved settings/member types + actual mapped game/event API references match this feature; statistical ranking is supporting evidence only."
+    ],
+    "missingfromreference": false,
+    "field_count": 5,
+    "method_count": 9,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/llIillIilillIl",
+    "proposed_readableclass": "ru/wexside/module/player/AutoAuthModule",
+    "confidence": "high",
+    "evidence": [
+      "Preserved settings/member types + actual mapped game/event API references match this feature; statistical ranking is supporting evidence only.",
+      "Direct literals decoded offline using bytecode-verified teGM0Rro3NgL0yQBhCP28UZ8n algorithm: ['/reg', '/l ', '/register', 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ', '/login', 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ']"
+    ],
+    "missingfromreference": false,
+    "field_count": 17,
+    "method_count": 24,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  },
+  {
+    "original_binaryclass": "wexside/IiIlIlliIlllIil",
+    "proposed_readableclass": null,
+    "confidence": "unresolved",
+    "evidence": [
+      "Insufficient independent semantic evidence; candidate registry labels intentionally not accepted. Includes selector-dispatch/scattered-helper boundary."
+    ],
+    "missingfromreference": null,
+    "field_count": 8,
+    "method_count": 3,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": [
+      {
+        "reference": "ru/wexside/module/misc/EspFeatureModule",
+        "score": 0.0235,
+        "common_refs": [
+          "ru/wexside/module/Module"
+        ]
+      },
+      {
+        "reference": "ru/wexside/module/combat/NoEntityTraceModule",
+        "score": 0.0216,
+        "common_refs": [
+          "ru/wexside/module/Module"
+        ]
+      }
+    ]
+  },
+  {
+    "original_binaryclass": "wexside/ExplosiveAura",
+    "proposed_readableclass": "ru/wexside/module/combat/ExplosiveAuraModule",
+    "confidence": "high",
+    "evidence": [
+      "Exact provided patched class/source: ctor only super; register RETURN-only; enabled/range/delay fields. Existing patch-manufactured placeholder, not recovered executable feature."
+    ],
+    "missingfromreference": true,
+    "field_count": 3,
+    "method_count": 2,
+    "source_of_behavior": "Exact input JAR class/member refs; scattered helpers may contain additional body code.",
+    "alternate_candidates": []
+  }
+]

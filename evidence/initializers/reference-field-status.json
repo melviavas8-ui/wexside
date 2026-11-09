@@ -1,0 +1,306 @@
+[
+  {
+    "owner": "wexside/liIlIlIlllllIil",
+    "field": "enabled",
+    "descriptor": "Lwexside/IilillIllllilil;",
+    "mapped_type": "ru/wexside/setting/BooleanSetting",
+    "has_direct_write": false,
+    "flags": 18
+  },
+  {
+    "owner": "wexside/liIlIlIlllllIil",
+    "field": "iliIiilllIII",
+    "descriptor": "Lwexside/IlIiIiIlllIiIl;",
+    "mapped_type": "net/minecraft/util/math/Vec3d",
+    "has_direct_write": true,
+    "flags": 2
+  },
+  {
+    "owner": "wexside/liIlIlIlllllIil",
+    "field": "illIiilllIII",
+    "descriptor": "Lwexside/IllillIlIiIll;",
+    "mapped_type": "net/minecraft/util/math/Box",
+    "has_direct_write": true,
+    "flags": 2
+  },
+  {
+    "owner": "wexside/liIlIlIlllllIil",
+    "field": "fast",
+    "descriptor": "Lwexside/IilillIllllilil;",
+    "mapped_type": "ru/wexside/setting/BooleanSetting",
+    "has_direct_write": false,
+    "flags": 18
+  },
+  {
+    "owner": "wexside/liIlIlIlllllIil",
+    "field": "test",
+    "descriptor": "Lwexside/IilillIllllilil;",
+    "mapped_type": "ru/wexside/setting/BooleanSetting",
+    "has_direct_write": false,
+    "flags": 18
+  },
+  {
+    "owner": "wexside/liIlIlIlllllIil",
+    "field": "lllliilllIII",
+    "descriptor": "Lwexside/IilillIllllilil;",
+    "mapped_type": "ru/wexside/setting/BooleanSetting",
+    "has_direct_write": false,
+    "flags": 18
+  },
+  {
+    "owner": "wexside/liIlIlIlllllIil",
+    "field": "targetPos",
+    "descriptor": "Lwexside/IlIlliIiIllil;",
+    "mapped_type": "net/minecraft/util/math/BlockPos",
+    "has_direct_write": true,
+    "flags": 2
+  },
+  {
+    "owner": "wexside/liIlIlIlllllIil",
+    "field": "lilililllIII",
+    "descriptor": "Lwexside/IlIlliIiIllil;",
+    "mapped_type": "net/minecraft/util/math/BlockPos",
+    "has_direct_write": true,
+    "flags": 2
+  },
+  {
+    "owner": "wexside/liIlIlIlllllIil",
+    "field": "rotation",
+    "descriptor": "Lwexside/IiIlllIllililil;",
+    "mapped_type": "Lwexside/IiIlllIllililil;",
+    "has_direct_write": false,
+    "flags": 18
+  },
+  {
+    "owner": "wexside/llIillIillliIl",
+    "field": "iliiillIlIII",
+    "descriptor": "Lwexside/IilillIllllilil;",
+    "mapped_type": "ru/wexside/setting/BooleanSetting",
+    "has_direct_write": false,
+    "flags": 18
+  },
+  {
+    "owner": "wexside/llIillIillliIl",
+    "field": "lliiillIlIII",
+    "descriptor": "Lwexside/IilillIllllilil;",
+    "mapped_type": "ru/wexside/setting/BooleanSetting",
+    "has_direct_write": false,
+    "flags": 18
+  },
+  {
+    "owner": "wexside/llIillIillliIl",
+    "field": "stats",
+    "descriptor": "Lwexside/llliIiIlIllilil;",
+    "mapped_type": "Lwexside/llliIiIlIllilil;",
+    "has_direct_write": false,
+    "flags": 18
+  },
+  {
+    "owner": "wexside/llIillIillliIl",
+    "field": "liilillIlIII",
+    "descriptor": "Ljava/util/Deque;",
+    "mapped_type": "Ljava/util/Deque;",
+    "has_direct_write": true,
+    "flags": 18
+  },
+  {
+    "owner": "wexside/llIillIillliIl",
+    "field": "ililillIlIII",
+    "descriptor": "Lwexside/IillllIlIiIllil;",
+    "mapped_type": "Lwexside/IillllIlIiIllil;",
+    "has_direct_write": false,
+    "flags": 18
+  },
+  {
+    "owner": "wexside/llIillIillliIl",
+    "field": "enabled",
+    "descriptor": "Lwexside/IilillIllllilil;",
+    "mapped_type": "ru/wexside/setting/BooleanSetting",
+    "has_direct_write": false,
+    "flags": 18
+  },
+  {
+    "owner": "wexside/llIillIillliIl",
+    "field": "llilillIlIII",
+    "descriptor": "Lwexside/IiliIlliIlIill;",
+    "mapped_type": "Lwexside/IiliIlliIlIill;",
+    "has_direct_write": false,
+    "flags": 18
+  },
+  {
+    "owner": "wexside/llIillIillliIl",
+    "field": "iillillIlIII",
+    "descriptor": "Lwexside/lillIililililil;",
+    "mapped_type": "Lwexside/lillIililililil;",
+    "has_direct_write": false,
+    "flags": 18
+  },
+  {
+    "owner": "wexside/llIillIillliIl",
+    "field": "illlillIlIII",
+    "descriptor": "Lwexside/liIiIiliIlIlIl;",
+    "mapped_type": "Lwexside/liIiIiliIlIlIl;",
+    "has_direct_write": true,
+    "flags": 2
+  },
+  {
+    "owner": "wexside/llIillIillliIl",
+    "field": "liiilllIlIII",
+    "descriptor": "Lwexside/IiIlllllIllilil;",
+    "mapped_type": "Lwexside/IiIlllllIllilil;",
+    "has_direct_write": false,
+    "flags": 18
+  },
+  {
+    "owner": "wexside/llIillIillliIl",
+    "field": "iliilllIlIII",
+    "descriptor": "Lwexside/IillliliIillIil;",
+    "mapped_type": "Lwexside/IillliliIillIil;",
+    "has_direct_write": false,
+    "flags": 18
+  },
+  {
+    "owner": "wexside/llIillIillliIl",
+    "field": "lililllIlIII",
+    "descriptor": "Lwexside/IlliliIlIlIllil;",
+    "mapped_type": "Lwexside/IlliliIlIlIllil;",
+    "has_direct_write": false,
+    "flags": 18
+  },
+  {
+    "owner": "wexside/llIillIillliIl",
+    "field": "liillllIlIII",
+    "descriptor": "Lwexside/IlIlliIiIllil;",
+    "mapped_type": "net/minecraft/util/math/BlockPos",
+    "has_direct_write": true,
+    "flags": 2
+  },
+  {
+    "owner": "wexside/llIillIillliIl",
+    "field": "iilllllIlIII",
+    "descriptor": "Lwexside/IlIlliIlIilill;",
+    "mapped_type": "Lwexside/IlIlliIlIilill;",
+    "has_direct_write": false,
+    "flags": 18
+  },
+  {
+    "owner": "wexside/llIillIillliIl",
+    "field": "client",
+    "descriptor": "Lwexside/lillIiIlliliIll;",
+    "mapped_type": "net/minecraft/client/MinecraftClient",
+    "has_direct_write": false,
+    "flags": 18
+  },
+  {
+    "owner": "wexside/llIillIillliIl",
+    "field": "iiiiiiillIII",
+    "descriptor": "Lwexside/llIiIillliIlIil;",
+    "mapped_type": "Lwexside/llIiIillliIlIil;",
+    "has_direct_write": false,
+    "flags": 18
+  },
+  {
+    "owner": "wexside/llIillIillliIl",
+    "field": "lliiiiillIII",
+    "descriptor": "Ljava/lang/String;",
+    "mapped_type": "Ljava/lang/String;",
+    "has_direct_write": true,
+    "flags": 2
+  },
+  {
+    "owner": "wexside/llIillIillliIl",
+    "field": "liliiiillIII",
+    "descriptor": "Lwexside/IilillIllllilil;",
+    "mapped_type": "ru/wexside/setting/BooleanSetting",
+    "has_direct_write": false,
+    "flags": 18
+  },
+  {
+    "owner": "wexside/llIillIillliIl",
+    "field": "state",
+    "descriptor": "Lwexside/lililillllIllil;",
+    "mapped_type": "Lwexside/lililillllIllil;",
+    "has_direct_write": true,
+    "flags": 2
+  },
+  {
+    "owner": "wexside/llIillIillliIl",
+    "field": "ililiiillIII",
+    "descriptor": "Lwexside/lilillIlIillIil;",
+    "mapped_type": "Lwexside/lilillIlIillIil;",
+    "has_direct_write": false,
+    "flags": 18
+  },
+  {
+    "owner": "wexside/llIillIillliIl",
+    "field": "liiiliillIII",
+    "descriptor": "Lwexside/IlIiIlliliIllil;",
+    "mapped_type": "Lwexside/IlIiIlliliIllil;",
+    "has_direct_write": false,
+    "flags": 18
+  },
+  {
+    "owner": "wexside/llIillIillliIl",
+    "field": "lliiliillIII",
+    "descriptor": "Lwexside/liIiIililillll;",
+    "mapped_type": "Lwexside/liIiIililillll;",
+    "has_direct_write": false,
+    "flags": 18
+  },
+  {
+    "owner": "wexside/llIillIillliIl",
+    "field": "llllliillIII",
+    "descriptor": "Lwexside/IlllIililiIlIil;",
+    "mapped_type": "Lwexside/IlllIililiIlIil;",
+    "has_direct_write": false,
+    "flags": 18
+  },
+  {
+    "owner": "wexside/llIillIillliIl",
+    "field": "liiiilillIII",
+    "descriptor": "Lwexside/IiIiIiIiIlIlIil;",
+    "mapped_type": "ru/wexside/setting/TextSetting",
+    "has_direct_write": false,
+    "flags": 18
+  },
+  {
+    "owner": "wexside/llIillIillliIl",
+    "field": "iiliilillIII",
+    "descriptor": "Lwexside/IlIlliIiIllil;",
+    "mapped_type": "net/minecraft/util/math/BlockPos",
+    "has_direct_write": true,
+    "flags": 2
+  },
+  {
+    "owner": "wexside/llIillIillliIl",
+    "field": "death",
+    "descriptor": "Lwexside/IiIlIiIilllilil;",
+    "mapped_type": "Lwexside/IiIlIiIilllilil;",
+    "has_direct_write": false,
+    "flags": 18
+  },
+  {
+    "owner": "wexside/llIillIillliIl",
+    "field": "drops",
+    "descriptor": "Lwexside/IlIlllliliIllil;",
+    "mapped_type": "Lwexside/IlIlllliliIllil;",
+    "has_direct_write": false,
+    "flags": 18
+  },
+  {
+    "owner": "wexside/llIillIillliIl",
+    "field": "llililillIII",
+    "descriptor": "Lwexside/IilillIlIillll;",
+    "mapped_type": "ru/wexside/setting/ModeSetting",
+    "has_direct_write": false,
+    "flags": 18
+  },
+  {
+    "owner": "wexside/llIillIillliIl",
+    "field": "filter",
+    "descriptor": "Lwexside/IlIlIillIiIilil;",
+    "mapped_type": "Lwexside/IlIlIillIiIilil;",
+    "has_direct_write": false,
+    "flags": 18
+  }
+]

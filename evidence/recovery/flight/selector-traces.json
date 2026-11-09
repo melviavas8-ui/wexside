@@ -1,0 +1,58 @@
+[
+  {
+    "owner": "IlllllliliIlIil",
+    "method": "IIliIiiilI",
+    "selector": 2,
+    "branch_bci": 60,
+    "callee": "wexside/IlIillliIiIllil.lillIIllI:(Lwexside/IlIlIllllililil;)V"
+  },
+  {
+    "owner": "IlllllliliIlIil",
+    "method": "IIiliiiilI",
+    "selector": 2,
+    "branch_bci": 60,
+    "callee": "wexside/IlllliIiIiIllil.llIliIllI:(Lwexside/liIiIlIlliIilil;)V"
+  },
+  {
+    "owner": "IlliIiIiliIlIil",
+    "method": "illliIiiII",
+    "selector": 1,
+    "branch_bci": 56,
+    "callee": "wexside/IlIillliIiIllil.IillIIllI:(Lwexside/IlIlIllllililil;Lwexside/llliIiIiliIllil;)V"
+  },
+  {
+    "owner": "IiIlllIiliIlIil",
+    "method": "lIliiIllII",
+    "selector": 0,
+    "branch_bci": 44,
+    "callee": "wexside/IlIillliIiIllil.IIllIIllI:(Lwexside/IlIlIllllililil;[FF)F"
+  },
+  {
+    "owner": "IiIlllIiliIlIil",
+    "method": "lIlilillII",
+    "selector": 2,
+    "branch_bci": 70,
+    "callee": "wexside/IlIillliIiIllil.lIllIIllI:(Lwexside/IlIlIllllililil;[Lwexside/IlllIiIiIlIilil;F)F"
+  },
+  {
+    "owner": "IiliIlIlIiIlIil",
+    "method": "IlIIliiil",
+    "selector": 2,
+    "branch_bci": 76,
+    "callee": "wexside/IlllliIiIiIllil.lIIliIllI:(Lwexside/liIiIlIlliIilil;Lwexside/lillIlIlIlIllil;Lwexside/liIiIiliIlIllil;)V"
+  },
+  {
+    "owner": "lillIlllIiIlIil",
+    "method": "lIIlllIIl",
+    "selector": 1,
+    "branch_bci": 56,
+    "callee": "wexside/IlllliIiIiIllil.iilliIllI:(Lwexside/liIiIlIlliIilil;Lwexside/IlIlliliIlliIil;)V"
+  },
+  {
+    "owner": "lillIlllIiIlIil",
+    "method": "IiiIllIIl",
+    "selector": 0,
+    "branch_bci": 44,
+    "callee": "wexside/IlllliIiIiIllil.iIlliIllI:(Lwexside/liIiIlIlliIilil;Lwexside/IlliliIiIilil;)V"
+  }
+]

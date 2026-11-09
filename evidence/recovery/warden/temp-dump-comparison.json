@@ -1,0 +1,162 @@
+{
+  "comparedMethods": 124,
+  "identicalNormalizedMethods": 110,
+  "changedMethods": 14,
+  "changedInstructions": 20,
+  "allChangesAreGuiRepairWrapperToDirectVirtualCall": true,
+  "constructorIdenticalAfterConstantPoolResolution": true,
+  "omittedActionsStillOmitted": true,
+  "note": "The temp_dump alternate is earlier than GuiRepair virtual-call redirects. It supplies direct helper owner/name/descriptor evidence, but no restored action constructors/builders or configuration writes.",
+  "changes": [
+    {
+      "method": "public static boolean liiIliiilII();",
+      "edits": [
+        {
+          "main": "85: invokestatic #CP // Method wexrepair/GuiRepair.isControllerActive:(Ljava/lang/Object;)Z",
+          "tempDump": "85: invokevirtual #CP // Method wexside/liIiIililillll.IIiiiIIll:()Z"
+        },
+        {
+          "main": "112: invokestatic #CP // Method wexrepair/GuiRepair.isHelperActive:(Ljava/lang/Object;)Z",
+          "tempDump": "112: invokevirtual #CP // Method wexside/llIiIillliIlIil.ilIIliII:()Z"
+        }
+      ]
+    },
+    {
+      "method": "private static void iiiIliiilII(wexside.llIillIillliIl);",
+      "edits": [
+        {
+          "main": "76: invokestatic #CP // Method wexrepair/GuiRepair.controllerStop:(Ljava/lang/Object;)V",
+          "tempDump": "76: invokevirtual #CP // Method wexside/liIiIililillll.stop:()V"
+        }
+      ]
+    },
+    {
+      "method": "private static boolean iiIIliiilII(wexside.llIillIillliIl, wexside.IlliliIiIilil);",
+      "edits": [
+        {
+          "main": "52: invokestatic #CP // Method wexrepair/GuiRepair.isControllerActive:(Ljava/lang/Object;)Z",
+          "tempDump": "52: invokevirtual #CP // Method wexside/liIiIililillll.IIiiiIIll:()Z"
+        }
+      ]
+    },
+    {
+      "method": "private static boolean ilIiiIiilII(wexside.llIillIillliIl);",
+      "edits": [
+        {
+          "main": "372: invokestatic #CP // Method wexrepair/GuiRepair.isControllerActive:(Ljava/lang/Object;)Z",
+          "tempDump": "372: invokevirtual #CP // Method wexside/liIiIililillll.IIiiiIIll:()Z"
+        }
+      ]
+    },
+    {
+      "method": "private static boolean iillliiilII(wexside.llIillIillliIl, wexside.IlliliIiIilil);",
+      "edits": [
+        {
+          "main": "122: invokestatic #CP // Method wexrepair/GuiRepair.isControllerActive:(Ljava/lang/Object;)Z",
+          "tempDump": "122: invokevirtual #CP // Method wexside/liIiIililillll.IIiiiIIll:()Z"
+        }
+      ]
+    },
+    {
+      "method": "private static void llilliiilII(wexside.llIillIillliIl);",
+      "edits": [
+        {
+          "main": "116: invokestatic #CP // Method wexrepair/GuiRepair.controllerCancel:(Ljava/lang/Object;)V",
+          "tempDump": "116: invokevirtual #CP // Method wexside/liIiIililillll.cancel:()V"
+        }
+      ]
+    },
+    {
+      "method": "private static void liIiiIiilII(wexside.llIillIillliIl, wexside.lililillllIllil, java.lang.String);",
+      "edits": [
+        {
+          "main": "122: invokestatic #CP // Method wexrepair/GuiRepair.helperReset:(Ljava/lang/Object;)V",
+          "tempDump": "122: invokevirtual #CP // Method wexside/llIiIillliIlIil.reset:()V"
+        }
+      ]
+    },
+    {
+      "method": "private static void iiliiIiilII(wexside.llIillIillliIl, wexside.IlliliIiIilil);",
+      "edits": [
+        {
+          "main": "56: invokestatic #CP // Method wexrepair/GuiRepair.isControllerActive:(Ljava/lang/Object;)Z",
+          "tempDump": "56: invokevirtual #CP // Method wexside/liIiIililillll.IIiiiIIll:()Z"
+        }
+      ]
+    },
+    {
+      "method": "private static java.lang.String IIllliiilII(wexside.llIillIillliIl);",
+      "edits": [
+        {
+          "main": "4: invokestatic #CP // Method wexrepair/GuiRepair.isControllerActive:(Ljava/lang/Object;)Z",
+          "tempDump": "4: invokevirtual #CP // Method wexside/liIiIililillll.IIiiiIIll:()Z"
+        }
+      ]
+    },
+    {
+      "method": "private static void iIlIliiilII(wexside.llIillIillliIl, wexside.IlliliIiIilil, int);",
+      "edits": [
+        {
+          "main": "17: invokestatic #CP // Method wexrepair/GuiRepair.isControllerActive:(Ljava/lang/Object;)Z",
+          "tempDump": "17: invokevirtual #CP // Method wexside/liIiIililillll.IIiiiIIll:()Z"
+        },
+        {
+          "main": "484: invokestatic #CP // Method wexrepair/GuiRepair.controllerDrink:(Ljava/lang/Object;Ljava/util/function/Predicate;)Z",
+          "tempDump": "484: invokevirtual #CP // Method wexside/liIiIililillll.drink:(Ljava/util/function/Predicate;)Z"
+        },
+        {
+          "main": "579: invokestatic #CP // Method wexrepair/GuiRepair.controllerDrink:(Ljava/lang/Object;Ljava/util/function/Predicate;)Z",
+          "tempDump": "579: invokevirtual #CP // Method wexside/liIiIililillll.drink:(Ljava/util/function/Predicate;)Z"
+        },
+        {
+          "main": "649: invokestatic #CP // Method wexrepair/GuiRepair.controllerDrink:(Ljava/lang/Object;Ljava/util/function/Predicate;)Z",
+          "tempDump": "649: invokevirtual #CP // Method wexside/liIiIililillll.drink:(Ljava/util/function/Predicate;)Z"
+        }
+      ]
+    },
+    {
+      "method": "private static void iIllliiilII(wexside.llIillIillliIl);",
+      "edits": [
+        {
+          "main": "58: invokestatic #CP // Method wexrepair/GuiRepair.helperReset:(Ljava/lang/Object;)V",
+          "tempDump": "58: invokevirtual #CP // Method wexside/llIiIillliIlIil.reset:()V"
+        }
+      ]
+    },
+    {
+      "method": "private static void lIiIliiilII(wexside.llIillIillliIl);",
+      "edits": [
+        {
+          "main": "224: invokestatic #CP // Method wexrepair/GuiRepair.controllerTick:(Ljava/lang/Object;)V",
+          "tempDump": "224: invokevirtual #CP // Method wexside/liIiIililillll.tick:()V"
+        },
+        {
+          "main": "241: invokestatic #CP // Method wexrepair/GuiRepair.helperReset:(Ljava/lang/Object;)V",
+          "tempDump": "241: invokevirtual #CP // Method wexside/llIiIillliIlIil.reset:()V"
+        },
+        {
+          "main": "255: invokestatic #CP // Method wexrepair/GuiRepair.controllerCancel:(Ljava/lang/Object;)V",
+          "tempDump": "255: invokevirtual #CP // Method wexside/liIiIililillll.cancel:()V"
+        }
+      ]
+    },
+    {
+      "method": "private boolean illIliiilII(wexside.IlliliIiIilil, wexside.IlllIlIililllil, wexside.liliIillIilllil, int, int, boolean);",
+      "edits": [
+        {
+          "main": "75: invokestatic #CP // Method wexrepair/GuiRepair.isControllerActive:(Ljava/lang/Object;)Z",
+          "tempDump": "75: invokevirtual #CP // Method wexside/liIiIililillll.IIiiiIIll:()Z"
+        }
+      ]
+    },
+    {
+      "method": "private static void iIiIliiilII(wexside.llIillIillliIl, wexside.IlliliIiIilil, int);",
+      "edits": [
+        {
+          "main": "329: invokestatic #CP // Method wexrepair/GuiRepair.isControllerActive:(Ljava/lang/Object;)Z",
+          "tempDump": "329: invokevirtual #CP // Method wexside/liIiIililillll.IIiiiIIll:()Z"
+        }
+      ]
+    }
+  ]
+}
